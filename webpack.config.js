@@ -3,6 +3,7 @@ const path = require('path'),
     HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+    mode: 'development',
     entry: {
         app: ['./src/app/App.tsx', 'webpack-hot-middleware/client'],
         vendor: ['react', 'react-dom']
@@ -16,16 +17,21 @@ module.exports = {
         extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.(ts|tsx)$/,
                 loader: 'ts-loader'
             },
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+            {
+                enforce: "pre",
+                test: /\.js$/,
+                loader: "source-map-loader"
+            }
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'src', 'app', 'index.html') }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'src', 'app', 'index.html')
+        }),
         new webpack.HotModuleReplacementPlugin()
     ]
-}   
+}

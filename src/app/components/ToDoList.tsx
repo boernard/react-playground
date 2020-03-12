@@ -2,14 +2,14 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { utils } from '../utils/utils'
 
-interface IProps {
-  compiler: string,
-  framework: string,
-  bundler: string
+
+type IToDoListItem = {
+  value: string,
+  isChecked: boolean
 }
 
 const processInput = () => {
-  const [toDoList, setToDoList] = useState([])
+  const [toDoList, setToDoList] = useState<IToDoListItem[]>([])
   const [input, setInput] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
   useEffect(() => {
@@ -31,12 +31,13 @@ const processInput = () => {
 
 export const ToDoListApp = () => {
   const { toDoList, setToDoList, input, setInput, isSubmitting, setIsSubmitting } = processInput()
-  const [isChecked, setIsChecked] = useState([])
 
   return (
     <>
       <ToDoInput setInput={setInput} input={input} setIsSubmitting={setIsSubmitting} />
       <ToDoList toDoList={toDoList} setToDoList={setToDoList} />
+      <hr />
+      <DoneList toDoList={toDoList} setToDoList={setToDoList} />
     </>
   )
 };
@@ -67,35 +68,67 @@ export const ToDoInput = (props) => {
   )
 }
 
+const changeCheckedState = (event, state, setter) => {
+  const changedItem = event.target.name
+  const curToDoList = [...state]
+  curToDoList[changedItem].isChecked = !curToDoList[changedItem].isChecked
+  setter(curToDoList)
+}
+
 export const ToDoList = (props) => {
 
-
   const handleCheckboxChange = (event) => {
-    const changedItem = event.target.name
-    const curToDoList = props.toDoList
-    curToDoList[changedItem].isChecked = !curToDoList[changedItem].isChecked
-    props.setToDoList(curToDoList)
+    changeCheckedState(event, props.toDoList, props.setToDoList)
   }
+
   return (
     <div className='todo'>
       {console.log("To Do list render")}
       {props.toDoList.map((item, i) => {
         if (item.isChecked === false) {
           return (
-            <li>
-              {console.log("Item render")}
+            <li key={i}>
+              {console.log("Item renderer")}
               <input
                 type="checkbox"
-                defaultChecked={item.isChecked}
+                defaultChecked={props.toDoList[i].isChecked}
                 onChange={event => handleCheckboxChange(event)}
                 name={i}
-                key={i} />
-              <label>{item.value}</label>
+              />
+              <label>{props.toDoList[i].value}</label>
             </li>
           )
         }
       }
       )}
     </div>
+  )
+}
+
+export const DoneList = (props) => {
+  const handleCheckboxChange = (event) => {
+    changeCheckedState(event, props.toDoList, props.setToDoList)
+  }
+
+  return (
+    <div className='done'>
+      {props.toDoList.map((item, i) => {
+        if (item.isChecked === true) {
+          return (
+            <li key={i}>
+              {console.log("Item renderer")}
+              <input
+                type="checkbox"
+                defaultChecked={props.toDoList[i].isChecked}
+                onChange={event => handleCheckboxChange(event)}
+                name={i}
+              />
+              <label>{props.toDoList[i].value}</label>
+            </li>
+          )
+        }
+      })}
+    </div>
+
   )
 }
