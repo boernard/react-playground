@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { utils } from '../utils/utils'
+import './ToDoList.css';
 
 
 type IToDoListItem = {
@@ -33,12 +33,12 @@ export const ToDoListApp = () => {
   const { toDoList, setToDoList, input, setInput, isSubmitting, setIsSubmitting } = processInput()
 
   return (
-    <>
+    <div className="ToDoListComponent">
       <ToDoInput setInput={setInput} input={input} setIsSubmitting={setIsSubmitting} />
       <ToDoList toDoList={toDoList} setToDoList={setToDoList} />
       <hr />
       <DoneList toDoList={toDoList} setToDoList={setToDoList} />
-    </>
+    </div>
   )
 };
 
