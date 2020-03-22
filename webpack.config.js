@@ -13,6 +13,9 @@ module.exports = {
         filename: 'js/[name].bundle.js'
     },
     devtool: 'source-map',
+    devServer: {
+        host: '0.0.0.0'
+    },
     resolve: {
         extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
     },
@@ -20,6 +23,13 @@ module.exports = {
         rules: [{
                 test: /\.(ts|tsx)$/,
                 loader: 'ts-loader'
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
             },
             {
                 enforce: "pre",

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { utils } from '../utils/utils'
+import './ToDoList.css';
 
 
 type IToDoListItem = {
@@ -33,12 +33,12 @@ export const ToDoListApp = () => {
   const { toDoList, setToDoList, input, setInput, isSubmitting, setIsSubmitting } = processInput()
 
   return (
-    <>
+    <div className="ToDoListComponent">
       <ToDoInput setInput={setInput} input={input} setIsSubmitting={setIsSubmitting} />
       <ToDoList toDoList={toDoList} setToDoList={setToDoList} />
       <hr />
       <DoneList toDoList={toDoList} setToDoList={setToDoList} />
-    </>
+    </div>
   )
 };
 
@@ -49,7 +49,7 @@ export const ToDoInput = (props) => {
   const setIsSubmitting = props.setIsSubmitting
 
   return (
-    <div className='container'>
+    <div className='toDoInput'>
       <form>
         <input
           type='text'
@@ -62,7 +62,7 @@ export const ToDoInput = (props) => {
         <button className='addToList' onClick={event => {
           event.preventDefault()
           setIsSubmitting(true)
-        }}>Add</button>
+        }}>+</button>
       </form>
     </div>
   )
@@ -82,7 +82,7 @@ export const ToDoList = (props) => {
   }
 
   return (
-    <div className='todo'>
+    <div className='toDoList'>
       {console.log("To Do list render")}
       {props.toDoList.map((item, i) => {
         if (item.isChecked === false) {
@@ -111,7 +111,7 @@ export const DoneList = (props) => {
   }
 
   return (
-    <div className='done'>
+    <div className='doneList'>
       {props.toDoList.map((item, i) => {
         if (item.isChecked === true) {
           return (
