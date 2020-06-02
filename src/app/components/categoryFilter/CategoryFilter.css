@@ -1,0 +1,26 @@
+.categoryToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c4c4c4;
+    border-radius: 13px;
+    height: 26px;
+    text-align: center;
+    margin: 8px;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.active {
+    background-color: aquamarine;
+}
+
+.filterToggles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.closeIcon {
+    background-color: red;
+}
