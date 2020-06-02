@@ -45,7 +45,7 @@ export function BrandSearch() {
     const [isCategoryFilterActive, setIsCategoryFilterActive] = useState(false)
     const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categoriesInput))
     return (
-        <div>
+        <div className='brandSearch'>
             <SearchInput searchInput={searchInput} setSearchInput={setSearchInput} />
             <CategoryFilter
                 categoryFilter={categoryFilter}
@@ -54,6 +54,7 @@ export function BrandSearch() {
                 isCategoryFilterActive={isCategoryFilterActive}
                 setIsCategoryFilterActive={setIsCategoryFilterActive}
             />
+            <div className='divider'></div>
             <BrandList
                 searchInput={searchInput}
                 categoryFilter={categoryFilter}
@@ -104,7 +105,13 @@ export function SearchedBrandList(props: SearchedBrandListProps) {
     return (
         <div className='brandList'>
             {filterBrandList(searchList, searchInput).map((i) => (
-                <BrandCard name={i.name} categories={i.categories} logo={i.logo} key={i.key} />
+                <BrandCard
+                    name={i.name}
+                    categories={i.categories}
+                    logo={i.logo}
+                    key={i.key}
+                    url={i.url}
+                />
             ))}
         </div>
     )
@@ -147,7 +154,9 @@ export function Category(props: CategoryProps) {
                 <h2>{categoryName}</h2>
             </div>
             {brands.map((b) => {
-                return <BrandCard name={b.name} categories={b.categories} logo={b.logo} />
+                return (
+                    <BrandCard name={b.name} categories={b.categories} logo={b.logo} url={b.url} />
+                )
             })}
         </div>
     )
@@ -168,18 +177,27 @@ const filterBrandList = (
     }
 }
 
-export function BrandCard(props) {
-    const { name, categories, logo } = props
+interface BrandCardProps {
+    name: string
+    categories: string[]
+    logo: string
+    url: string
+}
+
+export function BrandCard(props: BrandCardProps) {
+    const { name, categories, logo, url } = props
     return (
-        <div className='brandCard'>
-            <div className='logo'>
-                <img src={`${logoPath}/${logo}`} />
+        <a href={url}>
+            <div className='brandCard'>
+                <div className='logo'>
+                    <img src={`${logoPath}/${logo}`} />
+                </div>
+                <div className='brandInfo'>
+                    <h2>{name}</h2>
+                    <p className='categories'>{categories.join(', ')}</p>
+                </div>
             </div>
-            <div className='brandInfo'>
-                <h2>{name}</h2>
-                <p className='categories'>{categories.join(', ')}</p>
-            </div>
-        </div>
+        </a>
     )
 }
 

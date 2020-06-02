@@ -3,6 +3,7 @@ export interface IBrandItem {
     name: string
     logo: string
     keywords: string
+    url: string
     description: string
     categories: string[]
 }
@@ -20,7 +21,8 @@ const brandList: IBrandItem[] = [
         logo: 'Chiemsee.svg',
         keywords: 'beachwear, sport, active',
         description: 'nice brand',
-        categories: ['Menswear', 'Womenswear', 'Activewear', 'Alles Wear'],
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear', 'Womenswear', 'Activewear'],
     },
     {
         key: 2,
@@ -28,14 +30,16 @@ const brandList: IBrandItem[] = [
         logo: 'digel.png',
         keywords: 'anzug, suits, anzüge',
         description: 'nice brand',
-        categories: ['Menswear', 'Womenswear'],
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear'],
     },
     {
         key: 3,
         name: 'Betty Barclay',
         logo: 'betty.png',
-        keywords: 'anzug, suits, anzüge',
+        keywords: 'dresses, casual',
         description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
         categories: ['Womenswear'],
     },
     {
@@ -44,14 +48,16 @@ const brandList: IBrandItem[] = [
         logo: 'marcCain.png',
         keywords: 'premium, luxury, dresses',
         description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
         categories: ['Womenswear'],
     },
     {
         key: 5,
         name: "Marc O'Polo",
         logo: 'mop.png',
-        keywords: 'anzug, suits, anzüge',
+        keywords: 'casual, premium',
         description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
         categories: ['Menswear', 'Womenswear'],
     },
 ]
@@ -61,16 +67,16 @@ const dummyBrandList = brandList.sort((a, b) => {
 })
 
 const categorizedBrandList: ICategorizedBrandList = {}
-
+let categories = []
 dummyBrandList.forEach(i => {
     i.categories.forEach(category => {
         if (typeof categorizedBrandList[category] === 'undefined') {
             categorizedBrandList[category] = []
+            categories.push(category)
         }
         categorizedBrandList[category].push(i)
+
     })
 })
-
-const categories = ['Menswear', 'Womenswear', 'Activewear', 'Alles Wear']
 
 export { categorizedBrandList, categories, dummyBrandList }

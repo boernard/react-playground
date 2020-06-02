@@ -40,16 +40,20 @@ export function CategoryFilter(props: CategoryFilterProps) {
     }, [categoryFilter])
 
     return (
-        <div className='filterToggles'>
-            Filter categories:
-            {categories.map((c) => (
-                <CategoryToggle
-                    categoryName={c}
-                    isActive={categoryFilter[c]}
-                    setCategoryFilter={setCategoryFilter}
-                    categoryFilter={categoryFilter}
-                />
-            ))}
+        <div className='filterContainer'>
+            <div className='filterLabel'>
+                <span className='label'>Kategorien filtern:</span>
+            </div>
+            <div className='filterButtons'>
+                {categories.map((c) => (
+                    <CategoryToggle
+                        categoryName={c}
+                        isActive={categoryFilter[c]}
+                        setCategoryFilter={setCategoryFilter}
+                        categoryFilter={categoryFilter}
+                    />
+                ))}
+            </div>
         </div>
     )
 }
@@ -59,12 +63,15 @@ export function CategoryToggle(props) {
     const handleClick = (ev) => {
         setCategoryFilter({ ...categoryFilter, [categoryName]: !isActive })
     }
+    const iconClassName = `iconPlaceholder ${isActive ? 'visible' : 'hidden'}`
     const className = `categoryToggle ${isActive ? 'active' : ''}`
     return (
         <div className={className} onClick={handleClick}>
-            {categoryName}
+            <div className='buttonText'>{categoryName}</div>
             <div className='closeIcon'>
-                <CloseIcon width='15px' height='15px' style={{ fill: '#93b0b9' }} />
+                <div className={iconClassName}>
+                    <CloseIcon width='15px' height='15px' style={{ fill: '#93b0b9' }} />
+                </div>
             </div>
         </div>
     )

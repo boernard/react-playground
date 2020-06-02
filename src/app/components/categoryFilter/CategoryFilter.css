@@ -3,24 +3,68 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #c4c4c4;
-    border-radius: 13px;
-    height: 26px;
+    border-radius: 15px;
+    height: 30px;
     text-align: center;
-    margin: 8px;
+    margin: 16px 8px 0 0;
     cursor: pointer;
-    padding: 0 16px;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .active {
-    background-color: aquamarine;
+    background-color: #5e6c79;
+    color: #fff;
 }
 
-.filterToggles {
+.filterContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    max-width: 800px;
 }
 
-.closeIcon {
-    background-color: red;
+.filterLabel {
+    padding: 16px 16px 0 0;
+    float: left;
+    flex-shrink: 0;
+    width: 140px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.filterButtons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    min-width: 380px;
+}
+
+.categoryToggle {
+    justify-content: space-between;
+}
+
+.buttonText {
+    padding: 0 8px 0 24px;
+}
+
+.categoryToggle > .closeIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    width: 15px;
+    height: 15px;
+}
+
+.iconPlaceholder {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
 }
