@@ -88,6 +88,7 @@ input.searchInputField::placeholder {
     border-radius: 3px;
     border: 1px solid rgb(216, 216, 216);
     transition: box-shadow 0.3s ease 0s;
+    background-color: #fff;
 }
 
 .brandCard:hover {
@@ -101,7 +102,7 @@ input.searchInputField::placeholder {
     justify-content: space-between;
 }
 
-.logo {
+.logoContainer {
     display: flex;
     align-items: center;
     width: 100px;
@@ -110,8 +111,16 @@ input.searchInputField::placeholder {
     flex-shrink: 0;
 }
 
+.logo {
+    display: flex;
+    width: 100%;
+    max-height: 100%;
+}
+
 .logo img {
     max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .brandInfo {

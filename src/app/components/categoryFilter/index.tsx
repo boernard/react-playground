@@ -41,9 +41,6 @@ export function CategoryFilter(props: CategoryFilterProps) {
 
     return (
         <div className='filterContainer'>
-            <div className='filterLabel'>
-                <span className='label'>Kategorien filtern:</span>
-            </div>
             <div className='filterButtons'>
                 {categories.map((c) => (
                     <CategoryToggle

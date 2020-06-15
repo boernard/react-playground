@@ -22,7 +22,10 @@ const brandList: IBrandItem[] = [
         keywords: 'beachwear, sport, active',
         description: 'nice brand',
         url: 'https://fashion.cloud/de/demo-brand/',
-        categories: ['Menswear', 'Womenswear', 'Activewear'],
+        categories: ['Womenswear',
+            'Menswear',
+            'Young Fashion',
+            'Activewear & Outerwear'],
     },
     {
         key: 2,
@@ -31,7 +34,7 @@ const brandList: IBrandItem[] = [
         keywords: 'anzug, suits, anzüge',
         description: 'nice brand',
         url: 'https://fashion.cloud/de/demo-brand/',
-        categories: ['Menswear'],
+        categories: ['Menswear', 'Pants', 'Accessoires']
     },
     {
         key: 3,
@@ -40,7 +43,7 @@ const brandList: IBrandItem[] = [
         keywords: 'dresses, casual',
         description: 'nice brand',
         url: 'https://fashion.cloud/de/demo-brand/',
-        categories: ['Womenswear'],
+        categories: ['Womenswear', 'Day & Night Wear', 'Formal Wear'],
     },
     {
         key: 4,
@@ -49,7 +52,7 @@ const brandList: IBrandItem[] = [
         keywords: 'premium, luxury, dresses',
         description: 'nice brand',
         url: 'https://fashion.cloud/de/demo-brand/',
-        categories: ['Womenswear'],
+        categories: ['Womenswear', 'Luxury'],
     },
     {
         key: 5,
@@ -58,7 +61,88 @@ const brandList: IBrandItem[] = [
         keywords: 'casual, premium',
         description: 'nice brand',
         url: 'https://fashion.cloud/de/demo-brand/',
-        categories: ['Menswear', 'Womenswear'],
+        categories: ['Menswear', 'Womenswear', 'Shoes', 'Kids', 'Premium'],
+    },
+    {
+        key: 6,
+        name: "Tom Tailor",
+        logo: 'tomTailor.png',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Kids', 'Womenswear', 'Denim', 'Menswear'],
+    },
+    {
+        key: 7,
+        name: "Kyra & Ko",
+        logo: 'kyraKo.png',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Womenswear', 'Green Brands'],
+    },
+    {
+        key: 8,
+        name: "Summum",
+        logo: 'summum.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Womenswear', 'Newcomer', 'Premium', 'Green Brands'],
+    },
+    {
+        key: 9,
+        name: "Carl Gross",
+        logo: 'carlGross.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear', 'Premium', 'Formal Wear'],
+    },
+    {
+        key: 10,
+        name: "CG - Club of gents",
+        logo: 'cg.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear'],
+    },
+    {
+        key: 11,
+        name: "Raffaello Rossi",
+        logo: 'raffaelloRossi.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Womenswear', 'Pants'],
+    },
+    {
+        key: 12,
+        name: "True Religion",
+        logo: 'trueReligion.png',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Denim', 'Pants', 'Menswear', 'Womenswear', 'Young Fashion'],
+    },
+    {
+        key: 13,
+        name: "Club of Comfort",
+        logo: 'clubOfComfort.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Denim', 'Pants', 'Menswear'],
+    },
+    {
+        key: 14,
+        name: "Casa Moda",
+        logo: 'casamoda.png',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear', 'Formal Wear'],
     },
 ]
 
@@ -78,5 +162,7 @@ dummyBrandList.forEach(i => {
 
     })
 })
+
+categories.sort()
 
 export { categorizedBrandList, categories, dummyBrandList }

@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { useState, useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import './FilterView.css'
 import {
     categorizedBrandList as categorizedBrandListInput,
@@ -36,7 +37,7 @@ const initializeCategoryState = (categories): ICategoryFilter => {
     return filters
 }
 
-const searchBrandList: ISearchBrandItem[] = dummyBrandListInput.map((i) => {
+const searchableBrandList: ISearchBrandItem[] = dummyBrandListInput.map((i) => {
     return { ...i, searchField: normalizeString([i.name, i.keywords, i.description].join(' ')) }
 })
 
@@ -58,7 +59,7 @@ export function BrandSearch() {
             <BrandList
                 searchInput={searchInput}
                 categoryFilter={categoryFilter}
-                searchBrandList={searchBrandList}
+                searchableBrandList={searchableBrandList}
                 isCategoryFilterActive={isCategoryFilterActive}
                 categorizedBrandList={categorizedBrandListInput}
             />
@@ -68,112 +69,88 @@ export function BrandSearch() {
 
 interface BrandListProps {
     searchInput: string
-    searchBrandList: ISearchBrandItem[]
+    searchableBrandList: ISearchBrandItem[]
     categoryFilter: any
     isCategoryFilterActive: boolean
     categorizedBrandList: ICategorizedBrandList
 }
 
-export function BrandList(props: BrandListProps) {
+function BrandList(props: BrandListProps) {
     const {
         searchInput,
-        searchBrandList,
+        searchableBrandList,
         categorizedBrandList,
         categoryFilter,
         isCategoryFilterActive,
     } = props
-    if (searchInput) {
-        return <SearchedBrandList searchInput={searchInput} searchList={searchBrandList} />
-    } else {
-        return (
-            <CategorizedBrandList
-                categorizedBrandList={categorizedBrandList}
-                categoryFilter={categoryFilter}
-                isCategoryFilterActive={isCategoryFilterActive}
-            />
-        )
+
+    let brands = searchableBrandList
+    if (isCategoryFilterActive) {
+        brands = filterBrandsByCategory(searchableBrandList, categoryFilter)
     }
-}
+    if (searchInput.length > 0) {
+        brands = searchBrandList(brands, searchInput)
+    }
 
-interface SearchedBrandListProps {
-    searchInput: string
-    searchList: ISearchBrandItem[]
-}
-
-export function SearchedBrandList(props: SearchedBrandListProps) {
-    const { searchInput, searchList } = props
     return (
         <div className='brandList'>
-            {filterBrandList(searchList, searchInput).map((i) => (
-                <BrandCard
-                    name={i.name}
-                    categories={i.categories}
-                    logo={i.logo}
-                    key={i.key}
-                    url={i.url}
-                />
-            ))}
+            <AnimatePresence>
+                {brands.map((b) => {
+                    return (
+                        <BrandCard
+                            name={b.name}
+                            categories={b.categories}
+                            logo={b.logo}
+                            url={b.url}
+                            key={b.key}
+                        />
+                    )
+                })}
+            </AnimatePresence>
         </div>
     )
 }
 
-export function CategorizedBrandList(props) {
-    const { categorizedBrandList, categoryFilter, isCategoryFilterActive } = props
-    const categories = Object.keys(categorizedBrandList)
-    if (isCategoryFilterActive) {
-        return (
-            <div className='brandList'>
-                {categories.map((c) => {
-                    if (categoryFilter[c]) {
-                        return <Category categoryName={c} brands={categorizedBrandList[c]} />
-                    }
-                })}
-            </div>
-        )
-    } else {
-        return (
-            <div className='brandList'>
-                {categories.map((c) => {
-                    return <Category categoryName={c} brands={categorizedBrandList[c]} />
-                })}
-            </div>
-        )
+const filterBrandsByCategory = (
+    brands: ISearchBrandItem[],
+    categoryFilter: ICategoryFilter
+): ISearchBrandItem[] => {
+    function hasOverlap(arr1, arr2) {
+        for (let i = 0; i <= arr1.length; i++) {
+            if (arr2.includes(arr1[i])) {
+                return true
+            }
+        }
+        return false
     }
+
+    function getActiveCategories(categoryFilter: ICategoryFilter) {
+        let activeCategories = []
+        Object.keys(categoryFilter).forEach((c) => {
+            if (categoryFilter[c]) {
+                activeCategories.push(c)
+            }
+        })
+        return activeCategories
+    }
+
+    const activeCategories = getActiveCategories(categoryFilter)
+
+    return brands.filter((brand) => hasOverlap(brand.categories, activeCategories))
 }
 
-interface CategoryProps {
-    brands: IBrandItem[]
-    categoryName: string
-}
-
-export function Category(props: CategoryProps) {
-    const { brands, categoryName } = props
-    return (
-        <div className='category'>
-            <div className='categoryHeader'>
-                <h2>{categoryName}</h2>
-            </div>
-            {brands.map((b) => {
-                return (
-                    <BrandCard name={b.name} categories={b.categories} logo={b.logo} url={b.url} />
-                )
-            })}
-        </div>
-    )
-}
-
-const filterBrandList = (
-    brandArray: ISearchBrandItem[],
+const searchBrandList = (
+    searchableBrandList: ISearchBrandItem[],
     searchInput: string
 ): ISearchBrandItem[] => {
     if (searchInput.length > 2) {
         const normalizedSearchInput = normalizeString(searchInput)
-        const filteredBrandArray = brandArray.filter((i) => {
+        const filteredBrandArray = searchableBrandList.filter((i) => {
             return i.searchField.indexOf(normalizedSearchInput) >= 0
         })
         return filteredBrandArray
     } else {
-        return brandArray
+        return searchableBrandList
     }
 }
 
@@ -184,24 +161,41 @@ interface BrandCardProps {
     url: string
 }
 
-export function BrandCard(props: BrandCardProps) {
+const spring = {
+    type: 'spring',
+    damping: 120,
+    stiffness: 1500,
+    mass: 0.5,
+}
+
+function BrandCard(props: BrandCardProps) {
     const { name, categories, logo, url } = props
     return (
         <a href={url}>
-            <div className='brandCard'>
-                <div className='logo'>
-                    <img src={`${logoPath}/${logo}`} />
+            <motion.div
+                layoutTransition={spring}
+                className='brandCard'
+                key={name}
+                animate={{ opacity: 1 }}
+                initial={{ opacity: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ ease: 'easeOut', duration: 0.15 }}
+            >
+                <div className='logoContainer'>
+                    <div className='logo'>
+                        <img src={`${logoPath}/${logo}`} />
+                    </div>
                 </div>
                 <div className='brandInfo'>
                     <h2>{name}</h2>
                     <p className='categories'>{categories.join(', ')}</p>
                 </div>
-            </div>
+            </motion.div>
         </a>
     )
 }
 
-export function SearchInput(props) {
+function SearchInput(props) {
     const { searchInput, setSearchInput } = props
     const handleOnChange = (ev: React.ChangeEvent<HTMLInputElement>) => {
         setSearchInput(ev.target.value)
