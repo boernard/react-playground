@@ -12,7 +12,7 @@ import {
 import CloseIcon from '../../assets/Close.svg'
 import { CategoryFilter } from './categoryFilter'
 
-const logoPath = './assets'
+const logoPath = './assets/logos'
 
 interface ISearchBrandItem extends IBrandItem {
     searchField: string

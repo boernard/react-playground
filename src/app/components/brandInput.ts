@@ -144,6 +144,15 @@ const brandList: IBrandItem[] = [
         url: 'https://fashion.cloud/de/demo-brand/',
         categories: ['Menswear', 'Formal Wear'],
     },
+    {
+        key: 15,
+        name: "Roy Robson",
+        logo: 'royRobson.svg',
+        keywords: 'casual, premium',
+        description: 'nice brand',
+        url: 'https://fashion.cloud/de/demo-brand/',
+        categories: ['Menswear', 'Formal Wear'],
+    },
 ]
 
 const dummyBrandList = brandList.sort((a, b) => {
