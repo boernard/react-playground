@@ -119,8 +119,8 @@ input.searchInputField::placeholder {
 
 .logo img {
     max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 
 .brandInfo {
