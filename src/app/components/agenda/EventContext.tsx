@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { dates, normalizeEventData, getHourRange } from './helpers';
+import { dates, normalizeEventData, getHourRange, getDefaultDate } from './helpers';
 const sample = require('./sample.json');
 
 const EventContext = React.createContext({
     loading: true,
     error: false,
     eventData: [],
-    date: dates.tuesday,
+    date: getDefaultDate(),
     languageFilter: null,
     hourRange: [9,19],
     handleDateChange: (date) => {},

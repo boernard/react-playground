@@ -6,6 +6,12 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
+export function getDefaultDate() {
+    const todaysDate = new Date().getDate();
+    const dateValue = `2020-07-${todaysDate}`;
+    return Object.values(dates).includes(dateValue) ? dateValue : dates.tuesday;
+}
+
 export function getHourRange(eventsRaw, date) {
     const eventsToday = groupBy(eventsRaw, 'date')[date];
     const earliestEvent = getEarliestEventHour(eventsToday);
