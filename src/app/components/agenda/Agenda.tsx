@@ -53,7 +53,9 @@ function HeaderCell({ name }) {
 }
 
 function TimeColumn() {
-    const hours = range(10, 22);
+    const { hourRange } = React.useContext(EventContext);
+    console.log(hourRange)
+    const hours = range(hourRange[0], hourRange[1] + 1);
     return(
         <div className="column" style={{ width: '150px', flexGrow: 0 }}>
             <HeaderCell name='placeholder' />
@@ -67,15 +69,20 @@ function TimeColumn() {
 }
 
 function Column({ width, stage, stageEvents }: any) {
+    const { hourRange } = React.useContext(EventContext);
+    const hours = range(hourRange[0], hourRange[1] + 1);
     const style = width ? { width, flexGrow: 0 } : {};
-    const hours = range(10, 22);
     const eventsByHour = normalizeEventsByHour(stageEvents);
     return(
         <div className="column" style={style}>
             <HeaderCell name={stage} />
-            {hours.map(hour => (
-                <Cell key={hour} events={eventsByHour[hour]} hour={hour} />
-            ))}
+            {hours.map(hour => {
+                const normalizedHour = hour.toString().length === 1 ? `0${hour}`: `${hour}`
+                const events = eventsByHour[normalizedHour]
+                return (
+                    <Cell key={hour} events={events} hour={hour} />
+                )
+            })}  
         </div>
     );
 }

@@ -6,6 +6,14 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
+export function getHourRange(eventsRaw, date) {
+    const eventsToday = groupBy(eventsRaw, 'date')[date];
+    const earliestEvent = getEarliestEventHour(eventsToday);
+    const latestEvent = getLatestEventHour(eventsToday);
+
+    return [earliestEvent, latestEvent];
+}
+
 export function getTopOffset(events, index) {
     return events
         .slice(0, index)
@@ -25,22 +33,21 @@ export function normalizeEventsByHour(events) {
 }
 
 export function normalizeEventData(eventsRaw, date) {
-    console.log(eventsRaw, date)
     const eventsToday = groupBy(eventsRaw, 'date')[date]
     return groupBy(eventsToday, 'track')
 }
 
-export function getEarliestEventHour(events) {
-    return Math.min(...getHourFromEvents(events))
+function getEarliestEventHour(events) {
+    return Math.min(...getHourFromEvents(events, 'start'))
 }
 
-export function getLatestEventHour(events) {
-    return Math.max(...getHourFromEvents(events))
+function getLatestEventHour(events) {
+    return Math.max(...getHourFromEvents(events, 'end'))
 }
 
-function getHourFromEvents(events) {
+function getHourFromEvents(events, timeProp) {
     return events
-        .map(event => event.start)
+        .map(event => event[timeProp])
         .map(time => time.split(':'))
         .map(splittedTime => splittedTime[0])
         .map(Number)
