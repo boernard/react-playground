@@ -6,6 +6,12 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
+export function getDefaultDate() {
+    const todaysDate = new Date().getDate();
+    const dateValue = `2020-07-${todaysDate}`;
+    return Object.values(dates).includes(dateValue) ? dateValue : dates.tuesday;
+}
+
 export function getHourRange(eventsRaw, date) {
     const eventsToday = groupBy(eventsRaw, 'date')[date];
     const earliestEvent = getEarliestEventHour(eventsToday);
@@ -14,10 +20,14 @@ export function getHourRange(eventsRaw, date) {
     return [earliestEvent, latestEvent];
 }
 
-export function getTopOffset(events, index) {
+export function getTopOffset(events, index, cellHeight) {
     return events
         .slice(0, index)
-        .reduce((acc, val) => acc + val.offsetHeight, 0);
+        .reduce((acc, val) => {
+            const eventDuration = Number(getEventDuration(val.start, val.end) / 1000 / 60);
+            const height = Math.round((cellHeight / 60) * eventDuration)
+            return acc + height
+        }, 0);
 }
 
 export function getEventDuration(startTime, endTime) {
@@ -35,6 +45,7 @@ export function normalizeEventsByHour(events) {
 export function normalizeEventData(eventsRaw, date) {
     const eventsToday = groupBy(eventsRaw, 'date')[date]
     return groupBy(eventsToday, 'track')
+
 }
 
 function getEarliestEventHour(events) {
