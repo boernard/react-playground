@@ -3,6 +3,7 @@ import './Agenda.css'
 import { EventContext } from './EventContext'
 import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers';
 import { range } from 'lodash'
+import { Filters } from './Filters';
 
 function Event({ event, index, cellHeight, cellEvents }){
     const topOffset = getTopOffset(cellEvents, index);
@@ -19,6 +20,7 @@ function Event({ event, index, cellHeight, cellEvents }){
 }
 
 function Cell({ events = [], hour }) {
+    const { languageFilter } = React.useContext(EventContext);
     const cellRef = React.useRef(null);
     const [cellHeight, setCellHeight] = React.useState(0);
     const [cellEvents, setCellEvents] = React.useState([]);
@@ -28,10 +30,12 @@ function Cell({ events = [], hour }) {
             setCellEvents(Array.from<HTMLElement>(cellRef.current.children))
         }
     }, [cellRef]);
-    
+    const filteredEvents = languageFilter 
+        ? events.filter(event => event.language && event.language === languageFilter)
+        : events
     return (
         <div className='cell' ref={cellRef}>
-            {events.map((event, index) => (
+            {filteredEvents.map((event, index) => (
                 <Event 
                     key={event.start}
                     event={event}
@@ -54,7 +58,6 @@ function HeaderCell({ name }) {
 
 function TimeColumn() {
     const { hourRange } = React.useContext(EventContext);
-    console.log(hourRange)
     const hours = range(hourRange[0], hourRange[1] + 1);
     return(
         <div className="column" style={{ width: '150px', flexGrow: 0 }}>
@@ -93,15 +96,18 @@ export function Agenda() {
     if(loading) (<div>Loading ...</div>);
     if(error) (<div>There was an error</div>)
     return (
-        <div className="layout">
-            <TimeColumn />
-            {stages.map(stage => (
-                <Column
-                    key={stage}
-                    stage={stage}
-                    stageEvents={eventData[stage]}
-                />
-            ))}
+        <>
+            <Filters />
+            <div className="layout">
+                <TimeColumn />
+                {stages.map(stage => (
+                    <Column
+                        key={stage}
+                        stage={stage}
+                        stageEvents={eventData[stage]}
+                    />
+                ))}
         </div>
+        </>
     );
 }

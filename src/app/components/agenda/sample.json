@@ -6,7 +6,8 @@
       "start": "09:45:00",
       "end": "09:55:00",
       "attendees": ["264c5e96-e332-4bdd-9c32-11f5229e370f", "37210083-bae8-452d-af03-baea7cdc9e40", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "920f0959-b50d-487a-9136-c952ea5acfb0", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "d6cb8c81-90b0-40ae-883c-7cded224ae3f", "f3b3fd19-8445-4667-a97d-77063a391441", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
-      "track": "Main Stage"
+      "track": "Main Stage",
+      "language": "EN"
     },
     {
       "name": "DE TW Trend-Info Womenswear",

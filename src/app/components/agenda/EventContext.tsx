@@ -7,12 +7,16 @@ const EventContext = React.createContext({
     error: false,
     eventData: [],
     date: dates.tuesday,
-    hourRange: [9,18]
+    languageFilter: null,
+    hourRange: [9,19],
+    handleDateChange: (date) => {},
+    handleLanguageFilterChange: (lang) => null
 });
  
 const EventProvider = (props) => {
     const [eventData, setEventData] = React.useState([]);
     const [date, setDate] = React.useState(dates.tuesday);
+    const [languageFilter, setLanguageFilter] = React.useState('');
     const [loading, setLoading] = React.useState(true);
     const [error, setError] = React.useState(false);
     const [hourRange, setHourRange] = React.useState([10, 22]);
@@ -34,11 +38,29 @@ const EventProvider = (props) => {
         }
     }
 
+    const handleDateChange = (dateValue) => {
+      setDate(dateValue);
+      setEventData(normalizeEventData(sample, dateValue));
+    }
+
+    const handleLanguageFilterChange = (langValue) => {
+      setLanguageFilter(langValue);
+    }
+
     React.useEffect(() => {
         fetchEventData();
     }, [])
     return (
-        <EventContext.Provider value={{ eventData, loading, error, date, hourRange }}>
+        <EventContext.Provider value={{
+          eventData,
+          loading,
+          error,
+          date,
+          languageFilter,
+          hourRange,
+          handleDateChange,
+          handleLanguageFilterChange
+        }}>
             {props.children}
         </EventContext.Provider>
     );

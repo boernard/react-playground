@@ -35,6 +35,7 @@ export function normalizeEventsByHour(events) {
 export function normalizeEventData(eventsRaw, date) {
     const eventsToday = groupBy(eventsRaw, 'date')[date]
     return groupBy(eventsToday, 'track')
+
 }
 
 function getEarliestEventHour(events) {
