@@ -4,11 +4,42 @@ import { EventContext } from './EventContext'
 import { dates, getEarliestEventHour, getLatestEventHour, normalizeEventsByHour } from './helpers';
 import { range } from 'lodash'
 
-const Cell = React.forwardRef((props: any, ref) => (
-    <div className="cell" ref={ref as any}>
-        { props.children || 'holi' }
-    </div>
-));
+function Event({ event, index, cellHeight, cellEvents }){
+    const topOffset = cellEvents.slice(0, index).reduce((acc, val) => acc + val.offsetHeight, 0);
+    const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset);
+    return (
+        <div key={event.start} style={{ position: 'relative', minHeight: '15px', padding: '4px', backgroundColor: 'salmon', top: `${top}px`}}>
+            <p>{`${event.start} - ${event.end}`}</p>
+            <p>{ event.name }</p>
+        </div>
+    )
+}
+
+function Cell({ events = [], hour }) {
+    const cellRef = React.useRef(null);
+    const [cellHeight, setCellHeight] = React.useState(0);
+    const [cellEvents, setCellEvents] = React.useState([]);
+    React.useEffect(() => {
+        if (cellRef.current) {
+            setCellHeight(cellRef.current.offsetHeight)
+            setCellEvents(Array.from<HTMLElement>(cellRef.current.children))
+        }
+    }, [cellRef]);
+    
+    return (
+        <div className='cell' ref={cellRef}>
+            {events.map((event, index) => (
+                <Event 
+                    key={event.start}
+                    event={event}
+                    index={index}
+                    cellHeight={cellHeight}
+                    cellEvents={cellEvents}
+                />
+            ))}
+        </div>
+    );
+}
 
 function HeaderCell({ name }) {
     return (
@@ -24,42 +55,29 @@ function TimeColumn() {
         <div className="column" style={{ width: '150px', flexGrow: 0 }}>
             <HeaderCell name='placeholder' />
             {hours.map(hour => (
-                <Cell key={hour}>
+                <div className="cell" key={hour}>
                     { hour }
-                </Cell>
+                </div>
             ))}
         </div>
     );
 }
 
 function Column({ width, stage, stageEvents }: any) {
-    const [cellHeight, setCellHeight] = React.useState(0);
-    const cellRef = React.useRef(null);
     const style = width ? { width, flexGrow: 0 } : {};
     const hours = range(10, 22);
-    const eventsByHour = normalizeEventsByHour(stageEvents)
-    console.log(eventsByHour)
-    React.useEffect(() => {
-        if (cellRef.current) {
-            setCellHeight(cellRef.current.offsetHeight)
-        }
-    }, [cellRef])
+    const eventsByHour = normalizeEventsByHour(stageEvents);
     return(
         <div className="column" style={style}>
             <HeaderCell name={stage} />
 
             {hours.map(hour => (
-                <Cell key={hour} ref={cellRef}>
-                    {(eventsByHour[hour] || []).map((event, index) => {
-                        const topOffset = index * 17;
-                        const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset);
-                        return (
-                            <div key={event.start} style={{ position: 'relative', minHeight: '15px', backgroundColor: 'salmon', top: `${top}px`}}>
-                                { `${event.start} - ${event.name}` }
-                            </div>
-                        )
-                    })}
-                </Cell>
+                <Cell key={hour} events={eventsByHour[hour]} hour={hour} />
+                // <Cell key={hour}>
+                //     {(eventsByHour[hour] || []).map((event, index) => (
+                //         <Event key={event.start} event={event} index={index}/>
+                //     ))}
+                // </Cell>
             ))}
             
         </div>
