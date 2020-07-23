@@ -6,7 +6,7 @@ import Cookies from 'universal-cookie'
 
 function BrandSession(props) {
     useEffect(() => {
-        document.title = 'wow'
+        document.title = 'DFW Session'
     }, [])
 
     const location = useLocation()
