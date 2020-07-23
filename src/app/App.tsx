@@ -3,6 +3,9 @@ import * as ReactDOM from 'react-dom'
 import { BrandSearch } from './components/FilterView'
 import { BrandSession } from './components/brandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import Agenda from './components/agenda'
+import { EventProvider } from './components/agenda/EventContext'
+
 declare let module: any
 
 // prettier-ignore
@@ -11,6 +14,11 @@ ReactDOM.render(
         <Switch>
             <Route path='/brandsession'><BrandSession /></Route>
             <Route path='/brandsearch'><BrandSearch /></Route>
+            <Route path='/agenda'>
+                <EventProvider>
+                    <Agenda />
+                </EventProvider>
+            </Route>
             <Route component={BrandSearch} />
         </Switch>
     </Router>,

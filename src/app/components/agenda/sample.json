@@ -1,0 +1,2153 @@
+[
+    {
+      "name": "EN Welcome to Digital Fashion Week 2020",
+      "description": "<p>Speaker: Martin Brücher, Co-Founder Fashion Cloud</p>",
+      "date": "2020-07-28",
+      "start": "09:45:00",
+      "end": "09:55:00",
+      "attendees": ["264c5e96-e332-4bdd-9c32-11f5229e370f", "37210083-bae8-452d-af03-baea7cdc9e40", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "920f0959-b50d-487a-9136-c952ea5acfb0", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "d6cb8c81-90b0-40ae-883c-7cded224ae3f", "f3b3fd19-8445-4667-a97d-77063a391441", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE TW Trend-Info Womenswear",
+      "description": "Speaker: Silke Emig &amp; Anna Lenz - TextilWirtschaft",
+      "date": "2020-07-28",
+      "start": "10:00:00",
+      "end": "10:30:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "be19837a-ef0c-402d-acc1-6136a3e8732d", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Kyra & Ko",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["07bd523b-f176-4256-b797-814931b99717", "30298c67-f34c-47d8-bc72-ca9bb6fc21ff", "442257b4-e78e-4ef6-9490-23352440e165", "4837828c-5903-47f2-a9f4-f2d7b71a4618", "5a278e93-0921-4bb0-a8d4-caa39c3bf150", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "949f33a7-725c-45bd-b024-c00b19e80f06", "a9464d0c-ec5b-490b-aab4-58d6a67eb8bc", "ad601225-d0b1-4f83-86b0-1091e03afff0", "e28bd57b-6d7e-4f5d-b795-86dfdfe91922"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Tom Tailor Denim",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["19b84833-d163-4608-8ae9-2455ad042840", "2ea2624a-bbc1-4a48-b8b6-6fe66e74b98a", "5a278e93-0921-4bb0-a8d4-caa39c3bf150", "7f1b3aab-0ef0-4c82-93b9-9789296dd16a", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "c9f199eb-9b88-4627-bad3-7539d4241c85", "e6512167-9247-4741-9ca5-81029c7cd768", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Part Two",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["10a2d51a-8524-4b14-a3b4-90ec22f76b6a", "9393ed58-56ff-453b-a0b3-c39b52f287e0", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "f68de054-8614-4fc0-8b7f-f44ae1c9a133"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL Circle of Trust",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["5a278e93-0921-4bb0-a8d4-caa39c3bf150", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "c9e3409a-9c50-42a9-98a9-da575be0001c", "d6cb8c81-90b0-40ae-883c-7cded224ae3f", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Betty Barclay",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "19b84833-d163-4608-8ae9-2455ad042840", "1bafad82-87c1-41ca-b1ec-2fcc12403e2c", "1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "29eb495c-a46d-44de-a11f-846240095f38", "4076b464-7551-4c6e-806c-85150a0677d0", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "7dfd05c9-165a-42e2-b3aa-4530cbb6f3c1", "8bd41792-7cda-4cf6-bd67-98b099a74219", "949f33a7-725c-45bd-b024-c00b19e80f06", "965d6798-9776-4151-a1c2-705c1a170632", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a4f78803-6997-4570-af8a-3f25fd270031", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "ad601225-d0b1-4f83-86b0-1091e03afff0", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "b11bd1db-2158-4425-bb17-06faf21c384b", "c46c2ea1-8d10-4706-8810-51b734d91e2d", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d8e5da10-ff33-48e4-a8f1-80721c233754", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f599b336-c370-4ab1-96d0-0714b8196cb4", "f68de054-8614-4fc0-8b7f-f44ae1c9a133"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Tramontana",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165", "59f27993-84b8-4922-979b-af94a66702ea", "6782975d-20ec-42cd-9210-bb1b32517b7d", "7f1b3aab-0ef0-4c82-93b9-9789296dd16a", "9393ed58-56ff-453b-a0b3-c39b52f287e0", "b96f0a8a-2605-40d3-9329-184990436ef4", "c9e3409a-9c50-42a9-98a9-da575be0001c", "d3546644-3be4-40e7-8107-92b6d46958a5", "d979bd77-548e-4d3f-9150-0a08dbbe465a"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL Freebird",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": [],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Kyra & Ko",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["5a278e93-0921-4bb0-a8d4-caa39c3bf150", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "e28bd57b-6d7e-4f5d-b795-86dfdfe91922"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Raffaello Rossi",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["340233f0-3392-4e34-a789-d4477894fb05", "4076b464-7551-4c6e-806c-85150a0677d0", "7f1b3aab-0ef0-4c82-93b9-9789296dd16a", "aa210002-e752-4c50-b77a-a30453d5b6b4", "d967a22f-be98-46df-a576-c0994b8dbacc", "e587f794-9263-4e3b-bf76-524d37fb2513", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Kyra & Ko",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["5a278e93-0921-4bb0-a8d4-caa39c3bf150", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Trendpresentatie Herenmode Zomer 2021",
+      "description": "<p>Speaker: Edwin van den Hoek</p>",
+      "date": "2020-07-28",
+      "start": "10:50:00",
+      "end": "11:30:00",
+      "attendees": ["264c5e96-e332-4bdd-9c32-11f5229e370f", "568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE More & More",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "11daac24-1e5a-4e66-b440-02f820abb40f", "134e2ccd-583d-4d63-8898-950621cfd666", "19b84833-d163-4608-8ae9-2455ad042840", "1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "23a0e526-8575-428f-9c94-dbe13c267fc0", "29eb495c-a46d-44de-a11f-846240095f38", "59f27993-84b8-4922-979b-af94a66702ea", "5a278e93-0921-4bb0-a8d4-caa39c3bf150", "694a682d-94c5-4a51-aa18-450d57c81fb9", "69a9c88b-31fe-4207-a476-b6281e625c5d", "6a39faa3-38df-40e5-91f4-23a519ba479e", "6b2d6760-0c40-4065-be3b-0b30883bace4", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "949f33a7-725c-45bd-b024-c00b19e80f06", "965d6798-9776-4151-a1c2-705c1a170632", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a4f78803-6997-4570-af8a-3f25fd270031", "c9f199eb-9b88-4627-bad3-7539d4241c85", "d8e5da10-ff33-48e4-a8f1-80721c233754", "d979bd77-548e-4d3f-9150-0a08dbbe465a", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "fa53320a-45cb-46d4-8071-ff59ea9fcce0"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Lanius",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["61f1fd6a-02d9-4a30-847b-1d94279a7f41", "8e6bc91d-20f2-43f0-adb0-1827c9616f21", "be19837a-ef0c-402d-acc1-6136a3e8732d", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d", "d84f0cb6-ecb5-494a-b27d-7c57375feec4", "e28bd57b-6d7e-4f5d-b795-86dfdfe91922", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "f599b336-c370-4ab1-96d0-0714b8196cb4", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["06bb38b5-6d01-40bb-951d-361b91ff83f9", "5a278e93-0921-4bb0-a8d4-caa39c3bf150", "7f1b3aab-0ef0-4c82-93b9-9789296dd16a", "a6b4891a-4fef-4019-94b6-b7ee2cc096f8", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Tom Tailor Denim",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "29eb495c-a46d-44de-a11f-846240095f38", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "340233f0-3392-4e34-a789-d4477894fb05", "442257b4-e78e-4ef6-9490-23352440e165", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "82676c5a-0ee4-4836-9315-fa1466c5f743", "949f33a7-725c-45bd-b024-c00b19e80f06", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "a4f78803-6997-4570-af8a-3f25fd270031", "be19837a-ef0c-402d-acc1-6136a3e8732d", "bf2189a6-5bb7-4051-a856-1f868b9f16b2", "bf3961ec-7e80-4f0f-af49-7014b03a72b3", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "c9f199eb-9b88-4627-bad3-7539d4241c85", "d302a520-1533-4f7e-83ad-8fd2776e023c", "d420453d-c786-4f63-a4a1-c6eaea7d7c3b", "e4734a5e-6eea-4980-924a-901175b3f4cc", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f599b336-c370-4ab1-96d0-0714b8196cb4"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Kyra & Ko",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["5a278e93-0921-4bb0-a8d4-caa39c3bf150"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE SAMOON",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "4cba9fc4-611f-4b8e-b9c4-1dc9d2de7693", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "cda3ef10-4683-407b-b511-9b6085237b20", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Betty & Co",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "134e2ccd-583d-4d63-8898-950621cfd666", "29eb495c-a46d-44de-a11f-846240095f38", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694a682d-94c5-4a51-aa18-450d57c81fb9", "965d6798-9776-4151-a1c2-705c1a170632", "a4f78803-6997-4570-af8a-3f25fd270031", "b96f0a8a-2605-40d3-9329-184990436ef4", "d8e5da10-ff33-48e4-a8f1-80721c233754", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE/EN Story of Mine",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN IVKO Women",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["4076b464-7551-4c6e-806c-85150a0677d0"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE EK Service Group",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Part Two",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Lanius",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["e28bd57b-6d7e-4f5d-b795-86dfdfe91922", "fa53320a-45cb-46d4-8071-ff59ea9fcce0"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Royal Lounge Intimates",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees":[],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Sportalm - ulli_ehrlich",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["0ac04b2a-5637-47a1-9a33-c50c6b71a667", "11daac24-1e5a-4e66-b440-02f820abb40f", "134e2ccd-583d-4d63-8898-950621cfd666", "1bb9bde9-0811-46b7-8f4d-6879c3300e02", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "340233f0-3392-4e34-a789-d4477894fb05", "3c2e8f24-92d1-458b-9a1f-f573d474a0a7", "4076b464-7551-4c6e-806c-85150a0677d0", "5537d666-18d6-43f4-88a1-4c1ec7987791", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6c52e9dc-915a-41ef-8d71-166f1cf2dc7e", "95910129-73d0-4933-abe6-878160253dfe", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a4f78803-6997-4570-af8a-3f25fd270031", "b19f9e95-1d91-4881-a4bf-855fef45fdda", "bdc75062-7b9d-40fa-a3d0-df2cadf26ec9", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Garcia",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165", "5a278e93-0921-4bb0-a8d4-caa39c3bf150", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "e587f794-9263-4e3b-bf76-524d37fb2513"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Goosecraft",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["694f6f54-8ca9-4987-8c2b-6b3ff6accf5d", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a6b4891a-4fef-4019-94b6-b7ee2cc096f8", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "bf3961ec-7e80-4f0f-af49-7014b03a72b3"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Heyconnect",
+      "description": "Speaker: Tobias Röbig, Geschäftsführer Heyconnect",
+      "date": "2020-07-28",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Simple",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["2524a477-cd80-4100-9eb0-708154997f29", "442257b4-e78e-4ef6-9490-23352440e165", "568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Autoretouch",
+      "description": "Speaker: Julian Eckerle, Co-Founder &amp; Chief Revenue Officer Autoretouch",
+      "date": "2020-07-28",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN NÜ",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["e6b334de-0d0e-4fd8-9e85-175fcb172cb9"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE GERRY WEBER Edition Trousers",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["37210083-bae8-452d-af03-baea7cdc9e40", "4076b464-7551-4c6e-806c-85150a0677d0", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "b583d0de-6b65-4736-b70c-41f22dab7169"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE/EN Wiederbelebt",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "92f87f5c-9308-4d82-9cd5-32d3d2fcb792"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE GANG",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["2a351f15-c4c1-47c7-897e-604f265e5a32", "59f27993-84b8-4922-979b-af94a66702ea", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6c52e9dc-915a-41ef-8d71-166f1cf2dc7e", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d979bd77-548e-4d3f-9150-0a08dbbe465a"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE GERRY WEBER Casual",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["37210083-bae8-452d-af03-baea7cdc9e40", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "b583d0de-6b65-4736-b70c-41f22dab7169", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Freebird",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["2524a477-cd80-4100-9eb0-708154997f29", "59f27993-84b8-4922-979b-af94a66702ea", "74316202-65a8-455c-aa12-416093f3555d"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Highlights Trendpresentatie Damesmode Zomer 2021",
+      "description": "Speaker: Christine Boland (Trend analyst | consultant on consumerism and strategy | international keynote speaker)",
+      "date": "2020-07-28",
+      "start": "13:45:00",
+      "end": "14:10:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "a9464d0c-ec5b-490b-aab4-58d6a67eb8bc"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Soaked in Luxury",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["0164b519-2e5e-4a23-93f5-0886199a042b", "1bafad82-87c1-41ca-b1ec-2fcc12403e2c", "3c2e8f24-92d1-458b-9a1f-f573d474a0a7", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "e4734a5e-6eea-4980-924a-901175b3f4cc"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Garcia",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["74316202-65a8-455c-aa12-416093f3555d", "949f33a7-725c-45bd-b024-c00b19e80f06", "a4f78803-6997-4570-af8a-3f25fd270031"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Cinque",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "0e8a60b4-0be3-4375-adf7-a9e186aed632", "11daac24-1e5a-4e66-b440-02f820abb40f", "134e2ccd-583d-4d63-8898-950621cfd666", "2a351f15-c4c1-47c7-897e-604f265e5a32", "340233f0-3392-4e34-a789-d4477894fb05", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694a682d-94c5-4a51-aa18-450d57c81fb9", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "82676c5a-0ee4-4836-9315-fa1466c5f743", "8e6bc91d-20f2-43f0-adb0-1827c9616f21", "965d6798-9776-4151-a1c2-705c1a170632", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "b19f9e95-1d91-4881-a4bf-855fef45fdda", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "d302a520-1533-4f7e-83ad-8fd2776e023c", "e587f794-9263-4e3b-bf76-524d37fb2513", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "fa53320a-45cb-46d4-8071-ff59ea9fcce0", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Sportalm - ulli_ehrlich",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["0ac04b2a-5637-47a1-9a33-c50c6b71a667", "3c2e8f24-92d1-458b-9a1f-f573d474a0a7", "4076b464-7551-4c6e-806c-85150a0677d0", "92f87f5c-9308-4d82-9cd5-32d3d2fcb792", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Tamaris",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["4e1a2336-e154-41e6-81ff-e9acd80b4ad1", "59f27993-84b8-4922-979b-af94a66702ea", "6a39faa3-38df-40e5-91f4-23a519ba479e", "74730d68-77f7-4be3-a340-7b0a949bff86", "839032d7-bf1e-4bb9-bfd5-8b06334a8ee0", "c49eb42f-85a1-451d-8b7a-b6f97874253c", "c9f199eb-9b88-4627-bad3-7539d4241c85", "d967a22f-be98-46df-a576-c0994b8dbacc", "d979bd77-548e-4d3f-9150-0a08dbbe465a", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE/EN Story of Mine",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE s.Oliver BLW",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["19b84833-d163-4608-8ae9-2455ad042840", "29eb495c-a46d-44de-a11f-846240095f38", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "4d24a20b-41e7-46d7-b159-705327902543", "694a682d-94c5-4a51-aa18-450d57c81fb9", "965d6798-9776-4151-a1c2-705c1a170632", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a4f78803-6997-4570-af8a-3f25fd270031", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE GERRY WEBER Edition Outdoor",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["37210083-bae8-452d-af03-baea7cdc9e40", "9fe2edc7-3ae6-4b25-8e67-eadfcaf19e69", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "b583d0de-6b65-4736-b70c-41f22dab7169", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Nachwuchsausbildung in der Textilbranche: Geplante Kooperation zwischen Hochschule Reutlingen und LDT Nagold.",
+      "description": "Speaker: Hr. Prof. Dr. Strähle (Dean and Senator bei Reutlingen University) &amp; Rolf Pangels (Hauptgeschäftsführer BTE)",
+      "date": "2020-07-28",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "920f0959-b50d-487a-9136-c952ea5acfb0", "9ed3b80c-2123-44d4-86c2-a71f96e12c76"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE GANG",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["59f27993-84b8-4922-979b-af94a66702ea", "8081f937-ba59-47c9-9f32-881564d5085b", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "e587f794-9263-4e3b-bf76-524d37fb2513", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Tom Tailor",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["19b84833-d163-4608-8ae9-2455ad042840", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "bf3961ec-7e80-4f0f-af49-7014b03a72b3"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Raffaello Rossi",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "340233f0-3392-4e34-a789-d4477894fb05", "37210083-bae8-452d-af03-baea7cdc9e40", "78fd6744-a940-42ca-8182-a4bed0e67d86", "965d6798-9776-4151-a1c2-705c1a170632", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "bdc75062-7b9d-40fa-a3d0-df2cadf26ec9", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL Modefabriek's estafette Interview met leading Fashion Professionals",
+      "description": "Met:\nMaarten Janse, eigenaar agentschap/distributeur LEXSON, highly acclaimed fashion brand and upcoming labels\nTalita Kalloe, sustainable storyteller, eigenaar Soul Stores\nHeleen Hülsmann, eigenaar Salon Heleen Hülsmann, secondhand designer kleding\nDavid Shah, eigenaar Metropolitan Publishing, trendwatcher\nLucel van den Hoeven, CEO Modefabriek BV\nCaroline Krouwels, Creative Director Modefabriek BV\n \nModerator: Maurice Seleky. Amsterdam Museum",
+      "date": "2020-07-28",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Betty Barclay",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["1bafad82-87c1-41ca-b1ec-2fcc12403e2c", "4076b464-7551-4c6e-806c-85150a0677d0", "694a682d-94c5-4a51-aa18-450d57c81fb9", "74316202-65a8-455c-aa12-416093f3555d", "8bd41792-7cda-4cf6-bd67-98b099a74219", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "b11bd1db-2158-4425-bb17-06faf21c384b", "b96f0a8a-2605-40d3-9329-184990436ef4", "c9f199eb-9b88-4627-bad3-7539d4241c85", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE GERRY WEBER Collection",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "06bb38b5-6d01-40bb-951d-361b91ff83f9", "74316202-65a8-455c-aa12-416093f3555d", "8bd41792-7cda-4cf6-bd67-98b099a74219", "965d6798-9776-4151-a1c2-705c1a170632", "9fe2edc7-3ae6-4b25-8e67-eadfcaf19e69", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "b11bd1db-2158-4425-bb17-06faf21c384b", "b583d0de-6b65-4736-b70c-41f22dab7169", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d967a22f-be98-46df-a576-c0994b8dbacc", "e6b334de-0d0e-4fd8-9e85-175fcb172cb9", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Tamaris",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "25b0c38b-67e7-49a1-92d5-4018e66910c6", "31f1d805-8a3a-4679-919d-c1782852db12", "3739bcdb-038e-4202-b429-1a4504011889", "3b1e5f60-a5e5-47e4-b7ee-958ce4647a50", "4c92868e-d4ef-41ad-976a-7b4c77a4c988", "4e1a2336-e154-41e6-81ff-e9acd80b4ad1", "5f2a5254-0be2-48eb-a48b-883decf73762", "629e59d4-3bb5-4c97-a1b3-63273673bceb", "676732ef-2d97-4f44-a48c-f92c251b19aa", "6b2d6760-0c40-4065-be3b-0b30883bace4", "6e64e5e8-8d66-4900-b11c-4ac7a97cdb57", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "9014a5b4-5606-4b39-b0ec-008df6935eb9", "9abc8a1c-6137-47d4-a4c2-188672af85f4", "a814daa7-6df7-414b-a9e7-cc9d095c4c74", "bf2189a6-5bb7-4051-a856-1f868b9f16b2", "bfd05fac-6a60-4f28-a2d7-94216d82de6f", "c83a627e-ca3d-43ee-a20c-0f32c52802bc", "c9f199eb-9b88-4627-bad3-7539d4241c85", "cd914b51-bc32-4c6f-8865-fa71d6f01884", "d420453d-c786-4f63-a4a1-c6eaea7d7c3b", "d979bd77-548e-4d3f-9150-0a08dbbe465a", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE/EN Wiederbelebt",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694a682d-94c5-4a51-aa18-450d57c81fb9", "92f87f5c-9308-4d82-9cd5-32d3d2fcb792"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Innovation series Vol. 1: Eco-Responsible Human Centered 3D Solutions",
+      "description": "<p>Speaker: Mourad Bahrouch (Founder Mountain Collective)</p>",
+      "date": "2020-07-28",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Goosecraft",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["12119b63-4853-45ac-9c71-45c7365eb6d3"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Coffee with Fashion Cloud - The Fashion Cloud Platform",
+      "description": "Speaker: Fashion Cloud Anouk Bosma (Sales Nederland) en Marie Willems (Sales Belgie)",
+      "date": "2020-07-28",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Raffaello Rossi",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["4076b464-7551-4c6e-806c-85150a0677d0", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "78fd6744-a940-42ca-8182-a4bed0e67d86", "7b1231e7-50e5-4543-a3bd-40fefed22e52", "8081f937-ba59-47c9-9f32-881564d5085b", "9cf7031f-b57d-448b-945a-4d44d937e41e", "b19f9e95-1d91-4881-a4bf-855fef45fdda", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL More & More",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165", "59f27993-84b8-4922-979b-af94a66702ea", "74316202-65a8-455c-aa12-416093f3555d", "9393ed58-56ff-453b-a0b3-c39b52f287e0", "c9f199eb-9b88-4627-bad3-7539d4241c85", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Betty & Co",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["6b2d6760-0c40-4065-be3b-0b30883bace4", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "d302a520-1533-4f7e-83ad-8fd2776e023c"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Soaked in Luxury",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "ad601225-d0b1-4f83-86b0-1091e03afff0", "c49eb42f-85a1-451d-8b7a-b6f97874253c"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Circle of Trust",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Coffee with Fashion Cloud - OrderWriter",
+      "description": "Speaker: Pia Albrecht, Sales Manager Fashion Cloud",
+      "date": "2020-07-28",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE GANG",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["b19f9e95-1d91-4881-a4bf-855fef45fdda", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Simple",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "7b1231e7-50e5-4543-a3bd-40fefed22e52"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Real Talk - What to buy // Women",
+      "description": "Speaker: Jeroen en Iris Beekman (Jeroen Beekman Damesmode) en Pauline Broekman (De Rode Winkel)",
+      "date": "2020-07-28",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN IVKO Women",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["4076b464-7551-4c6e-806c-85150a0677d0"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Tramontana",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["74316202-65a8-455c-aa12-416093f3555d", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "d979bd77-548e-4d3f-9150-0a08dbbe465a"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE s.Oliver RLW",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["19b84833-d163-4608-8ae9-2455ad042840", "4d24a20b-41e7-46d7-b159-705327902543", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a4f78803-6997-4570-af8a-3f25fd270031", "d420453d-c786-4f63-a4a1-c6eaea7d7c3b", "e6512167-9247-4741-9ca5-81029c7cd768", "ea769113-af93-4d9b-9e5e-bc6a8dbf6c08", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Tom Tailor",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "29eb495c-a46d-44de-a11f-846240095f38", "442257b4-e78e-4ef6-9490-23352440e165", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "694a682d-94c5-4a51-aa18-450d57c81fb9", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "7f53926a-7880-4553-9391-0502548e5de5", "82676c5a-0ee4-4836-9315-fa1466c5f743", "8def475d-bed0-420d-ba82-c3ac6f350d23", "9393ed58-56ff-453b-a0b3-c39b52f287e0", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "be19837a-ef0c-402d-acc1-6136a3e8732d", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "cb017ccb-37ad-497f-9d0b-8b46f8282ef9", "d302a520-1533-4f7e-83ad-8fd2776e023c", "e4734a5e-6eea-4980-924a-901175b3f4cc", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN NÜ",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["ad601225-d0b1-4f83-86b0-1091e03afff0"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Raffaello Rossi",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["c24e53e3-5881-4ce9-9f70-e6ea4c7e4265", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Real Talk - What to buy // Women",
+      "description": "Speaker: Torge Thede - Ramelow (Head of Product), Denis Starke - Dodenhof (Bereichsleiterin Mode &amp; Lifestyle)",
+      "date": "2020-07-28",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "be19837a-ef0c-402d-acc1-6136a3e8732d", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE TAIFUN",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "19b84833-d163-4608-8ae9-2455ad042840", "1bafad82-87c1-41ca-b1ec-2fcc12403e2c", "1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "37210083-bae8-452d-af03-baea7cdc9e40", "4076b464-7551-4c6e-806c-85150a0677d0", "442257b4-e78e-4ef6-9490-23352440e165", "74316202-65a8-455c-aa12-416093f3555d", "8bd41792-7cda-4cf6-bd67-98b099a74219", "9393ed58-56ff-453b-a0b3-c39b52f287e0", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "a9c28879-dfdf-4c8c-927c-94c755552d8c", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "b11bd1db-2158-4425-bb17-06faf21c384b", "b583d0de-6b65-4736-b70c-41f22dab7169", "c46c2ea1-8d10-4706-8810-51b734d91e2d", "c9f199eb-9b88-4627-bad3-7539d4241c85"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE unitex Fashion Meeting",
+      "description": "",
+      "date": "2020-07-28",
+      "start": "17:05:00",
+      "end": "18:05:00",
+      "attendees": ["06bb38b5-6d01-40bb-951d-361b91ff83f9", "0e8a60b4-0be3-4375-adf7-a9e186aed632", "29eb495c-a46d-44de-a11f-846240095f38", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "52de144b-fbe0-41f0-97bf-d847c1e972d5", "60b7ff65-1c82-4930-9ee8-5854a031ac44", "6b2d6760-0c40-4065-be3b-0b30883bace4", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "7b1231e7-50e5-4543-a3bd-40fefed22e52", "7f53926a-7880-4553-9391-0502548e5de5", "8081f937-ba59-47c9-9f32-881564d5085b", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "ed6a5cd1-9a40-41b6-b567-00985a0e91b5", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Welcome to Digital Fashion Week 2020",
+      "description": "<p>Speaker: Alies ter Kuile, Co-Founder Fashion Cloud</p>",
+      "date": "2020-07-29",
+      "start": "09:45:00",
+      "end": "09:55:00",
+      "attendees": ["44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "920f0959-b50d-487a-9136-c952ea5acfb0", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Panel Discussie Duurzaamheid in de Praktijk",
+      "description": "Speaker: Bregje Lampe (mode journaliste en curator) (moderator)\nJolanda Kooi (Oprichter Fair Fashion Productions en Tex.Tracer)\nDieuwertje Damen (Oprichter Rainbow Collection, Sustainability Expert Speaker)\nRachel Cannegieter (Duurzame en Circulaire Mode Consultant bij Rethink Rebels)\nCharlotte van Waes (Oprichter Charlie + Mary - TRUE FASHION AGENCY)\nMariska Schennink (CSR Manager bij Euretco Fashion)",
+      "date": "2020-07-29",
+      "start": "10:00:00",
+      "end": "10:40:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Marc O’Polo Casual - Women",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["10e7e332-5b16-4a3a-ae97-1a3b0034c1ba", "134e2ccd-583d-4d63-8898-950621cfd666", "19b84833-d163-4608-8ae9-2455ad042840", "1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "23a0e526-8575-428f-9c94-dbe13c267fc0", "340233f0-3392-4e34-a789-d4477894fb05", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694a682d-94c5-4a51-aa18-450d57c81fb9", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "6c52e9dc-915a-41ef-8d71-166f1cf2dc7e", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "8081f937-ba59-47c9-9f32-881564d5085b", "8b4da2c3-372f-4190-9d8e-d934a5f071c3", "93f6444f-b82f-4a8b-b5a4-ca8bf2917d2f", "965d6798-9776-4151-a1c2-705c1a170632", "9cf7031f-b57d-448b-945a-4d44d937e41e", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "bf2189a6-5bb7-4051-a856-1f868b9f16b2", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "c516dcc2-abe0-45fd-ab25-6b4dd7140897", "d5b701e6-a1aa-4c24-b0c9-68c05f707017", "e587f794-9263-4e3b-bf76-524d37fb2513", "ea769113-af93-4d9b-9e5e-bc6a8dbf6c08", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7", "fe9b3388-e082-40d1-a951-f521797ddcd7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Babyface",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["a09abe43-92e5-4ec3-842c-135ca463a6d1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL Marco Manzini",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["21a355a6-6667-458b-851b-3e788da76b6f", "298638af-1283-4a89-827c-df33113d328d", "57e673eb-9618-4177-b8e1-399a40d189f8", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "ad601225-d0b1-4f83-86b0-1091e03afff0"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Club of Gents",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "11daac24-1e5a-4e66-b440-02f820abb40f", "2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "3441ce63-dd06-4714-ac1e-b105202729e5", "4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "6a39faa3-38df-40e5-91f4-23a519ba479e", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "82676c5a-0ee4-4836-9315-fa1466c5f743", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d6d23a2d-2f25-416b-a96c-f27026b97843", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE s.Oliver Junior",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["23a0e526-8575-428f-9c94-dbe13c267fc0", "39d4e412-a962-44c0-8788-6f4320a61145", "48170081-1f18-4f37-8686-d3cf110d7fca", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a4f78803-6997-4570-af8a-3f25fd270031", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "c516dcc2-abe0-45fd-ab25-6b4dd7140897", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Pierre Cardin",
+      "description": "Men Casual",
+      "date": "2020-07-29",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "291bec46-58fb-45f5-99f7-397562f9ecea", "298638af-1283-4a89-827c-df33113d328d", "29eb495c-a46d-44de-a11f-846240095f38", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694f6f54-8ca9-4987-8c2b-6b3ff6accf5d", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "8def475d-bed0-420d-ba82-c3ac6f350d23", "93bdbf49-eee8-420f-aa6c-83c8e544c49d", "9db85907-c990-4a3a-b60f-ae4631ec9b01", "b583d0de-6b65-4736-b70c-41f22dab7169"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Roy Robson",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "21a355a6-6667-458b-851b-3e788da76b6f", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "7f53926a-7880-4553-9391-0502548e5de5", "82676c5a-0ee4-4836-9315-fa1466c5f743", "920f0959-b50d-487a-9136-c952ea5acfb0", "965d6798-9776-4151-a1c2-705c1a170632", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "d6d23a2d-2f25-416b-a96c-f27026b97843", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1", "e6512167-9247-4741-9ca5-81029c7cd768", "eb41ab74-8d6b-49b8-80dc-a0e88e42da26", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Marc O’Polo Casual - Women",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["7dfd05c9-165a-42e2-b3aa-4530cbb6f3c1", "949f33a7-725c-45bd-b024-c00b19e80f06", "a139149e-437f-4aa7-88cb-3e586eba8c50", "d967a22f-be98-46df-a576-c0994b8dbacc", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL State of Art",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["12119b63-4853-45ac-9c71-45c7365eb6d3", "21a355a6-6667-458b-851b-3e788da76b6f", "57e673eb-9618-4177-b8e1-399a40d189f8", "6a23e6b7-c936-4734-8e47-58e8229dc055", "9db85907-c990-4a3a-b60f-ae4631ec9b01", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "ad601225-d0b1-4f83-86b0-1091e03afff0"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Marc O'Polo Casual men",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["10e7e332-5b16-4a3a-ae97-1a3b0034c1ba", "134e2ccd-583d-4d63-8898-950621cfd666", "19b84833-d163-4608-8ae9-2455ad042840", "291bec46-58fb-45f5-99f7-397562f9ecea", "29eb495c-a46d-44de-a11f-846240095f38", "2a351f15-c4c1-47c7-897e-604f265e5a32", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "80f7a533-cc23-4359-91d9-b2e773dde9f4", "82676c5a-0ee4-4836-9315-fa1466c5f743", "920f0959-b50d-487a-9136-c952ea5acfb0", "93f6444f-b82f-4a8b-b5a4-ca8bf2917d2f", "965d6798-9776-4151-a1c2-705c1a170632", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "a139149e-437f-4aa7-88cb-3e586eba8c50", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "cb017ccb-37ad-497f-9d0b-8b46f8282ef9", "d5b701e6-a1aa-4c24-b0c9-68c05f707017", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "f8d6f979-51ec-4ed9-bbc5-00371ba72652", "fe9b3388-e082-40d1-a951-f521797ddcd7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Babyface",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["a09abe43-92e5-4ec3-842c-135ca463a6d1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "Men Casual",
+      "date": "2020-07-29",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["23a0e526-8575-428f-9c94-dbe13c267fc0", "9fd3e223-9ae6-44f4-82df-87ab59f6db27"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Panel Talk „Sustainability in Fashion - the new normal?“",
+      "description": "Speaker: \n- Dr. Daniel Terberger, Katag (Vorstandsvorsitzender)\n- Julian Aisslinger, Marc O’ Polo (Manager Corporate Sustainability)\n- Marion Röttges, Remei (Co-CEO Apparel &amp; Communication)\n- Marc Ramelow, Ramelow (Inhaber &amp; Geschäftsführender Gesellschafter)\n- Martin Höfeler, Armedangels (CEO)\n\nModeration: Jana Kern (Co Owner KERN)",
+      "date": "2020-07-29",
+      "start": "10:50:00",
+      "end": "11:35:00",
+      "attendees": ["44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN Marc O'Polo Casual men",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["7dfd05c9-165a-42e2-b3aa-4530cbb6f3c1", "a4f78803-6997-4570-af8a-3f25fd270031"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Club of Gents",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "2a351f15-c4c1-47c7-897e-604f265e5a32", "4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6a23e6b7-c936-4734-8e47-58e8229dc055", "8bd41792-7cda-4cf6-bd67-98b099a74219", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d5b701e6-a1aa-4c24-b0c9-68c05f707017"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Garcia",
+      "description": "Kids Collection",
+      "date": "2020-07-29",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["a04a5300-138f-44a1-86ab-3c5aaadf16a4"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL A Fish named Fred",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "21a355a6-6667-458b-851b-3e788da76b6f", "298638af-1283-4a89-827c-df33113d328d", "57e673eb-9618-4177-b8e1-399a40d189f8", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "bc525a9d-c735-4502-88db-2ab8e4a57253", "f31e083d-6769-4cd3-afb0-5096d0710c34"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Roy Robson",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["00966763-28a4-423f-855d-60709c72ef87", "0e8a60b4-0be3-4375-adf7-a9e186aed632", "2d6698e3-1f8e-4a45-8903-b10990a68509", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "9db85907-c990-4a3a-b60f-ae4631ec9b01", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6", "a7c16b6b-9f89-4a92-9335-04e6e4647cab", "bc525a9d-c735-4502-88db-2ab8e4a57253", "f32bde37-a9be-42a4-a205-18d51fea8fe9"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Marc O’Polo Denim - Boys",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["4f485129-ac46-4543-85f1-f6419ac4e6a9", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "f8d6f979-51ec-4ed9-bbc5-00371ba72652"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Baldessarini",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["93bdbf49-eee8-420f-aa6c-83c8e544c49d", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Innovation series Vol. 2: Augmented reality and 3D experiences in the Fashion Industry",
+      "description": "<p>Speaker: Johan Brinkman (Founder Virtual Lab 17)</p>",
+      "date": "2020-07-29",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN Tom Tailor Denim",
+      "description": "Men Casual",
+      "date": "2020-07-29",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["23a0e526-8575-428f-9c94-dbe13c267fc0", "c9f199eb-9b88-4627-bad3-7539d4241c85", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["1d2406e9-6bc4-4a67-9eb3-ff53c29587ed", "3441ce63-dd06-4714-ac1e-b105202729e5", "359929cb-cdf0-45db-8d16-c148c42e13c8", "4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "57e673eb-9618-4177-b8e1-399a40d189f8", "6a23e6b7-c936-4734-8e47-58e8229dc055", "6c52e9dc-915a-41ef-8d71-166f1cf2dc7e", "82676c5a-0ee4-4836-9315-fa1466c5f743", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "8cf59e62-ae7e-41db-b3ac-b15e696340db", "920f0959-b50d-487a-9136-c952ea5acfb0", "949f33a7-725c-45bd-b024-c00b19e80f06", "9db85907-c990-4a3a-b60f-ae4631ec9b01", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6", "9fe2edc7-3ae6-4b25-8e67-eadfcaf19e69", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "b583d0de-6b65-4736-b70c-41f22dab7169", "eb41ab74-8d6b-49b8-80dc-a0e88e42da26", "f42db7af-97ca-4538-8665-a31d0f10f7e2", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Advarics",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Marc O’Polo Denim - Girls",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["3e072718-dd79-44f4-a111-664483a00e9f", "4674a514-3417-467b-806e-b5cf08d77263", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "965d6798-9776-4151-a1c2-705c1a170632", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a139149e-437f-4aa7-88cb-3e586eba8c50", "add52933-2bec-4ca1-8f46-82f0dce5f6aa", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "e587f794-9263-4e3b-bf76-524d37fb2513", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE/EN Lerros Casual",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "19b84833-d163-4608-8ae9-2455ad042840", "298638af-1283-4a89-827c-df33113d328d", "29eb495c-a46d-44de-a11f-846240095f38", "89c30dc4-c096-4347-915d-a739c182a0b9", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "a4f78803-6997-4570-af8a-3f25fd270031", "bf2189a6-5bb7-4051-a856-1f868b9f16b2", "d3546644-3be4-40e7-8107-92b6d46958a5", "f063a31e-1117-4c12-9548-279d62286c60", "f0abe0a7-0662-49d6-a972-226c4aadd1d9"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL State of Art",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "f31e083d-6769-4cd3-afb0-5096d0710c34"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Staccato",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["7641ff08-dee5-4ffc-b2a1-c4914c9c9466"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Pierre Cardin",
+      "description": "Men formal",
+      "date": "2020-07-29",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "21a355a6-6667-458b-851b-3e788da76b6f", "23a0e526-8575-428f-9c94-dbe13c267fc0", "8def475d-bed0-420d-ba82-c3ac6f350d23", "93bdbf49-eee8-420f-aa6c-83c8e544c49d", "b583d0de-6b65-4736-b70c-41f22dab7169", "d967a22f-be98-46df-a576-c0994b8dbacc", "f31e083d-6769-4cd3-afb0-5096d0710c34"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Hutter & Unger GmbH Werbeagentur",
+      "description": "Speaker: Andreas Unger\nGeschäftsführender Gesellschafter",
+      "date": "2020-07-29",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "NL Ledûb",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "9e8efbf3-36ea-4166-a324-7b1dac4c6812"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Club of Gents",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "920f0959-b50d-487a-9136-c952ea5acfb0", "965d6798-9776-4151-a1c2-705c1a170632", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6", "e6512167-9247-4741-9ca5-81029c7cd768"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE s.Oliver RLM",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "62569291-6e73-455d-91f6-60fb2a667f0c", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "a4f78803-6997-4570-af8a-3f25fd270031", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN OLYMP Signature",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "23a0e526-8575-428f-9c94-dbe13c267fc0", "2d6698e3-1f8e-4a45-8903-b10990a68509", "57e673eb-9618-4177-b8e1-399a40d189f8", "694f6f54-8ca9-4987-8c2b-6b3ff6accf5d", "6a23e6b7-c936-4734-8e47-58e8229dc055", "920f0959-b50d-487a-9136-c952ea5acfb0", "965d6798-9776-4151-a1c2-705c1a170632", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6", "9fe2edc7-3ae6-4b25-8e67-eadfcaf19e69", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6a39faa3-38df-40e5-91f4-23a519ba479e", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "8bd41792-7cda-4cf6-bd67-98b099a74219", "b583d0de-6b65-4736-b70c-41f22dab7169", "bc525a9d-c735-4502-88db-2ab8e4a57253", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1", "e6512167-9247-4741-9ca5-81029c7cd768", "f42db7af-97ca-4538-8665-a31d0f10f7e2"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE A Fish named Fred",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["291bec46-58fb-45f5-99f7-397562f9ecea", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "3b98875b-61b6-4578-a36f-fae32ea19916", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "949f33a7-725c-45bd-b024-c00b19e80f06"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Akeneo GmbH",
+      "description": "Speaker: Virginie Blot, Product Experience Management Evangelist",
+      "date": "2020-07-29",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN Tom Tailor",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["a4f78803-6997-4570-af8a-3f25fd270031", "c9f199eb-9b88-4627-bad3-7539d4241c85", "d967a22f-be98-46df-a576-c0994b8dbacc", "ea58ff3d-7f99-45ff-9430-1a655f291e22"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN OlYMP Signature",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "82676c5a-0ee4-4836-9315-fa1466c5f743", "e6512167-9247-4741-9ca5-81029c7cd768"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL qubz",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["57e673eb-9618-4177-b8e1-399a40d189f8", "ad601225-d0b1-4f83-86b0-1091e03afff0"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE TW Trend-Info Menswear",
+      "description": "Speaker: André Bangert- TextilWirtschaft",
+      "date": "2020-07-29",
+      "start": "13:45:00",
+      "end": "14:10:00",
+      "attendees": ["291bec46-58fb-45f5-99f7-397562f9ecea", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "6f2068c2-69c5-4aaa-9862-00bfd1a595a9", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Club of Comfort",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "340233f0-3392-4e34-a789-d4477894fb05", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "93bdbf49-eee8-420f-aa6c-83c8e544c49d", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN A Fish named Fred",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "2d6698e3-1f8e-4a45-8903-b10990a68509", "eb41ab74-8d6b-49b8-80dc-a0e88e42da26"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE/EN Lerros Casual",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["52de144b-fbe0-41f0-97bf-d847c1e972d5", "920f0959-b50d-487a-9136-c952ea5acfb0", "a4f78803-6997-4570-af8a-3f25fd270031", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "ed6a5cd1-9a40-41b6-b567-00985a0e91b5"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "8def475d-bed0-420d-ba82-c3ac6f350d23", "93bdbf49-eee8-420f-aa6c-83c8e544c49d", "ad601225-d0b1-4f83-86b0-1091e03afff0", "b583d0de-6b65-4736-b70c-41f22dab7169", "f42db7af-97ca-4538-8665-a31d0f10f7e2", "fa1f4d4d-01d7-4c60-b7a3-2bed952f2157", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Google - The Human Truth of Fashion",
+      "description": "Speaker: Eva Lukai (Industry Manager - Retail) &amp; Hannes Rahlenbeck (Industry Manager - Retail) - Google Germany GmbH",
+      "date": "2020-07-29",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN State of Art",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["d967a22f-be98-46df-a576-c0994b8dbacc"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["23a0e526-8575-428f-9c94-dbe13c267fc0", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "ce41e758-8e27-4624-b11f-2211fea08299", "f42db7af-97ca-4538-8665-a31d0f10f7e2"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL No Excess",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "57e673eb-9618-4177-b8e1-399a40d189f8", "59f27993-84b8-4922-979b-af94a66702ea", "6a23e6b7-c936-4734-8e47-58e8229dc055", "6fb2d7aa-ada4-4c9e-960f-6547ced18a92", "9e8efbf3-36ea-4166-a324-7b1dac4c6812", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "ad601225-d0b1-4f83-86b0-1091e03afff0", "be0756ef-2171-4641-987d-ce68b36c8775", "c9e3409a-9c50-42a9-98a9-da575be0001c", "f31e083d-6769-4cd3-afb0-5096d0710c34"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE tepe.Men",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN bugatti",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["00966763-28a4-423f-855d-60709c72ef87", "23a0e526-8575-428f-9c94-dbe13c267fc0", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "694f6f54-8ca9-4987-8c2b-6b3ff6accf5d", "920f0959-b50d-487a-9136-c952ea5acfb0", "93bdbf49-eee8-420f-aa6c-83c8e544c49d", "965d6798-9776-4151-a1c2-705c1a170632", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6", "bc525a9d-c735-4502-88db-2ab8e4a57253", "be829fd1-8506-41ef-a071-dab023d10591", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "eb41ab74-8d6b-49b8-80dc-a0e88e42da26", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE State of Art",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Tom Tailor",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "4674a514-3417-467b-806e-b5cf08d77263", "48170081-1f18-4f37-8686-d3cf110d7fca", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "7f53926a-7880-4553-9391-0502548e5de5", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a4f78803-6997-4570-af8a-3f25fd270031", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "c9f199eb-9b88-4627-bad3-7539d4241c85", "cb017ccb-37ad-497f-9d0b-8b46f8282ef9", "d420453d-c786-4f63-a4a1-c6eaea7d7c3b", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f8d6f979-51ec-4ed9-bbc5-00371ba72652", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Butcher of Blue",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["056074e9-d4f3-4d60-8846-9e640e32207c", "9db85907-c990-4a3a-b60f-ae4631ec9b01", "c9e3409a-9c50-42a9-98a9-da575be0001c", "f31e083d-6769-4cd3-afb0-5096d0710c34", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8", "fe9b3388-e082-40d1-a951-f521797ddcd7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Diversiteit in Fashion: trend of blijvertje?",
+      "description": "Speaker: Janice Deul (Mode Journaliste &amp; Activiste en oprichster van het platform Diversity Rules)",
+      "date": "2020-07-29",
+      "start": "15:00:00",
+      "end": "15:40:00",
+      "attendees": ["442257b4-e78e-4ef6-9490-23352440e165", "568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Marco Manzini",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["57e673eb-9618-4177-b8e1-399a40d189f8", "6a23e6b7-c936-4734-8e47-58e8229dc055", "9b567c00-30aa-4c6c-b91d-f7a9013c1769", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Garcia",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["a4f78803-6997-4570-af8a-3f25fd270031"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Ledûb",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["21a355a6-6667-458b-851b-3e788da76b6f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Carl Gross",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "3441ce63-dd06-4714-ac1e-b105202729e5", "4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "920f0959-b50d-487a-9136-c952ea5acfb0", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Coffee with Fashion Cloud - Die Fashion Cloud Plattform",
+      "description": "<p>Speaker: René Schnellen, Co-Founder Fashion Cloud</p>",
+      "date": "2020-07-29",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "6f2068c2-69c5-4aaa-9862-00bfd1a595a9", "c516dcc2-abe0-45fd-ab25-6b4dd7140897"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE/EN Lerros Casual",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["920f0959-b50d-487a-9136-c952ea5acfb0", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "f0abe0a7-0662-49d6-a972-226c4aadd1d9"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE tepe.Men",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Tom Tailor Denim",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["31f1d805-8a3a-4679-919d-c1782852db12", "4674a514-3417-467b-806e-b5cf08d77263", "48170081-1f18-4f37-8686-d3cf110d7fca", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a4f78803-6997-4570-af8a-3f25fd270031", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "c9f199eb-9b88-4627-bad3-7539d4241c85", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "f8d6f979-51ec-4ed9-bbc5-00371ba72652"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE/EN Fynch-Hatton",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "291bec46-58fb-45f5-99f7-397562f9ecea", "29eb495c-a46d-44de-a11f-846240095f38", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "7f53926a-7880-4553-9391-0502548e5de5", "82676c5a-0ee4-4836-9315-fa1466c5f743", "8def475d-bed0-420d-ba82-c3ac6f350d23", "949f33a7-725c-45bd-b024-c00b19e80f06", "965d6798-9776-4151-a1c2-705c1a170632", "bc525a9d-c735-4502-88db-2ab8e4a57253", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "e6512167-9247-4741-9ca5-81029c7cd768", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "fb081b15-7771-41b5-a3c8-6ddf09d8710c"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE qubz",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Baldessarini",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["3441ce63-dd06-4714-ac1e-b105202729e5", "9f756a9f-7586-4e47-9731-fb54c8dc9fa6"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Coffee with Fashion Cloud - Clara",
+      "description": "Speaker: Fashion Cloud Anouk Bosma (Sales Nederland) en Marie Willems (Sales Belgie)",
+      "date": "2020-07-29",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE bugatti",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["11daac24-1e5a-4e66-b440-02f820abb40f", "48170081-1f18-4f37-8686-d3cf110d7fca", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "80f7a533-cc23-4359-91d9-b2e773dde9f4", "8bd41792-7cda-4cf6-bd67-98b099a74219", "920f0959-b50d-487a-9136-c952ea5acfb0", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "b11bd1db-2158-4425-bb17-06faf21c384b", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "cb017ccb-37ad-497f-9d0b-8b46f8282ef9", "d420453d-c786-4f63-a4a1-c6eaea7d7c3b", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Butcher of Blue",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["9e8efbf3-36ea-4166-a324-7b1dac4c6812", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Real Talk - What to buy // Men",
+      "description": "Speaker: Christian Frei, Reischmann (Einkaufsleitung Herren)\nModeratorin: Christina Berens, Fashion Cloud",
+      "date": "2020-07-29",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "6f2068c2-69c5-4aaa-9862-00bfd1a595a9"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE/EN Lerros Casual",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["52de144b-fbe0-41f0-97bf-d847c1e972d5", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "7175d293-4a6b-417c-a49b-b2fbd51335e9"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["29eb495c-a46d-44de-a11f-846240095f38", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "8def475d-bed0-420d-ba82-c3ac6f350d23", "920f0959-b50d-487a-9136-c952ea5acfb0", "b583d0de-6b65-4736-b70c-41f22dab7169", "e6512167-9247-4741-9ca5-81029c7cd768", "f42db7af-97ca-4538-8665-a31d0f10f7e2"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Alife & Kickin",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["a5ec6301-801c-4829-a81d-6f0eaee154d2", "c516dcc2-abe0-45fd-ab25-6b4dd7140897"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE/EN Fynch-Hatton",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["d5b701e6-a1aa-4c24-b0c9-68c05f707017", "eb41ab74-8d6b-49b8-80dc-a0e88e42da26", "f0abe0a7-0662-49d6-a972-226c4aadd1d9", "fb081b15-7771-41b5-a3c8-6ddf09d8710c", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Carl Gross",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "8def475d-bed0-420d-ba82-c3ac6f350d23", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d6d23a2d-2f25-416b-a96c-f27026b97843", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1", "e6512167-9247-4741-9ca5-81029c7cd768"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE A Fish named Fred",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees":[],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE No Excess",
+      "description": "",
+      "date": "2020-07-29",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "291bec46-58fb-45f5-99f7-397562f9ecea", "29eb495c-a46d-44de-a11f-846240095f38", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "80f7a533-cc23-4359-91d9-b2e773dde9f4", "82676c5a-0ee4-4836-9315-fa1466c5f743", "920f0959-b50d-487a-9136-c952ea5acfb0", "96e808d9-efc3-452d-b3d1-5e3335360983", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "f8d6f979-51ec-4ed9-bbc5-00371ba72652"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Welcome to Digital Fashion Week 2020",
+      "description": "<p>Speaker: Niklas Anspach, Fashion Cloud</p>",
+      "date": "2020-07-30",
+      "start": "09:45:00",
+      "end": "09:55:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Backstage",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["340233f0-3392-4e34-a789-d4477894fb05", "b19f9e95-1d91-4881-a4bf-855fef45fdda", "bc525a9d-c735-4502-88db-2ab8e4a57253"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Roy Robson",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["3441ce63-dd06-4714-ac1e-b105202729e5", "920f0959-b50d-487a-9136-c952ea5acfb0", "a7c16b6b-9f89-4a92-9335-04e6e4647cab"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Stehmann",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "d3546644-3be4-40e7-8107-92b6d46958a5"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Dachmarkenforum - Service, Convenience & Stilsicherheit = produzieren uneingeschränktes Kundenvertrauen",
+      "description": "<p>Speaker: DACHMARKENFORUM - André Berger, Josef Roosen</p>",
+      "date": "2020-07-30",
+      "start": "10:00:00",
+      "end": "11:15:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "bba2aa40-1513-475c-a7a9-1e3a69fb29b5", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Tamaris",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:00:00",
+      "end": "10:20:00",
+      "attendees": ["364a9735-444c-4b71-baed-e94592924bc1", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "48170081-1f18-4f37-8686-d3cf110d7fca", "4baa244c-fc07-431e-b54c-a977d27b45d7", "53f27ec2-f9ef-4412-8c7b-69ccd84afdd4", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "72a26a8a-a7ff-49af-a84c-4217dd5372b4", "8137396a-e21d-4a0b-940c-76788b1f8c26", "89c30dc4-c096-4347-915d-a739c182a0b9", "9014a5b4-5606-4b39-b0ec-008df6935eb9", "992dc2ce-6f15-41de-8a4a-3cddefe1366f", "9abc8a1c-6137-47d4-a4c2-188672af85f4", "9b567c00-30aa-4c6c-b91d-f7a9013c1769", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a4f78803-6997-4570-af8a-3f25fd270031", "a814daa7-6df7-414b-a9e7-cc9d095c4c74", "b64e3f0e-16ae-4fdf-844d-1cc0a2a416d5", "c24e53e3-5881-4ce9-9f70-e6ea4c7e4265", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "c9f199eb-9b88-4627-bad3-7539d4241c85", "e56c44e5-4c85-49e8-ae95-6503cb7adb1c", "ea58ff3d-7f99-45ff-9430-1a655f291e22", "ee2e9ba8-370b-4964-8f43-7d63c0c1356e", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Backstage",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees":[],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "NL Tango Shoes",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["44394bd2-8ffb-472a-a345-78b98702422d", "69a9c88b-31fe-4207-a476-b6281e625c5d", "ce41e758-8e27-4624-b11f-2211fea08299", "e587f794-9263-4e3b-bf76-524d37fb2513"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE bugatti",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["001ea2c5-d174-4e71-b1e9-3716c893da1f", "48170081-1f18-4f37-8686-d3cf110d7fca", "4baa244c-fc07-431e-b54c-a977d27b45d7", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "89c30dc4-c096-4347-915d-a739c182a0b9", "920f0959-b50d-487a-9136-c952ea5acfb0", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL No one else",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:25:00",
+      "end": "10:45:00",
+      "attendees": ["a09abe43-92e5-4ec3-842c-135ca463a6d1", "ad601225-d0b1-4f83-86b0-1091e03afff0", "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15", "ce391ebe-6827-4d67-9d94-1f5671489766"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "NL William Lockie",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["056074e9-d4f3-4d60-8846-9e640e32207c"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["1d2406e9-6bc4-4a67-9eb3-ff53c29587ed", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "57e673eb-9618-4177-b8e1-399a40d189f8", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "920f0959-b50d-487a-9136-c952ea5acfb0", "f42db7af-97ca-4538-8665-a31d0f10f7e2"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Dstrezzed",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "10:50:00",
+      "end": "11:10:00",
+      "attendees": ["1bb9bde9-0811-46b7-8f4d-6879c3300e02", "337518c4-d5b1-40ad-9344-41b2cd3b6d7d", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "6a23e6b7-c936-4734-8e47-58e8229dc055", "96e808d9-efc3-452d-b3d1-5e3335360983", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Tango Shoes",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["6f707ba6-12a4-4ff0-a56c-8de0c5b26534"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN bugatti",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["00966763-28a4-423f-855d-60709c72ef87", "920f0959-b50d-487a-9136-c952ea5acfb0"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Roy Robson",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["1966fd3a-c85d-4b1a-b342-70f51f807e34", "2a160fb7-0b2f-4594-973b-71f935f6c6fc", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "bb8d4630-78ae-4255-927a-2c0c0ea9bcb2"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Fuchs Schmitt",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:15:00",
+      "end": "11:35:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "1dc5eeca-f531-456a-ad8e-9be3d9c3c0cd", "4076b464-7551-4c6e-806c-85150a0677d0", "965d6798-9776-4151-a1c2-705c1a170632", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Royal Lounge Intimates",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees":[],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL William Lockie",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN Joseph Ribkoff",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "11daac24-1e5a-4e66-b440-02f820abb40f", "b19f9e95-1d91-4881-a4bf-855fef45fdda", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Innovation series Vol. 3: Virtual prototyping in the lingerie Industry",
+      "description": "<p>Speaker: Rosa Kramer (Founder HYPERcurve Studio)</p>",
+      "date": "2020-07-30",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE/EN Digel",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "11:40:00",
+      "end": "12:00:00",
+      "attendees": ["4f485129-ac46-4543-85f1-f6419ac4e6a9", "8a40a078-bf7e-4748-b62d-0dbee55bbba1", "920f0959-b50d-487a-9136-c952ea5acfb0", "f42db7af-97ca-4538-8665-a31d0f10f7e2"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE No one else",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["29fe0748-040b-4cd1-8ac4-09c51cd24275", "442257b4-e78e-4ef6-9490-23352440e165", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "a09abe43-92e5-4ec3-842c-135ca463a6d1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Joy Sports",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Hybride Klantinteractie & Sales Activatie",
+      "description": "Speaker: Rosalinde Dijkman (Oprichter Come into Bloom - Brand activatie bureau voor retailers &amp; brands)",
+      "date": "2020-07-30",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "GALLERY FASHION & SHOES",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "5f2a5254-0be2-48eb-a48b-883decf73762", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "e824e617-15f9-4f8c-bf8f-969afc2ab621", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Rösch",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:05:00",
+      "end": "12:25:00",
+      "attendees": ["6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "733f7943-f5f5-4706-841d-4d7ad006c4ff", "9b567c00-30aa-4c6c-b91d-f7a9013c1769"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE gattina",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["733f7943-f5f5-4706-841d-4d7ad006c4ff"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Modekonzept - Orderrunde DOB Frühjahr/Sommer 21: Was kommt? Was geht? Was bleibt?",
+      "description": "<p>Speaker: Ute Maria Gnasso (Modekonzept)</p>",
+      "date": "2020-07-30",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "340233f0-3392-4e34-a789-d4477894fb05", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "9ed3b80c-2123-44d4-86c2-a71f96e12c76", "c516dcc2-abe0-45fd-ab25-6b4dd7140897", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Carl Gross",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "920f0959-b50d-487a-9136-c952ea5acfb0", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "f0abe0a7-0662-49d6-a972-226c4aadd1d9"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE modehaus.de",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "35d3f034-8292-44fa-96b8-a5add70ebc58", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "6b2d6760-0c40-4065-be3b-0b30883bace4", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "7f53926a-7880-4553-9391-0502548e5de5", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "f8c6ae14-502c-4258-96f2-ad7b8161da3f", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE St.Barth",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:30:00",
+      "end": "12:50:00",
+      "attendees": ["06bb38b5-6d01-40bb-951d-361b91ff83f9", "19b84833-d163-4608-8ae9-2455ad042840", "1bb9bde9-0811-46b7-8f4d-6879c3300e02", "6a23e6b7-c936-4734-8e47-58e8229dc055", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "9b567c00-30aa-4c6c-b91d-f7a9013c1769", "a09abe43-92e5-4ec3-842c-135ca463a6d1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Feraud",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["733f7943-f5f5-4706-841d-4d7ad006c4ff", "9b567c00-30aa-4c6c-b91d-f7a9013c1769"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Joy Sports",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["c24e53e3-5881-4ce9-9f70-e6ea4c7e4265"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Club of Comfort",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["4f485129-ac46-4543-85f1-f6419ac4e6a9", "568a4a8b-7c57-4075-b5b7-d371c0b1d191", "920f0959-b50d-487a-9136-c952ea5acfb0", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "Now Communication",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "12:55:00",
+      "end": "13:15:00",
+      "attendees": ["a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Lipsy London",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["aa0c3ea4-3ac9-4910-b828-6867b1d21b61", "c3b29a1c-5425-45ae-8e21-2b8270c3f5c7"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE LAUREN - Ralph Lauren",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["4af3a09f-24e6-4ca2-83ca-ef3f4b239bcf", "694f6f54-8ca9-4987-8c2b-6b3ff6accf5d", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "965d6798-9776-4151-a1c2-705c1a170632", "96e808d9-efc3-452d-b3d1-5e3335360983", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "b96f0a8a-2605-40d3-9329-184990436ef4", "c24e53e3-5881-4ce9-9f70-e6ea4c7e4265", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Fuchs Schmitt",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "340233f0-3392-4e34-a789-d4477894fb05", "4076b464-7551-4c6e-806c-85150a0677d0", "9a8c84ca-98d0-4a19-9fe5-cfcc79dad191", "9cf7031f-b57d-448b-945a-4d44d937e41e", "9fe2edc7-3ae6-4b25-8e67-eadfcaf19e69", "d85b6968-3ca5-47ff-99a8-f32f3060a8cd", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Rossmann - Society trends 2021",
+      "description": "<p>Speaker: Stephan Markus - Rossmann</p>",
+      "date": "2020-07-30",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE comma ci",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "13:45:00",
+      "end": "14:05:00",
+      "attendees": ["1f9d3d99-6e98-46c7-bed5-1c7d573c4ed9", "59f27993-84b8-4922-979b-af94a66702ea", "61f1fd6a-02d9-4a30-847b-1d94279a7f41", "694a682d-94c5-4a51-aa18-450d57c81fb9", "7b1231e7-50e5-4543-a3bd-40fefed22e52", "8081f937-ba59-47c9-9f32-881564d5085b", "949f33a7-725c-45bd-b024-c00b19e80f06", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a4f78803-6997-4570-af8a-3f25fd270031", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "d979bd77-548e-4d3f-9150-0a08dbbe465a", "e587f794-9263-4e3b-bf76-524d37fb2513"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Summum",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["2524a477-cd80-4100-9eb0-708154997f29", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "aad8addc-9bdf-41c8-971d-2faa62c67da1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN Tamaris",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["74730d68-77f7-4be3-a340-7b0a949bff86", "a4f78803-6997-4570-af8a-3f25fd270031", "c9f199eb-9b88-4627-bad3-7539d4241c85", "ce41e758-8e27-4624-b11f-2211fea08299"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE StarNight, Bellice Evening, StarNight Plus",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["29fe0748-040b-4cd1-8ac4-09c51cd24275"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Google - The Human Truth of Fashion",
+      "description": "Speaker: Eva Lukai (Industry Manager - Retail) &amp; Hannes Rahlenbeck (Industry Manager - Retail) - Google Germany GmbH",
+      "date": "2020-07-30",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Royal Lounge Intimates",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:10:00",
+      "end": "14:30:00",
+      "attendees": ["a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Vanzetti",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["8137396a-e21d-4a0b-940c-76788b1f8c26"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Backstage",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "NL Inkoop Budgetteren: Inkopen na Corona.",
+      "description": "Speaker: Alm Wiggers (Senior Account Manager bij Euretco)",
+      "date": "2020-07-30",
+      "start": "14:35:00",
+      "end": "15:15:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE St.Barth",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["9b567c00-30aa-4c6c-b91d-f7a9013c1769", "a09abe43-92e5-4ec3-842c-135ca463a6d1"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Marlies Dekkers",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "14:35:00",
+      "end": "14:55:00",
+      "attendees": ["694f6f54-8ca9-4987-8c2b-6b3ff6accf5d"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Dstrezzed",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["056074e9-d4f3-4d60-8846-9e640e32207c", "57e673eb-9618-4177-b8e1-399a40d189f8", "6f68d051-b6ed-4421-9bd1-5f900ee77d86", "9e8efbf3-36ea-4166-a324-7b1dac4c6812"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Local Webshop - Koop zwischen Hutter & Unger, Cloudstock & Fashion Cloud für Händler",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["0e8a60b4-0be3-4375-adf7-a9e186aed632", "29fe0748-040b-4cd1-8ac4-09c51cd24275", "2d2f5211-0b26-4143-ba8e-45c4374fbbe5", "35d3f034-8292-44fa-96b8-a5add70ebc58", "44d4476c-6a1e-496c-9fd1-0519de5f8cf5", "52de144b-fbe0-41f0-97bf-d847c1e972d5", "6b2d6760-0c40-4065-be3b-0b30883bace4", "7641ff08-dee5-4ffc-b2a1-c4914c9c9466", "7f53926a-7880-4553-9391-0502548e5de5", "92f87f5c-9308-4d82-9cd5-32d3d2fcb792", "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d", "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1", "ed6a5cd1-9a40-41b6-b567-00985a0e91b5", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "f510c6ce-b09a-4c08-8dc0-f708e08aba6f", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7", "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Barts",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "a5ec6301-801c-4829-a81d-6f0eaee154d2", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "ff970d72-c2b6-4776-a2c8-a5bda921f350"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE DKNY",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:00:00",
+      "end": "15:20:00",
+      "attendees": ["48170081-1f18-4f37-8686-d3cf110d7fca", "965d6798-9776-4151-a1c2-705c1a170632", "9fd3e223-9ae6-44f4-82df-87ab59f6db27", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a4f78803-6997-4570-af8a-3f25fd270031", "d967a22f-be98-46df-a576-c0994b8dbacc", "e28bd57b-6d7e-4f5d-b795-86dfdfe91922", "f8c6ae14-502c-4258-96f2-ad7b8161da3f"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE Bali-Bali",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "9fd3e223-9ae6-44f4-82df-87ab59f6db27"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Joy Sports",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees":[],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Royal Lounge Intimates",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["b96f0a8a-2605-40d3-9329-184990436ef4"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "DE StarNight, Bellice Evening, StarNight Plus",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:25:00",
+      "end": "15:45:00",
+      "attendees": ["29fe0748-040b-4cd1-8ac4-09c51cd24275", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Lipsy London",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["19b84833-d163-4608-8ae9-2455ad042840", "6a39faa3-38df-40e5-91f4-23a519ba479e", "965d6798-9776-4151-a1c2-705c1a170632"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "EN b.Belt",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees":[],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Summum",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["3584ff69-c0bc-4983-b359-396104fe21d5", "74316202-65a8-455c-aa12-416093f3555d", "b96f0a8a-2605-40d3-9329-184990436ef4", "ce391ebe-6827-4d67-9d94-1f5671489766", "e28bd57b-6d7e-4f5d-b795-86dfdfe91922"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE unitex",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["340233f0-3392-4e34-a789-d4477894fb05", "568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Nina von C",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "15:50:00",
+      "end": "16:10:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "2524a477-cd80-4100-9eb0-708154997f29", "6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "733f7943-f5f5-4706-841d-4d7ad006c4ff", "9b567c00-30aa-4c6c-b91d-f7a9013c1769", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "NL Coffee with Fashion Cloud - OrderWriter",
+      "description": "Speaker: Fashion Cloud Anouk Bosma (Sales Nederland) en Marie Willems (Sales Belgie)",
+      "date": "2020-07-30",
+      "start": "16:14:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "EN IVKO Woman",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "DE Joy Sports",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE Like it",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "733f7943-f5f5-4706-841d-4d7ad006c4ff", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Barts",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:15:00",
+      "end": "16:35:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Vanzetti",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "2c6ee6ae-89b3-40c8-8566-dc9c819f2422", "2d4e0fdb-4af3-43f9-b980-6cfd7033816e", "5f2a5254-0be2-48eb-a48b-883decf73762", "6b2d6760-0c40-4065-be3b-0b30883bace4", "e587f794-9263-4e3b-bf76-524d37fb2513", "f647b334-ce81-44aa-86c0-91e2755e2fe0", "ff6df170-9bb0-4cdf-9690-a0fda6b587d8"],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Coffee with Fashion Cloud - Clara",
+      "description": "Speaker: Niklas Anspach, Fashion Cloud",
+      "date": "2020-07-30",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees":[],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE Stehmann",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "19b84833-d163-4608-8ae9-2455ad042840", "4076b464-7551-4c6e-806c-85150a0677d0", "8081f937-ba59-47c9-9f32-881564d5085b", "9b567c00-30aa-4c6c-b91d-f7a9013c1769", "c7ac32e9-30c1-4e1b-81d6-40672fb8de42", "e824e617-15f9-4f8c-bf8f-969afc2ab621", "f9a77acf-0f19-4089-a679-679ae5430a68"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "EN IVKO Woman",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "16:40:00",
+      "end": "17:00:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191", "aad8addc-9bdf-41c8-971d-2faa62c67da1"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Bali-Bali",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees":[],
+      "track": "Brand Stage 1"
+    },
+    {
+      "name": "DE Backstage",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["6fdbfd1a-b6a8-426f-a8d4-459251cf171b", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "b19f9e95-1d91-4881-a4bf-855fef45fdda"],
+      "track": "Brand Stage 3"
+    },
+    {
+      "name": "EN Joseph Ribkoff",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["0c3ba0e2-4cab-4aed-bdb0-9b9148109126", "1bafad82-87c1-41ca-b1ec-2fcc12403e2c", "4cba9fc4-611f-4b8e-b9c4-1dc9d2de7693", "8081f937-ba59-47c9-9f32-881564d5085b", "c46c2ea1-8d10-4706-8810-51b734d91e2d"],
+      "track": "Brand Stage 2"
+    },
+    {
+      "name": "DE b.Belt",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["134e2ccd-583d-4d63-8898-950621cfd666", "23a0e526-8575-428f-9c94-dbe13c267fc0", "2d4e0fdb-4af3-43f9-b980-6cfd7033816e"],
+      "track": "Brand Stage 4"
+    },
+    {
+      "name": "EN Closing note & Behind the scenes -> Thanks for being part of DFW20",
+      "description": "<p>Fashion Cloud</p>",
+      "date": "2020-07-30",
+      "start": "17:05:00",
+      "end": "17:25:00",
+      "attendees": ["568a4a8b-7c57-4075-b5b7-d371c0b1d191"],
+      "track": "Main Stage"
+    },
+    {
+      "name": "DE comma",
+      "description": "",
+      "date": "2020-07-30",
+      "start": "22:50:00",
+      "end": "23:10:00",
+      "attendees": ["05419ef9-1f87-427e-8cbd-a3bff2760ee6", "10e7e332-5b16-4a3a-ae97-1a3b0034c1ba", "11daac24-1e5a-4e66-b440-02f820abb40f", "19b84833-d163-4608-8ae9-2455ad042840", "1dc5eeca-f531-456a-ad8e-9be3d9c3c0cd", "23a0e526-8575-428f-9c94-dbe13c267fc0", "2ea2624a-bbc1-4a48-b8b6-6fe66e74b98a", "4076b464-7551-4c6e-806c-85150a0677d0", "4d24a20b-41e7-46d7-b159-705327902543", "4f485129-ac46-4543-85f1-f6419ac4e6a9", "59f27993-84b8-4922-979b-af94a66702ea", "694a682d-94c5-4a51-aa18-450d57c81fb9", "6ba0a2b5-ff00-4a00-9d81-3090c20f19e1", "949f33a7-725c-45bd-b024-c00b19e80f06", "9cf7031f-b57d-448b-945a-4d44d937e41e", "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf", "a4f78803-6997-4570-af8a-3f25fd270031", "aad8addc-9bdf-41c8-971d-2faa62c67da1", "c24e53e3-5881-4ce9-9f70-e6ea4c7e4265", "d85b6968-3ca5-47ff-99a8-f32f3060a8cd", "d979bd77-548e-4d3f-9150-0a08dbbe465a", "e587f794-9263-4e3b-bf76-524d37fb2513", "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a", "f647b334-ce81-44aa-86c0-91e2755e2fe0"],
+      "track": "Brand Stage 2"
+    }
+  ]
