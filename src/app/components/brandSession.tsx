@@ -17,7 +17,7 @@ function BrandSession(props) {
     } else {
         videoId = ''
     }
-    const videoUrl = `https://vimeo.com/event/${videoId}/embed/`
+    const videoUrl = `https://player.vimeo.com/video/${videoId}`
     const chatUrl = `https://vimeo.com/event/${videoId}/chat/`
 
     return (
