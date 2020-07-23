@@ -1,15 +1,15 @@
-import * as React from 'react'
-import { useHistory } from 'react-router-dom'
-import { EventContext } from './EventContext'
-import CloseIcon from '../../../assets/Close.svg'
-import './Modal.css'
-import { formatDate } from './helpers'
+import * as React from 'react';
+import { useHistory } from "react-router-dom";
+import { ModalContext } from '../context';
+import './Modal.css';
+import CloseIcon from '../../../../assets/Close.svg'
+import { formatDate } from '../helpers'
+
 
 export function Modal() {
-    const { isModalOpen, handleCloseModal, selectedEventData } = React.useContext(EventContext)
-    const { name, start, end, date, description, videoId = '440938284' } = selectedEventData as any
-    const history = useHistory()
-
+    const { isModalOpen, handleCloseModal, selectedEventData } = React.useContext(ModalContext);
+    const { name, start, end, date, description, videoId = '440938284' } = selectedEventData as any;
+    const history = useHistory();
     const handleClickToAction = () => {
         history.push(`/brandsession?videoId=${videoId}`)
     }

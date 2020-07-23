@@ -1,13 +1,13 @@
 import * as React from 'react'
 import './Agenda.css'
-import { EventContext } from './EventContext'
+import { EventContext, ModalContext } from './context'
 import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers'
 import { range } from 'lodash'
 import { Filters } from './Filters'
 import { Modal } from './Modal'
 
 function Event({ event, index, cellHeight, cellEvents, isAttending }) {
-    const { handleOpenModal } = React.useContext(EventContext)
+    const { handleOpenModal } = React.useContext(ModalContext)
     const topOffset = getTopOffset(cellEvents, index, cellHeight)
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset)
     const eventDurationMs = getEventDuration(event.start, event.end)

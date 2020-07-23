@@ -4,7 +4,7 @@ import { BrandSearch } from './components/FilterView'
 import { BrandSession } from './components/brandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Agenda from './components/agenda'
-import { EventProvider } from './components/agenda/EventContext'
+import { ModalProvider, EventProvider } from './components/agenda/context'
 
 declare let module: any
 
@@ -16,7 +16,9 @@ ReactDOM.render(
             <Route path='/brandsearch'><BrandSearch /></Route>
             <Route path='/agenda'>
                 <EventProvider>
-                    <Agenda />
+                    <ModalProvider>
+                        <Agenda />
+                    </ModalProvider>
                 </EventProvider>
             </Route>
             <Route component={BrandSearch} />
