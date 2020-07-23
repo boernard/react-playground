@@ -1,7 +1,6 @@
 .layout {
     display: flex;
     width: 100%;
-
 }
 
 .row {
@@ -17,15 +16,21 @@
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
-    max-width: 300px;
+    width: 250px;
+}
+
+.column.time {
+    width: 50px;
+    font-weight: 600;
 }
 
 .cell {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    height: 300px;
+    border-bottom: 1px solid #c4c4c4;
+    height: 200px;
     width: 100%;
+    padding: 0 5px;
 }
 
 .cell p {
@@ -35,7 +40,32 @@
 .event {
     position: relative;
     min-height: 15px;
+    font-size: 12px;
     padding: 4px;
-    background-color: salmon;
-    border: 1px solid black;
+    color: #181818;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+}
+
+.event {
+    border-color: #7f9fb0;
+    background-color: #cde5f1;
+    border-right: 5px solid #7f9fb0;
+}
+
+.event-time {
+    font-size: 11px;
+}
+
+.unselected {
+    opacity: 50;
+}
+
+.event-title {
+    font-weight: 400;
+}
+
+.column.main_stage .event {
+    background-color: #eeb1aa;
+    border-color: #a16a64;
 }
