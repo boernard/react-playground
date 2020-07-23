@@ -1,14 +1,17 @@
 import * as React from 'react'
 import './Agenda.css'
 import { EventContext } from './EventContext'
-import { dates, getEarliestEventHour, getLatestEventHour, normalizeEventsByHour } from './helpers';
+import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers';
 import { range } from 'lodash'
 
 function Event({ event, index, cellHeight, cellEvents }){
-    const topOffset = cellEvents.slice(0, index).reduce((acc, val) => acc + val.offsetHeight, 0);
+    const topOffset = getTopOffset(cellEvents, index);
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset);
+    const eventDurationMs = getEventDuration(event.start, event.end);
+    const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
+    const style = { top: `${top}px`, height: `${height}px` };
     return (
-        <div key={event.start} style={{ position: 'relative', minHeight: '15px', padding: '4px', backgroundColor: 'salmon', top: `${top}px`}}>
+        <div className='event' key={event.start} style={style}>
             <p>{`${event.start} - ${event.end}`}</p>
             <p>{ event.name }</p>
         </div>
@@ -70,16 +73,9 @@ function Column({ width, stage, stageEvents }: any) {
     return(
         <div className="column" style={style}>
             <HeaderCell name={stage} />
-
             {hours.map(hour => (
                 <Cell key={hour} events={eventsByHour[hour]} hour={hour} />
-                // <Cell key={hour}>
-                //     {(eventsByHour[hour] || []).map((event, index) => (
-                //         <Event key={event.start} event={event} index={index}/>
-                //     ))}
-                // </Cell>
             ))}
-            
         </div>
     );
 }
@@ -87,7 +83,6 @@ function Column({ width, stage, stageEvents }: any) {
 export function Agenda() {
     const { eventData, loading, error } = React.useContext(EventContext);
     const stages = Object.keys(eventData) || [];
-    console.log(eventData)
     if(loading) (<div>Loading ...</div>);
     if(error) (<div>There was an error</div>)
     return (

@@ -31,3 +31,11 @@
 .cell p {
     margin: 0;
 }
+
+.event {
+    position: relative;
+    min-height: 15px;
+    padding: 4px;
+    background-color: salmon;
+    border: 1px solid black;
+}

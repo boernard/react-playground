@@ -6,6 +6,20 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
+export function getTopOffset(events, index) {
+    return events
+        .slice(0, index)
+        .reduce((acc, val) => acc + val.offsetHeight, 0);
+}
+
+export function getEventDuration(startTime, endTime) {
+    const [startHour, startMinute] = startTime.split(':');
+    const [endHour, endMinute] = endTime.split(':');
+    const startDateMs = new Date(2020, 0, 1, endHour, endMinute).getTime();
+    const endDateMs = new Date(2020, 0, 1, startHour, startMinute).getTime();
+    return startDateMs - endDateMs;
+}
+
 export function normalizeEventsByHour(events) {
     return groupBy(events, (event) => event.start.split(':')[0])
 }
