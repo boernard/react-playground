@@ -6,7 +6,7 @@ import { range } from 'lodash'
 import { Filters } from './Filters';
 
 function Event({ event, index, cellHeight, cellEvents }){
-    const topOffset = getTopOffset(cellEvents, index);
+    const topOffset = getTopOffset(cellEvents, index, cellHeight);
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset);
     const eventDurationMs = getEventDuration(event.start, event.end);
     const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
@@ -23,11 +23,9 @@ function Cell({ events = [], hour }) {
     const { languageFilter } = React.useContext(EventContext);
     const cellRef = React.useRef(null);
     const [cellHeight, setCellHeight] = React.useState(0);
-    const [cellEvents, setCellEvents] = React.useState([]);
     React.useEffect(() => {
         if (cellRef.current) {
             setCellHeight(cellRef.current.offsetHeight)
-            setCellEvents(Array.from<HTMLElement>(cellRef.current.children))
         }
     }, [cellRef]);
     const filteredEvents = languageFilter 
@@ -41,7 +39,7 @@ function Cell({ events = [], hour }) {
                     event={event}
                     index={index}
                     cellHeight={cellHeight}
-                    cellEvents={cellEvents}
+                    cellEvents={events}
                 />
             ))}
         </div>

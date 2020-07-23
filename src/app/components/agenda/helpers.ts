@@ -20,10 +20,14 @@ export function getHourRange(eventsRaw, date) {
     return [earliestEvent, latestEvent];
 }
 
-export function getTopOffset(events, index) {
+export function getTopOffset(events, index, cellHeight) {
     return events
         .slice(0, index)
-        .reduce((acc, val) => acc + val.offsetHeight, 0);
+        .reduce((acc, val) => {
+            const eventDuration = Number(getEventDuration(val.start, val.end) / 1000 / 60);
+            const height = Math.round((cellHeight / 60) * eventDuration)
+            return acc + height
+        }, 0);
 }
 
 export function getEventDuration(startTime, endTime) {
