@@ -5,17 +5,16 @@ import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers
 import { range } from 'lodash'
 import { Filters } from './Filters'
 
-function Event({ event, index, cellHeight, cellEvents }) {
+function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const topOffset = getTopOffset(cellEvents, index, cellHeight)
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset)
     const eventDurationMs = getEventDuration(event.start, event.end)
     const start = event.start.replace(/(\d{2}:\d{2}).*/, '$1')
     const end = event.end.replace(/(\d{2}:\d{2}).*/, '$1')
-    const zIndex = start.replace(':', '')
     const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
     const style = { top: `${top}px`, height: `${height}px` }
     return (
-        <div className='event' key={event.start} style={style}>
+        <div className={`event ${isAttending ? 'attendingEvent' : ''}`} key={event.start} style={style}>
             <p className='event-time'>{`${start} - ${end}`}</p>
             <p className='event-title'>{event.name}</p>
         </div>
@@ -23,7 +22,7 @@ function Event({ event, index, cellHeight, cellEvents }) {
 }
 
 function Cell({ events = [], hour }) {
-    const { languageFilter } = React.useContext(EventContext)
+    const { languageFilter, userId } = React.useContext(EventContext)
     const cellRef = React.useRef(null)
     const [cellHeight, setCellHeight] = React.useState(0)
     React.useEffect(() => {
@@ -43,6 +42,7 @@ function Cell({ events = [], hour }) {
                     index={index}
                     cellHeight={cellHeight}
                     cellEvents={events}
+                    isAttending={event.attendees.includes(userId)}
                 />
             ))}
         </div>

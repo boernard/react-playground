@@ -1,6 +1,8 @@
 import * as React from 'react';
+import { useLocation } from 'react-router-dom';
+import * as qs from 'query-string';
 import { dates, normalizeEventData, getHourRange, getDefaultDate } from './helpers';
-const sample = require('./sample.json');
+const events = require('./sample.json');
 
 const EventContext = React.createContext({
     loading: true,
@@ -10,7 +12,8 @@ const EventContext = React.createContext({
     languageFilter: null,
     hourRange: [9,19],
     handleDateChange: (date) => {},
-    handleLanguageFilterChange: (lang) => null
+    handleLanguageFilterChange: (lang) => null,
+    userId: ''
 });
  
 const EventProvider = (props) => {
@@ -21,16 +24,18 @@ const EventProvider = (props) => {
     const [error, setError] = React.useState(false);
     const [hourRange, setHourRange] = React.useState([10, 22]);
 
+    const location = useLocation();
+    const params = qs.parse(location.search);
+
     // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
 
     const fetchEventData = async () => {
         try {
         //   const eventData = await fetch(url)
         //   const { events } = await eventData.json()
-          setHourRange(getHourRange(sample, date));
-          setEventData(normalizeEventData(sample, date))
+          setHourRange(getHourRange(events, date));
+          setEventData(normalizeEventData(events, date))
           setLoading(false)
-        //   console.log(events)
         } catch (e) {
           if (e) {
             setError(true);
@@ -40,7 +45,7 @@ const EventProvider = (props) => {
 
     const handleDateChange = (dateValue) => {
       setDate(dateValue);
-      setEventData(normalizeEventData(sample, dateValue));
+      setEventData(normalizeEventData(events, dateValue));
     }
 
     const handleLanguageFilterChange = (langValue) => {
@@ -59,7 +64,8 @@ const EventProvider = (props) => {
           languageFilter,
           hourRange,
           handleDateChange,
-          handleLanguageFilterChange
+          handleLanguageFilterChange,
+          userId: params.ext_id as string || ''
         }}>
             {props.children}
         </EventContext.Provider>
