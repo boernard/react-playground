@@ -13,12 +13,18 @@ const EventContext = React.createContext({
     hourRange: [9,19],
     handleDateChange: (date) => {},
     handleLanguageFilterChange: (lang) => null,
-    userId: ''
+    userId: '',
+    handleOpenModal: (event) => null,
+    handleCloseModal: (event) => null,
+    isModalOpen: false,
+    selectedEventData: {}
 });
  
 const EventProvider = (props) => {
     const [eventData, setEventData] = React.useState([]);
     const [date, setDate] = React.useState(dates.tuesday);
+    const [isModalOpen, setIsModalOpen] = React.useState(false);
+    const [selectedEventData, setSelectedEventData] = React.useState({});
     const [languageFilter, setLanguageFilter] = React.useState('');
     const [loading, setLoading] = React.useState(true);
     const [error, setError] = React.useState(false);
@@ -52,6 +58,16 @@ const EventProvider = (props) => {
       setLanguageFilter(langValue);
     }
 
+    const handleOpenModal = (event) => {
+      setIsModalOpen(true);
+      setSelectedEventData(event);
+    }
+
+    const handleCloseModal = () => {
+      setIsModalOpen(false);
+      setSelectedEventData({});
+    }
+
     React.useEffect(() => {
         fetchEventData();
     }, [])
@@ -65,7 +81,11 @@ const EventProvider = (props) => {
           hourRange,
           handleDateChange,
           handleLanguageFilterChange,
-          userId: params.ext_id as string || ''
+          userId: params.ext_id as string || '',
+          handleOpenModal,
+          handleCloseModal,
+          isModalOpen,
+          selectedEventData
         }}>
             {props.children}
         </EventContext.Provider>

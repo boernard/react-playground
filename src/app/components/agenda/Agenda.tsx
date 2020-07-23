@@ -4,8 +4,10 @@ import { EventContext } from './EventContext'
 import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers'
 import { range } from 'lodash'
 import { Filters } from './Filters'
+import { Modal } from './Modal'
 
 function Event({ event, index, cellHeight, cellEvents, isAttending }) {
+    const { handleOpenModal } = React.useContext(EventContext)
     const topOffset = getTopOffset(cellEvents, index, cellHeight)
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset)
     const eventDurationMs = getEventDuration(event.start, event.end)
@@ -13,8 +15,16 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const end = event.end.replace(/(\d{2}:\d{2}).*/, '$1')
     const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
     const style = { top: `${top}px`, height: `${height}px` }
+    const handleOnClick = (clickEvent) => {
+        handleOpenModal(event)
+    }
     return (
-        <div className={`event ${isAttending ? 'attendingEvent' : ''}`} key={event.start} style={style}>
+        <div
+            className={`event ${isAttending ? 'attendingEvent' : ''}`}
+            key={event.start}
+            style={style}
+            onClick={handleOnClick}
+        >
             <p className='event-time'>{`${start} - ${end}`}</p>
             <p className='event-title'>{event.name}</p>
         </div>
@@ -97,6 +107,7 @@ export function Agenda() {
     if (error) <div>There was an error</div>
     return (
         <>
+            <Modal />
             <Filters />
             <div className='layout'>
                 <TimeColumn />
