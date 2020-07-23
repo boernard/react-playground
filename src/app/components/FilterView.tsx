@@ -12,7 +12,7 @@ import {
 import CloseIcon from '../../assets/Close.svg'
 import { CategoryFilter } from './categoryFilter'
 
-const logoPath = './assets/logos'
+const logoPath = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/brand-logos'
 
 interface ISearchBrandItem extends IBrandItem {
     searchField: string
