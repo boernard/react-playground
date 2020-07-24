@@ -1,9 +1,14 @@
-import { groupBy } from 'lodash'
+import { groupBy, flatMap } from 'lodash'
 
 export const dates = {
     tuesday: '2020-07-28',
     wednesday: '2020-07-29',
     thursday: '2020-07-30'
+}
+
+export function isUserRetailer(userId, events) {
+    const retailerIds = flatMap(events, (event) => event.attendees);
+    return retailerIds.includes(userId)
 }
 
 export function getDefaultDate() {

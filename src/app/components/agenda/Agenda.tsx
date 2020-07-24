@@ -15,7 +15,7 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const end = event.end.replace(/(\d{2}:\d{2}).*/, '$1')
     const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
     const style = { top: `${top}px`, height: `${height}px` }
-    const handleOnClick = (clickEvent) => {
+    const handleOnClick = () => {
         handleOpenModal(event)
     }
     return (
@@ -31,7 +31,7 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     )
 }
 
-function Cell({ events = [], hour }) {
+function Cell({ events = [] }) {
     const { languageFilter, userId } = React.useContext(EventContext)
     const cellRef = React.useRef(null)
     const [cellHeight, setCellHeight] = React.useState(0)
@@ -94,15 +94,15 @@ function Column({ width, stage, stageEvents }: any) {
             {hours.map((hour) => {
                 const normalizedHour = hour.toString().length === 1 ? `0${hour}` : `${hour}`
                 const events = eventsByHour[normalizedHour]
-                return <Cell key={hour} events={events} hour={hour} />
+                return <Cell key={hour} events={events} />
             })}
         </div>
     )
 }
 
 export function Agenda() {
-    const { eventData, loading, error } = React.useContext(EventContext)
-    const stages = Object.keys(eventData) || []
+    const { eventData, loading, error, isRetailer } = React.useContext(EventContext)
+    const stages = (isRetailer ? Object.keys(eventData) : ['Main Stage']) || []
     if (loading) <div>Loading ...</div>
     if (error) <div>There was an error</div>
     return (

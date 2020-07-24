@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useLocation } from 'react-router-dom';
 import * as qs from 'query-string';
-import { dates, normalizeEventData, getHourRange, getDefaultDate } from '../helpers';
+import { dates, normalizeEventData, getHourRange, getDefaultDate, isUserRetailer } from '../helpers';
 const events = require('../sample.json');
 
 export const EventContext = React.createContext({
@@ -14,6 +14,7 @@ export const EventContext = React.createContext({
     handleDateChange: (date) => {},
     handleLanguageFilterChange: (lang) => null,
     userId: '',
+    isRetailer: false
 });
  
 export function EventProvider(props) {
@@ -26,7 +27,8 @@ export function EventProvider(props) {
     const [hourRange, setHourRange] = React.useState([10, 22]);
 
     const location = useLocation();
-    const params = qs.parse(location.search);
+    const userId = qs.parse(location.search).ext_id as string || '';
+    const isRetailer = React.useMemo(() => isUserRetailer(userId, events), [userId, events])
 
     // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
 
@@ -66,7 +68,8 @@ export function EventProvider(props) {
           hourRange,
           handleDateChange,
           handleLanguageFilterChange,
-          userId: params.ext_id as string || '',
+          userId,
+          isRetailer
         }}>
             {props.children}
         </EventContext.Provider>
