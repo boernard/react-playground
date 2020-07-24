@@ -1,6 +1,7 @@
-import * as React from 'react';
-import { dates, formatDate } from '../helpers';
-import { EventContext } from '../context';
+import * as React from 'react'
+import { dates, formatDate } from '../helpers'
+import { EventContext } from '../context'
+import './Filters.css'
 
 function DateFilter() {
     const { date, handleDateChange } = React.useContext(EventContext)

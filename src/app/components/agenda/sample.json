@@ -6,7 +6,10 @@
   "start": "09:45:00",
   "end": "09:55:00",
   "attendees": [],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE TW Trend-Info Womenswear",
@@ -100,7 +103,10 @@
    "ff73ee40-e863-41a0-be6e-a774683fea7c",
    "ffba8f0f-03fa-4ae7-809e-144ecac977df"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Kyra & Ko",
@@ -129,7 +135,10 @@
    "e28bd57b-6d7e-4f5d-b795-86dfdfe91922",
    "f4327ae6-4393-4101-8de5-399598769e13"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Tom Tailor Denim",
@@ -169,7 +178,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Part Two",
@@ -190,7 +202,10 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "faca01d3-8906-4fc3-945a-b369446d2000"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Circle of Trust",
@@ -217,7 +232,10 @@
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8",
    "fd9dc754-a275-4b11-9eb2-b8b4a4f07e39"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Betty Barclay",
@@ -288,7 +306,10 @@
    "f599b336-c370-4ab1-96d0-0714b8196cb4",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Tramontana",
@@ -312,7 +333,10 @@
    "d979bd77-548e-4d3f-9150-0a08dbbe465a",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Freebird",
@@ -329,7 +353,10 @@
    "eb34ec78-76ab-4966-83b0-f4654517b1c5",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Kyra & Ko",
@@ -348,7 +375,10 @@
    "e28bd57b-6d7e-4f5d-b795-86dfdfe91922",
    "fd9dc754-a275-4b11-9eb2-b8b4a4f07e39"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Raffaello Rossi",
@@ -382,7 +412,10 @@
    "e587f794-9263-4e3b-bf76-524d37fb2513",
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Kyra & Ko",
@@ -401,7 +434,10 @@
    "dfe15e3c-73c4-4479-b149-ff81d1153268",
    "f9a77acf-0f19-4089-a679-679ae5430a68"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Trendpresentatie Herenmode Zomer 2021 - Hosted by Euretco Fashion",
@@ -427,7 +463,10 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE More & More",
@@ -497,7 +536,10 @@
    "fa53320a-45cb-46d4-8071-ff59ea9fcce0",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Lanius",
@@ -529,7 +571,10 @@
    "f6332c4b-b5ba-4112-a6d6-9a7256dd13d1",
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -550,7 +595,10 @@
    "dfe15e3c-73c4-4479-b149-ff81d1153268",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tom Tailor Denim",
@@ -624,7 +672,10 @@
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f",
    "ffba8f0f-03fa-4ae7-809e-144ecac977df"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Kyra & Ko",
@@ -640,7 +691,10 @@
    "eb8bcbf0-448a-4a9d-b7c8-3188c749b9c4",
    "edd12f05-a98e-4920-95b6-b439a06da792"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE SAMOON",
@@ -670,7 +724,10 @@
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2",
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Betty & Co",
@@ -713,7 +770,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "eff2938f-0d1e-472f-af30-7c65e2cd9920"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Story of Mine",
@@ -731,7 +791,11 @@
    "f28998c5-27d7-42d4-bfeb-2a2743c02897",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "EN IVKO Women",
@@ -751,7 +815,10 @@
    "c4ddbe6e-6d13-461a-9890-31b58b98b530",
    "e824e617-15f9-4f8c-bf8f-969afc2ab621"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE EK/servicegroup (Partner Session)",
@@ -775,7 +842,10 @@
    "da89a207-b448-446d-a4e4-395d936e174e",
    "e30f925b-958e-4e00-b15e-6d00f3dada47"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Part Two",
@@ -794,7 +864,10 @@
    "c9e6d5a7-f711-4b34-a59e-f293a7d32e63",
    "f4327ae6-4393-4101-8de5-399598769e13"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE BLVRD (Sponsor Session)",
@@ -805,7 +878,10 @@
   "attendees": [
    ""
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Lanius",
@@ -823,7 +899,10 @@
    "e28bd57b-6d7e-4f5d-b795-86dfdfe91922",
    "fa53320a-45cb-46d4-8071-ff59ea9fcce0"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Royal lounge intimates",
@@ -838,7 +917,10 @@
    "a0e196a7-6d8a-485a-a1d9-4bcacf78f5ab",
    "b0a82958-66e1-4b16-9f07-a899b9ec617c"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Sportalm - ulli_ehrlich",
@@ -885,7 +967,10 @@
    "f4a74e05-1cf6-4cb6-8026-2eb7fde3104a",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Garcia",
@@ -906,7 +991,10 @@
    "e587f794-9263-4e3b-bf76-524d37fb2513",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Goosecraft",
@@ -925,7 +1013,10 @@
    "e6b334de-0d0e-4fd8-9e85-175fcb172cb9",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "CALAMAR",
@@ -938,7 +1029,8 @@
    "b6802571-afe8-4b46-ac33-23897a239a55",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": []
  },
  {
   "name": "DE Alife & Kickin",
@@ -955,7 +1047,10 @@
    "d5b86ad6-93b3-4004-bbbd-132cebaf9069",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Heyconnect (Sponsor Session) - In sechs Wochen online auf den Fashion-Marktplätzen Europas",
@@ -970,7 +1065,10 @@
    "a6654217-3942-43ff-b465-6c66f1691547",
    "f626a7fb-ba6a-4907-be47-ccb49e064e49"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Simple",
@@ -993,7 +1091,10 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Autoretouch (Sponsor Session) - Automated image processing for Fashion products with autoRetouch",
@@ -1013,7 +1114,10 @@
    "e88512c2-2ae5-4fb4-bc4d-0cc27142691c",
    "f7646e75-cae3-4df4-856b-49743553e315"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN NÜ",
@@ -1034,7 +1138,10 @@
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE GERRY WEBER Edition Trousers",
@@ -1070,7 +1177,10 @@
    "da89a207-b448-446d-a4e4-395d936e174e",
    "e2164810-c44b-42cb-a43f-efa07f3e01a5"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Wiederbelebt",
@@ -1089,7 +1199,11 @@
    "8f97f242-b133-4a8b-bbf3-01bff0366d7b",
    "92f87f5c-9308-4d82-9cd5-32d3d2fcb792"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE GANG",
@@ -1123,7 +1237,10 @@
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718",
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE GERRY WEBER Casual",
@@ -1170,7 +1287,10 @@
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Freebird",
@@ -1188,7 +1308,10 @@
    "74316202-65a8-455c-aa12-416093f3555d",
    "aa400daa-91b9-4712-a799-bb3c4f805dff"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Highlights Trendpresentatie Damesmode Zomer 2021 - Hosted by Euretco Fashion",
@@ -1218,7 +1341,10 @@
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf",
    "fb54440a-3309-40ee-a79c-bf249e82434b"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Soaked in Luxury",
@@ -1245,7 +1371,10 @@
    "e6b334de-0d0e-4fd8-9e85-175fcb172cb9",
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -1259,7 +1388,10 @@
    "7b26dac8-98f2-47b5-9a2c-ac6ec05c85a4",
    "e4734a5e-6eea-4980-924a-901175b3f4cc"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Garcia",
@@ -1274,7 +1406,10 @@
    "a0a91cbb-e1e9-4bc7-befa-d32c7ee68d83",
    "a4f78803-6997-4570-af8a-3f25fd270031"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Cinque",
@@ -1356,7 +1491,10 @@
    "ff73ee40-e863-41a0-be6e-a774683fea7c",
    "ffba8f0f-03fa-4ae7-809e-144ecac977df"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Sportalm - ulli_ehrlich",
@@ -1383,7 +1521,10 @@
    "e0ee0fc9-f1cd-4b8d-acc7-2b9b7a8565a1",
    "e9683030-5534-4712-9f29-fccaef828bc8"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Tamaris",
@@ -1424,7 +1565,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Story of Mine",
@@ -1442,7 +1586,11 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "NL Goosecraft",
@@ -1453,7 +1601,10 @@
   "attendees": [
    ""
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE s.Oliver BLW",
@@ -1502,7 +1653,10 @@
    "f647b334-ce81-44aa-86c0-91e2755e2fe0",
    "f9ab7fd6-50d6-43cb-aa77-68f1271ea954"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE GERRY WEBER Edition Outdoor",
@@ -1539,7 +1693,10 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Nachwuchsausbildung in der Textilbranche: Geplante Kooperation zwischen Hochschule Reutlingen und LDT Nagold.",
@@ -1579,7 +1736,10 @@
    "e88512c2-2ae5-4fb4-bc4d-0cc27142691c",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE GANG",
@@ -1600,7 +1760,10 @@
    "e587f794-9263-4e3b-bf76-524d37fb2513",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Tom Tailor",
@@ -1621,7 +1784,10 @@
    "bf3961ec-7e80-4f0f-af49-7014b03a72b3",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Raffaello Rossi",
@@ -1669,7 +1835,11 @@
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7",
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "NL Modefabriek's estafette Interview met leading Fashion Professionals",
@@ -1695,7 +1865,10 @@
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf",
    "fb54440a-3309-40ee-a79c-bf249e82434b"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Betty Barclay",
@@ -1749,7 +1922,10 @@
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE GERRY WEBER Collection",
@@ -1800,7 +1976,10 @@
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tamaris",
@@ -1871,7 +2050,10 @@
    "f647b334-ce81-44aa-86c0-91e2755e2fe0",
    "f70f000e-623a-43be-a91e-3962ca680dca"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Wiederbelebt",
@@ -1888,7 +2070,11 @@
    "92f87f5c-9308-4d82-9cd5-32d3d2fcb792",
    "e273d34a-8d7c-4700-98ac-133a8ab15a9e"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "EN Innovation series Vol. 1: Eco-Responsible Human Centered 3D Solutions",
@@ -1916,7 +2102,10 @@
    "eff2938f-0d1e-472f-af30-7c65e2cd9920",
    "f4cdde00-92ef-4b87-a411-4aab97cc5e45"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Goosecraft",
@@ -1931,7 +2120,10 @@
    "727482b1-46bf-4ab6-99a6-38367dbbf2cf",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Coffee with Fashion Cloud - The Fashion Cloud Platform",
@@ -1946,7 +2138,10 @@
    "bdc5de7b-8ef3-4e0d-8604-6129650fd1ea",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE/EN Raffaello Rossi",
@@ -1975,7 +2170,11 @@
    "ec98596b-b4a6-4301-b79e-4127795044c5",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "NL More & More",
@@ -1996,7 +2195,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "ea58ff3d-7f99-45ff-9430-1a655f291e22"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Betty & Co",
@@ -2021,7 +2223,10 @@
    "d302a520-1533-4f7e-83ad-8fd2776e023c",
    "da89a207-b448-446d-a4e4-395d936e174e"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Soaked in Luxury",
@@ -2036,7 +2241,10 @@
    "c49eb42f-85a1-451d-8b7a-b6f97874253c",
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Circle of Trust",
@@ -2052,7 +2260,10 @@
    "b4f165ed-4af0-457c-97b2-bdf9f354a04a",
    "b5b4237d-bd90-4c63-ab33-6785ff9b4ba5"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Coffee with Fashion Cloud - OrderWriter",
@@ -2080,7 +2291,10 @@
    "f9a77acf-0f19-4089-a679-679ae5430a68",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE GANG",
@@ -2097,7 +2311,10 @@
    "c7eedd94-88f8-4d8b-830e-2a1be61607a4",
    "f647b334-ce81-44aa-86c0-91e2755e2fe0"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Simple",
@@ -2111,7 +2328,10 @@
    "93cc8b8a-e413-4a2a-ae09-2997accc0858",
    "d219f67a-b97d-4cad-883c-f937ea691529"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -2132,7 +2352,10 @@
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2",
    "fb7e0311-540e-4d57-8ef0-a2b05a07395b"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Real Talk - What to buy // Women",
@@ -2151,7 +2374,10 @@
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf",
    "fb54440a-3309-40ee-a79c-bf249e82434b"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN IVKO Women",
@@ -2169,7 +2395,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Tramontana",
@@ -2187,7 +2416,10 @@
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE s.Oliver RLW",
@@ -2229,7 +2461,10 @@
    "f9ab7fd6-50d6-43cb-aa77-68f1271ea954",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tom Tailor",
@@ -2295,7 +2530,10 @@
    "f28998c5-27d7-42d4-bfeb-2a2743c02897",
    "f9a77acf-0f19-4089-a679-679ae5430a68"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL NÜ",
@@ -2312,7 +2550,10 @@
    "ad601225-d0b1-4f83-86b0-1091e03afff0",
    "eb8bcbf0-448a-4a9d-b7c8-3188c749b9c4"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Raffaello Rossi",
@@ -2331,7 +2572,10 @@
    "d89d53b8-d758-45c5-a526-ac13e0d83907",
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Real Talk - What to buy // Women",
@@ -2373,7 +2617,10 @@
    "ff73ee40-e863-41a0-be6e-a774683fea7c",
    "ffba8f0f-03fa-4ae7-809e-144ecac977df"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE TAIFUN",
@@ -2420,7 +2667,10 @@
    "ec98596b-b4a6-4301-b79e-4127795044c5",
    "f4327ae6-4393-4101-8de5-399598769e13"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE unitex Fashion Meeting",
@@ -2469,7 +2719,10 @@
    "f68de054-8614-4fc0-8b7f-f44ae1c9a133",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Welcome to Digital Fashion Week 2020",
@@ -2506,7 +2759,10 @@
    "eee11c64-24be-448d-b3c8-809157f8e05a",
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Panel Discussie 'Duurzaamheid in de Praktijk'",
@@ -2522,7 +2778,10 @@
    "e273d34a-8d7c-4700-98ac-133a8ab15a9e",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Marc O’Polo Casual - Women",
@@ -2601,7 +2860,10 @@
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d",
    "fe9b3388-e082-40d1-a951-f521797ddcd7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Babyface",
@@ -2617,7 +2879,10 @@
    "a448080e-6355-476e-860a-cb1e94c3f30e",
    "b0a03e41-c6a7-4c43-9826-d63663d934f4"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Marco Manzini",
@@ -2637,7 +2902,10 @@
    "f4327ae6-4393-4101-8de5-399598769e13",
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Club of Gents",
@@ -2702,7 +2970,10 @@
    "f0abe0a7-0662-49d6-a972-226c4aadd1d9",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE s.Oliver Junior",
@@ -2736,7 +3007,10 @@
    "f647b334-ce81-44aa-86c0-91e2755e2fe0",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Pierre Cardin",
@@ -2782,7 +3056,10 @@
    "e84b85ee-8095-45b4-98e2-d90bfe4037dc",
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Roy Robson",
@@ -2840,7 +3117,10 @@
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2",
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Marc O’Polo Casual - Women",
@@ -2869,7 +3149,10 @@
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL State of Art",
@@ -2898,7 +3181,10 @@
    "e50b10a7-28a5-48e6-b2ac-3f212bf83597",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Marc O'Polo Casual men",
@@ -2960,7 +3246,10 @@
    "fe9b3388-e082-40d1-a951-f521797ddcd7",
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Babyface",
@@ -2975,7 +3264,10 @@
    "e9683030-5534-4712-9f29-fccaef828bc8",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -2992,7 +3284,10 @@
    "eee11c64-24be-448d-b3c8-809157f8e05a",
    "fb7e0311-540e-4d57-8ef0-a2b05a07395b"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Panel Talk „Sustainability in Fashion - the new normal?“",
@@ -3039,7 +3334,10 @@
    "f7646e75-cae3-4df4-856b-49743553e315",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Marc O'Polo Casual men",
@@ -3054,7 +3352,10 @@
    "ac275e4e-b2ba-4b4d-9e96-5ffdadfd74c7",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Club of Gents",
@@ -3096,7 +3397,10 @@
    "d5b701e6-a1aa-4c24-b0c9-68c05f707017",
    "dcf26213-437a-4415-815c-03ad91850f83"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Garcia",
@@ -3108,7 +3412,10 @@
    "a04a5300-138f-44a1-86ab-3c5aaadf16a4",
    "e9683030-5534-4712-9f29-fccaef828bc8"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL A Fish named Fred",
@@ -3138,7 +3445,10 @@
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Roy Robson",
@@ -3162,7 +3472,10 @@
    "e8c1b2f3-e0cc-4cce-9a66-cfa0547a0f15",
    "f32bde37-a9be-42a4-a205-18d51fea8fe9"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Marc O’Polo Denim - Boys",
@@ -3188,7 +3501,10 @@
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f",
    "f8d6f979-51ec-4ed9-bbc5-00371ba72652"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Baldessarini",
@@ -3213,7 +3529,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Innovation series Vol. 2: Augmented reality and 3D experiences in the Fashion Industry",
@@ -3244,7 +3563,10 @@
    "eff2938f-0d1e-472f-af30-7c65e2cd9920",
    "f4cdde00-92ef-4b87-a411-4aab97cc5e45"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Tom Tailor Denim",
@@ -3260,7 +3582,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "eee11c64-24be-448d-b3c8-809157f8e05a"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "CALAMAR",
@@ -3271,7 +3596,8 @@
   "attendees": [
    ""
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": []
  },
  {
   "name": "DE/EN Digel",
@@ -3325,7 +3651,11 @@
    "f9a77acf-0f19-4089-a679-679ae5430a68",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE Advarics (Sponsor Session) - advarics stellt sich vor",
@@ -3347,7 +3677,10 @@
    "ddd31c32-a0d8-40d6-99c0-b1d1e5be26ec",
    "f6332c4b-b5ba-4112-a6d6-9a7256dd13d1"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Marc O’Polo Denim - Girls",
@@ -3384,7 +3717,10 @@
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Lerros Casual",
@@ -3413,7 +3749,11 @@
    "f063a31e-1117-4c12-9548-279d62286c60",
    "f0abe0a7-0662-49d6-a972-226c4aadd1d9"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE Staccato",
@@ -3429,7 +3769,10 @@
    "66f77aa2-4ee6-47d1-8fa5-5b31763798ba",
    "72cfb4b9-2df2-459e-8845-afa1fa1d65a7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Pierre Cardin",
@@ -3452,7 +3795,10 @@
    "f6332c4b-b5ba-4112-a6d6-9a7256dd13d1",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Hutter & Unger (Sponsor Session) - Marketing nach Corona: Mit Kunden-App und Content-Stream weniger Budget ausgeben, Zeit sparen und mehr Umsatz am POS machen.",
@@ -3480,7 +3826,10 @@
    "c7eedd94-88f8-4d8b-830e-2a1be61607a4",
    "f7646e75-cae3-4df4-856b-49743553e315"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Ledûb",
@@ -3500,7 +3849,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Club of Gents",
@@ -3519,7 +3871,10 @@
    "c710d686-f6cc-4803-8f5d-78f9bb3816a4",
    "e6512167-9247-4741-9ca5-81029c7cd768"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE s.Oliver RLM",
@@ -3555,7 +3910,10 @@
    "f28998c5-27d7-42d4-bfeb-2a2743c02897",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN OLYMP Signature",
@@ -3584,7 +3942,10 @@
    "af619f6a-85f4-47ce-8837-36c06dc7783d",
    "b4f165ed-4af0-457c-97b2-bdf9f354a04a"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -3624,7 +3985,11 @@
    "ec0ec378-af27-467a-ac25-6b79fe8d5a46",
    "f42db7af-97ca-4538-8665-a31d0f10f7e2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE A Fish named Fred",
@@ -3655,7 +4020,10 @@
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Akeneo (Sponsor Session) - Unlocking Growth Through Fashion Experiences",
@@ -3669,7 +4037,10 @@
    "60b7ff65-1c82-4930-9ee8-5854a031ac44",
    "7b5fc7d6-5e36-4237-80a6-04b0c59728be"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Tom Tailor",
@@ -3691,7 +4062,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "eee11c64-24be-448d-b3c8-809157f8e05a"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE OLYMP Signature",
@@ -3711,7 +4085,10 @@
    "de04f646-67cc-4727-976d-faa7ec0483f0",
    "e6512167-9247-4741-9ca5-81029c7cd768"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL qubz",
@@ -3724,7 +4101,10 @@
    "57e673eb-9618-4177-b8e1-399a40d189f8",
    "ad601225-d0b1-4f83-86b0-1091e03afff0"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE TW Trend-Info Menswear",
@@ -3785,7 +4165,10 @@
    "f9a77acf-0f19-4089-a679-679ae5430a68",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Club of Comfort",
@@ -3819,7 +4202,10 @@
    "e037245d-7bd5-4e07-b89c-94e572810823",
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Goosecraft",
@@ -3830,7 +4216,10 @@
   "attendees": [
    ""
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN A Fish named Fred",
@@ -3845,7 +4234,10 @@
    "acae9ec8-397c-4523-9648-d7a9b148f73b",
    "eb41ab74-8d6b-49b8-80dc-a0e88e42da26"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Lerros Casual",
@@ -3864,7 +4256,11 @@
    "ed6a5cd1-9a40-41b6-b567-00985a0e91b5",
    "ed9e47ab-74c3-4695-8fea-14b2b53622cb"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -3897,7 +4293,11 @@
    "fa1f4d4d-01d7-4c60-b7a3-2bed952f2157",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "EN Google - The Human Truth of Fashion",
@@ -3934,7 +4334,10 @@
    "f3b16abf-6aca-4a42-ac6a-e33b962914f8",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Blue Fields",
@@ -3948,7 +4351,10 @@
    "d967a22f-be98-46df-a576-c0994b8dbacc",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -3975,7 +4381,11 @@
    "ed9e47ab-74c3-4695-8fea-14b2b53622cb",
    "f42db7af-97ca-4538-8665-a31d0f10f7e2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "NL No Excess",
@@ -4009,7 +4419,10 @@
    "f4327ae6-4393-4101-8de5-399598769e13",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE tepe.Men",
@@ -4021,7 +4434,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN bugatti",
@@ -4057,7 +4473,10 @@
    "eb41ab74-8d6b-49b8-80dc-a0e88e42da26",
    "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE State of Art",
@@ -4074,7 +4493,10 @@
    "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf",
    "b4f165ed-4af0-457c-97b2-bdf9f354a04a"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tom Tailor",
@@ -4124,7 +4546,10 @@
    "f8d6f979-51ec-4ed9-bbc5-00371ba72652",
    "f9a77acf-0f19-4089-a679-679ae5430a68"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Butcher of Blue",
@@ -4146,7 +4571,10 @@
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8",
    "fe9b3388-e082-40d1-a951-f521797ddcd7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL Diversiteit in Fashion: trend of  blijvertje?",
@@ -4164,7 +4592,10 @@
    "e273d34a-8d7c-4700-98ac-133a8ab15a9e",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Marco Manzini",
@@ -4182,7 +4613,10 @@
    "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Garcia",
@@ -4197,7 +4631,10 @@
    "a4f78803-6997-4570-af8a-3f25fd270031",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Ledûb",
@@ -4213,7 +4650,10 @@
    "77d1a658-25a7-4587-b02e-c7424b83f783",
    "c9ac93e9-6da6-4d0b-86c3-6fdefff8e15e"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Carl Gross",
@@ -4237,7 +4677,10 @@
    "b9de6677-296a-4fce-9606-c168e1eb7889",
    "de22252f-c8e1-419b-84c1-c955fdbb3318"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Coffee with Fashion Cloud - Die Fashion Cloud Plattform",
@@ -4271,7 +4714,10 @@
    "fb54440a-3309-40ee-a79c-bf249e82434b",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Lerros Casual",
@@ -4288,7 +4734,11 @@
    "f03fa22b-2d47-42a8-8a50-6571850ad29d",
    "f0abe0a7-0662-49d6-a972-226c4aadd1d9"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE tepe.Men",
@@ -4299,7 +4749,10 @@
   "attendees": [
    "5d78cd4c-51f6-4d4f-977a-eeb7c1f13a3a"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tom Tailor Denim",
@@ -4337,7 +4790,10 @@
    "ea58ff3d-7f99-45ff-9430-1a655f291e22",
    "f8d6f979-51ec-4ed9-bbc5-00371ba72652"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -4348,7 +4804,10 @@
   "attendees": [
    "29eb495c-a46d-44de-a11f-846240095f38"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Fynch-Hatton",
@@ -4405,7 +4864,11 @@
    "fb081b15-7771-41b5-a3c8-6ddf09d8710c",
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE qubz",
@@ -4419,7 +4882,10 @@
    "e6d1f415-9bf8-4cf7-b410-61ca63679d33",
    "f69a18a5-3a4b-47d5-9014-2ee72516e5b2"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Baldessarini",
@@ -4437,7 +4903,10 @@
    "baf82147-d94b-4a59-93fc-99a4fe2e23f9",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Coffee with Fashion Cloud - Clara App",
@@ -4454,7 +4923,10 @@
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE bugatti",
@@ -4495,7 +4967,10 @@
    "f9a77acf-0f19-4089-a679-679ae5430a68",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Butcher of Blue",
@@ -4509,7 +4984,10 @@
    "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Real Talk - What to buy // Men",
@@ -4541,7 +5019,10 @@
    "e30f925b-958e-4e00-b15e-6d00f3dada47",
    "f7646e75-cae3-4df4-856b-49743553e315"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Lerros Casual",
@@ -4558,7 +5039,11 @@
    "b53f9f3d-74c2-4bbb-ad9e-462e60a11b17",
    "b9de6677-296a-4fce-9606-c168e1eb7889"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -4585,7 +5070,11 @@
    "f42db7af-97ca-4538-8665-a31d0f10f7e2",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE Alife & Kickin",
@@ -4598,7 +5087,10 @@
    "a5ec6301-801c-4829-a81d-6f0eaee154d2",
    "c516dcc2-abe0-45fd-ab25-6b4dd7140897"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE/EN Fynch-Hatton",
@@ -4630,7 +5122,11 @@
    "fb081b15-7771-41b5-a3c8-6ddf09d8710c",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE Carl Gross",
@@ -4664,7 +5160,10 @@
    "e6512167-9247-4741-9ca5-81029c7cd768",
    "e84b85ee-8095-45b4-98e2-d90bfe4037dc"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE A Fish named Fred",
@@ -4679,7 +5178,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE No Excess",
@@ -4721,7 +5223,10 @@
    "f8d6f979-51ec-4ed9-bbc5-00371ba72652",
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Welcome to Digital Fashion Week 2020",
@@ -4745,7 +5250,10 @@
    "b4f165ed-4af0-457c-97b2-bdf9f354a04a",
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Backstage",
@@ -4769,7 +5277,10 @@
    "e509375e-c124-4e7b-bba4-89a955d345a1",
    "e6cd6bf3-c1b3-46b3-8c5e-2a35f2c2a9d4"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Roy Robson",
@@ -4787,7 +5298,10 @@
    "920f0959-b50d-487a-9136-c952ea5acfb0",
    "a7c16b6b-9f89-4a92-9335-04e6e4647cab"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Stehmann",
@@ -4804,7 +5318,10 @@
    "d3546644-3be4-40e7-8107-92b6d46958a5",
    "d89d53b8-d758-45c5-a526-ac13e0d83907"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Future of Retail: Wie IoT, Smartphone, Daten und AI die Zukunft des Retail beeinflussen können?",
@@ -4825,7 +5342,10 @@
    "cf63b746-43c4-43b8-ab51-ad2cf7e5cc4d",
    "f510c6ce-b09a-4c08-8dc0-f708e08aba6f"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Tamaris",
@@ -4873,7 +5393,10 @@
    "f3929c05-74e2-4fae-8733-c44686b4e1fd",
    "f647b334-ce81-44aa-86c0-91e2755e2fe0"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Backstage",
@@ -4888,7 +5411,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "e509375e-c124-4e7b-bba4-89a955d345a1"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Tango Shoes",
@@ -4907,7 +5433,10 @@
    "ce41e758-8e27-4624-b11f-2211fea08299",
    "e587f794-9263-4e3b-bf76-524d37fb2513"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE bugatti",
@@ -4949,7 +5478,10 @@
    "f0abe0a7-0662-49d6-a972-226c4aadd1d9",
    "f26a5959-bd7a-404c-8716-fc6a36a1e8f2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL No one else",
@@ -4966,7 +5498,10 @@
    "b0aea94f-22b7-4c40-8d35-24bcfdb6dc15",
    "ce391ebe-6827-4d67-9d94-1f5671489766"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "NL William Lockie",
@@ -4978,7 +5513,10 @@
    "056074e9-d4f3-4d60-8846-9e640e32207c",
    "99bf3425-3594-4f9c-8b1e-1f03e15ad450"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -5001,7 +5539,11 @@
    "e6cd6bf3-c1b3-46b3-8c5e-2a35f2c2a9d4",
    "f42db7af-97ca-4538-8665-a31d0f10f7e2"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE comma",
@@ -5078,7 +5620,10 @@
    "f9ab7fd6-50d6-43cb-aa77-68f1271ea954",
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Dstrezzed",
@@ -5111,7 +5656,10 @@
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8",
    "fefc836f-3c86-44a7-96f0-16c93dc8b86f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Tango Shoes",
@@ -5127,7 +5675,10 @@
    "9d157358-906c-48d7-a420-f60059d1fa49",
    "cba259e3-f853-400c-be09-42f84a342c31"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN bugatti",
@@ -5146,7 +5697,10 @@
    "c0a880e1-2e0b-4748-a1b6-1dd2d9ff0519",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Roy Robson",
@@ -5182,7 +5736,10 @@
    "e6cd6bf3-c1b3-46b3-8c5e-2a35f2c2a9d4",
    "f26a5959-bd7a-404c-8716-fc6a36a1e8f2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Fuchs Schmitt",
@@ -5210,7 +5767,10 @@
    "fb54440a-3309-40ee-a79c-bf249e82434b",
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Royal lounge intimates",
@@ -5221,7 +5781,10 @@
   "attendees": [
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL William Lockie",
@@ -5232,7 +5795,10 @@
   "attendees": [
    "99bf3425-3594-4f9c-8b1e-1f03e15ad450"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN Joseph Ribkoff",
@@ -5259,7 +5825,10 @@
    "e9683030-5534-4712-9f29-fccaef828bc8",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Innovation series Vol. 3: Virtual prototyping in the lingerie Industry",
@@ -5285,7 +5854,10 @@
    "e88512c2-2ae5-4fb4-bc4d-0cc27142691c",
    "f4cdde00-92ef-4b87-a411-4aab97cc5e45"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE/EN Digel",
@@ -5307,7 +5879,11 @@
    "f3929c05-74e2-4fae-8733-c44686b4e1fd",
    "f42db7af-97ca-4538-8665-a31d0f10f7e2"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE",
+   "EN"
+  ]
  },
  {
   "name": "DE No one else",
@@ -5324,7 +5900,10 @@
    "6f68d051-b6ed-4421-9bd1-5f900ee77d86",
    "a09abe43-92e5-4ec3-842c-135ca463a6d1"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Joy Sports",
@@ -5335,7 +5914,10 @@
   "attendees": [
    "19d90442-277c-41c9-bf5d-435590ab77b2"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Hybride Klantinteractie & Sales Activatie",
@@ -5348,7 +5930,10 @@
    "7550baee-15bc-48af-9b73-df34ba33e06a",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Gallery FASHION & SHOES (Partner Session)",
@@ -5384,7 +5969,10 @@
    "f510c6ce-b09a-4c08-8dc0-f708e08aba6f",
    "fb54440a-3309-40ee-a79c-bf249e82434b"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Rösch",
@@ -5401,7 +5989,10 @@
    "c34d64b1-1739-4882-919c-7cfa965e4be5",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE gattina",
@@ -5414,7 +6005,10 @@
    "811478be-dac8-446a-97e1-4c0d6c7dc716",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Modekonzept - Orderrunde DOB Frühjahr/Sommer 21: Was kommt? Was geht? Was bleibt?",
@@ -5487,7 +6081,10 @@
    "fb54440a-3309-40ee-a79c-bf249e82434b",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Carl Gross",
@@ -5514,7 +6111,10 @@
    "e69f3216-6dd1-43d2-8ca0-9901dd304dfc",
    "e84b85ee-8095-45b4-98e2-d90bfe4037dc"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE modehaus.de (Partner Session)",
@@ -5553,7 +6153,10 @@
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE St.Barth",
@@ -5572,7 +6175,10 @@
    "9cb31d03-8416-4a03-9a4e-ae232e524127",
    "a09abe43-92e5-4ec3-842c-135ca463a6d1"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Feraud",
@@ -5585,7 +6191,10 @@
    "7e851cee-f945-45ea-83a5-dd9885695609",
    "9b567c00-30aa-4c6c-b91d-f7a9013c1769"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Joy Sports",
@@ -5596,7 +6205,10 @@
   "attendees": [
    "540b81fb-64bd-42ce-a2da-0d9b38979152"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Club of Comfort",
@@ -5623,7 +6235,10 @@
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f",
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL State of Art",
@@ -5639,7 +6254,10 @@
    "f31e083d-6769-4cd3-afb0-5096d0710c34",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Lipsy London",
@@ -5655,7 +6273,10 @@
    "e6cd6bf3-c1b3-46b3-8c5e-2a35f2c2a9d4",
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE LAUREN - Ralph Lauren",
@@ -5692,7 +6313,10 @@
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f",
    "fb54440a-3309-40ee-a79c-bf249e82434b"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Fuchs Schmitt",
@@ -5734,7 +6358,10 @@
    "f647b334-ce81-44aa-86c0-91e2755e2fe0",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Rossmann - Society trends 2021",
@@ -5766,7 +6393,10 @@
    "f5c5d1b3-efeb-4aa2-b254-f0ccc3c249db",
    "fbe604e3-c642-4652-97b4-b4f891ec3ed7"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE comma ci",
@@ -5801,7 +6431,10 @@
    "eb9148df-8967-4dfa-9dd4-08ca980447e6",
    "f3929c05-74e2-4fae-8733-c44686b4e1fd"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Summum",
@@ -5827,7 +6460,10 @@
    "eb8bcbf0-448a-4a9d-b7c8-3188c749b9c4",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Tamaris",
@@ -5854,7 +6490,10 @@
    "ce41e758-8e27-4624-b11f-2211fea08299",
    "e273d34a-8d7c-4700-98ac-133a8ab15a9e"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE StarNight, Bellice Evening, StarNight Plus",
@@ -5868,7 +6507,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Google - The Human Truth of Fashion",
@@ -5919,7 +6561,10 @@
    "f626a7fb-ba6a-4907-be47-ccb49e064e49",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Royal lounge intimates",
@@ -5934,7 +6579,10 @@
    "b4f165ed-4af0-457c-97b2-bdf9f354a04a",
    "cafc04b6-ba86-4ac1-ab41-f2598df72bf7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Vanzetti",
@@ -5951,7 +6599,10 @@
    "ea64932c-32cb-4c35-b28c-51f54554a5c1",
    "eee11c64-24be-448d-b3c8-809157f8e05a"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Backstage",
@@ -5964,7 +6615,10 @@
    "baf82147-d94b-4a59-93fc-99a4fe2e23f9",
    "e509375e-c124-4e7b-bba4-89a955d345a1"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "NL Inkoop Budgetteren: Inkopen na Corona. Hosted by Euretco Fashion",
@@ -5992,7 +6646,10 @@
    "f4327ae6-4393-4101-8de5-399598769e13",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE St.Barth",
@@ -6007,7 +6664,10 @@
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa",
    "da89a207-b448-446d-a4e4-395d936e174e"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Marlies Dekkers",
@@ -6022,7 +6682,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "f445e5f2-7d89-4889-9ad1-83eaa75fe18f"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Dstrezzed",
@@ -6041,7 +6704,10 @@
    "d5b35f81-5508-4803-8596-be0cc2286b23",
    "f4f32c35-af1f-47ee-9461-a04c3ecb0a9f"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "DE Local Webshop - Koop. zwischen Hutter & Unger, Cloudstock & Fashion Cloud für Händler",
@@ -6086,7 +6752,10 @@
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7",
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Barts",
@@ -6102,7 +6771,10 @@
    "fb7e0311-540e-4d57-8ef0-a2b05a07395b",
    "ff970d72-c2b6-4776-a2c8-a5bda921f350"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE DKNY",
@@ -6136,7 +6808,10 @@
    "f8c6ae14-502c-4258-96f2-ad7b8161da3f",
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Bali-Bali",
@@ -6158,7 +6833,10 @@
    "9fd3e223-9ae6-44f4-82df-87ab59f6db27",
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Joy Sports",
@@ -6170,7 +6848,10 @@
    "540b81fb-64bd-42ce-a2da-0d9b38979152",
    "7e851cee-f945-45ea-83a5-dd9885695609"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Royal lounge intimates",
@@ -6182,7 +6863,10 @@
    "b0a82958-66e1-4b16-9f07-a899b9ec617c",
    "b96f0a8a-2605-40d3-9329-184990436ef4"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE StarNight, Bellice Evening, StarNight Plus",
@@ -6196,7 +6880,10 @@
    "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Now Communication (Partner Session)",
@@ -6225,7 +6912,10 @@
    "fd23864f-8a01-446b-b6d8-eb14e01d4ba8",
    "ff73ee40-e863-41a0-be6e-a774683fea7c"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Lipsy London",
@@ -6244,7 +6934,10 @@
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN b.Belt",
@@ -6256,7 +6949,10 @@
    "0ce14fc9-664e-4f89-8e11-c57bcd3b2d93",
    "ea64932c-32cb-4c35-b28c-51f54554a5c1"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Summum",
@@ -6282,7 +6978,10 @@
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718",
    "fc922afe-c7f0-4450-b056-8adb0bdfd65d"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE unitex (Partner Session)",
@@ -6310,7 +7009,10 @@
    "e69f3216-6dd1-43d2-8ca0-9901dd304dfc",
    "f3929c05-74e2-4fae-8733-c44686b4e1fd"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Nina von C",
@@ -6332,7 +7034,10 @@
    "eee11c64-24be-448d-b3c8-809157f8e05a",
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "NL Coffee with Fashion Cloud - OrderWriter",
@@ -6345,7 +7050,10 @@
    "c1e8fdf3-9f78-4292-b464-9ed96b04795c",
    "f6a2704d-6e13-4c0b-a6a1-bd1eb2ab42bf"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "NL"
+  ]
  },
  {
   "name": "EN IVKO Woman",
@@ -6360,7 +7068,10 @@
    "c4ddbe6e-6d13-461a-9890-31b58b98b530",
    "cd3639b7-c35d-48d9-ab0f-6d5e2a0dc0fa"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Joy Sports",
@@ -6372,7 +7083,10 @@
    "88099191-eaa1-419b-ba22-22e0b32f018d",
    "e6d1f415-9bf8-4cf7-b410-61ca63679d33"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Like it",
@@ -6391,7 +7105,10 @@
    "f647b334-ce81-44aa-86c0-91e2755e2fe0",
    "faf2d5c2-4bf8-4df9-8d7e-71f62b5771c7"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Barts",
@@ -6404,7 +7121,10 @@
    "bc32ae91-01e2-4af8-8f4e-19c38396b915",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Vanzetti",
@@ -6433,7 +7153,10 @@
    "fbd733a0-d7cb-4043-8cc9-e4b5193de718",
    "ff6df170-9bb0-4cdf-9690-a0fda6b587d8"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Coffee with Fashion Cloud - Clara App",
@@ -6453,7 +7176,10 @@
    "bdc5de7b-8ef3-4e0d-8604-6129650fd1ea",
    "c32c323f-678b-437b-bda2-c72f0d913abe"
   ],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "DE Stehmann",
@@ -6486,7 +7212,10 @@
    "e824e617-15f9-4f8c-bf8f-969afc2ab621",
    "f9a77acf-0f19-4089-a679-679ae5430a68"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN IVKO Woman",
@@ -6504,7 +7233,10 @@
    "ac275e4e-b2ba-4b4d-9e96-5ffdadfd74c7",
    "c4ddbe6e-6d13-461a-9890-31b58b98b530"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "EN Bali-Bali",
@@ -6516,7 +7248,10 @@
    "a3086d7b-3050-4693-a859-88cc282a1a33",
    "d5b35f81-5508-4803-8596-be0cc2286b23"
   ],
-  "track": "Brand Stage 1"
+  "track": "Brand Stage 1",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE Backstage",
@@ -6530,7 +7265,10 @@
    "a277fb29-262c-4a19-8fe6-9fb5d2f89aaf",
    "b19f9e95-1d91-4881-a4bf-855fef45fdda"
   ],
-  "track": "Brand Stage 3"
+  "track": "Brand Stage 3",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Joseph Ribkoff",
@@ -6545,7 +7283,10 @@
    "4cba9fc4-611f-4b8e-b9c4-1dc9d2de7693",
    "c46c2ea1-8d10-4706-8810-51b734d91e2d"
   ],
-  "track": "Brand Stage 2"
+  "track": "Brand Stage 2",
+  "language": [
+   "EN"
+  ]
  },
  {
   "name": "DE b.Belt",
@@ -6558,7 +7299,10 @@
    "23a0e526-8575-428f-9c94-dbe13c267fc0",
    "2d4e0fdb-4af3-43f9-b980-6cfd7033816e"
   ],
-  "track": "Brand Stage 4"
+  "track": "Brand Stage 4",
+  "language": [
+   "DE"
+  ]
  },
  {
   "name": "EN Closing note & Behind the scenes -> Thanks for being part of DFW20",
@@ -6567,6 +7311,9 @@
   "start": "17:05:00",
   "end": "17:25:00",
   "attendees": [],
-  "track": "Main Stage"
+  "track": "Main Stage",
+  "language": [
+   "EN"
+  ]
  }
 ]
