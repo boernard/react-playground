@@ -5,20 +5,61 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 .modal-main {
-    position:fixed;
+    position: fixed;
     background: white;
-    width: 50%;
-    height: 50%;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    width: 500px;
+    min-height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 1px solid #8d8d8d;
 }
 
 .closeButton {
     float: right;
     margin: 10px;
+    position: relative;
+    left: 15px;
+}
+
+.closeButton:hover {
+    cursor: pointer;
+}
+
+.callToAction {
+    background-color: #ff797a;
+    color: #fff;
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.callToAction:hover {
+    cursor: pointer;
+}
+
+.title {
+    color: #181818;
+    font-weight: 600;
+}
+
+.modal .date {
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.modal .hours {
+    margin-top: 5px;
+    font-size: 12px;
 }

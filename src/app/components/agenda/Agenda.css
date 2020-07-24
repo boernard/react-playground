@@ -47,6 +47,10 @@
     border-radius: 3px;
 }
 
+.event:hover {
+    cursor: pointer;
+}
+
 .event {
     border-color: #7f9fb0;
     background-color: #cde5f1;
