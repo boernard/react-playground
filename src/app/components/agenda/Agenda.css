@@ -1,5 +1,6 @@
 .layout {
     display: flex;
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -44,25 +45,23 @@
     padding: 4px;
     color: #181818;
     border: 1px solid #c4c4c4;
+    border-color: #7f9fb0;
+    background-color: #cde5f1;
     border-radius: 3px;
+    opacity: 50%;
 }
 
 .event:hover {
     cursor: pointer;
 }
 
-.event {
-    border-color: #7f9fb0;
-    background-color: #cde5f1;
+.event.attendingEvent {
+    opacity: 100%;
     border-right: 5px solid #7f9fb0;
 }
 
 .event-time {
     font-size: 11px;
-}
-
-.unselected {
-    opacity: 50;
 }
 
 .event-title {

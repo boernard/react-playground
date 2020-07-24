@@ -1,0 +1,39 @@
+.dateFilter,
+.languageFilter {
+    display: flex;
+    margin: 10px 0;
+}
+
+.languageFilter {
+    margin-left: 30px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filters label {
+    height: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 20px;
+    line-height: 25px;
+}
+
+.filters select {
+    padding: 5px;
+    background-color: #ff7979;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 3px;
+    border: 1px solid #c03232;
+    width: 140px;
+    height: 30px;
+}
+
+.filter select:hover {
+    cursor: pointer;
+}
