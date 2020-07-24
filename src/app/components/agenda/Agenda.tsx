@@ -61,7 +61,7 @@ function Cell({ events = [], hour }) {
 
 function HeaderCell({ name }) {
     return (
-        <div className='cell' style={{ height: '45px' }}>
+        <div className='cell' style={{ height: '25px', fontWeight: 600 }}>
             {name || ''}
         </div>
     )
