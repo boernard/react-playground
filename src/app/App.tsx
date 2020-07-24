@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { BrandSearch } from './components/FilterView'
-import { BrandSession } from './components/brandSession'
+import { BrandSession } from './components/brandSession/BrandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Agenda from './components/agenda'
 import { ModalProvider, EventProvider } from './components/agenda/context'

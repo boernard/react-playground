@@ -3,6 +3,7 @@ import * as queryString from 'query-string'
 import * as React from 'react'
 import { useState, useEffect } from 'react'
 import Cookies from 'universal-cookie'
+import './BrandSession.css'
 
 function BrandSession(props) {
     useEffect(() => {
@@ -28,8 +29,9 @@ function BrandSession(props) {
                     src='https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/dfw_logo.png'
                 />
             </div>
-            <div style={{ display: 'flex' }}>
+            <div style={{ display: 'flex' }} className='vimeoWrapper'>
                 <div
+                    className='video'
                     style={{
                         //padding: '56.25% 0 0 0',
                         position: 'relative',
@@ -47,11 +49,12 @@ function BrandSession(props) {
                             top: 0,
                             left: 0,
                             width: '100%',
-                            height: '600px',
+                            height: '100%',
                         }}
                     ></iframe>
                 </div>
                 <div
+                    className='chat'
                     style={{
                         width: '400px',
                         //padding: '56.25% 0 0 0',

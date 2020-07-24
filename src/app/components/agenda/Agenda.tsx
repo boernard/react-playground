@@ -107,7 +107,7 @@ export function Agenda() {
     if (loading) <div>Loading ...</div>
     if (error) <div>There was an error</div>
     return (
-        <>
+        <div className='agenda'>
             <Modal />
             <Filters />
             <div className='layout'>
@@ -116,6 +116,6 @@ export function Agenda() {
                     <Column key={stage} stage={stage} stageEvents={eventData[stage]} />
                 ))}
             </div>
-        </>
+        </div>
     )
 }
