@@ -23,12 +23,13 @@
 .column.time {
     width: 50px;
     font-weight: 600;
+    border-right: 1px solid #c4c4c4;
 }
 
 .cell {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #c4c4c4;
+    border-bottom: 1px dashed #c4c4c4;
     height: 200px;
     width: 100%;
     padding: 0 5px;
@@ -49,6 +50,7 @@
     background-color: #cde5f1;
     border-radius: 3px;
     opacity: 50%;
+    overflow: hidden;
 }
 
 .event:hover {
