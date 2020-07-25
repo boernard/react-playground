@@ -1,7 +1,6 @@
 import * as React from 'react'
-import { useLocation } from 'react-router-dom'
-import * as qs from 'query-string'
 import { dates, normalizeEventData, getHourRange, getDefaultDate, isUserRetailer } from '../helpers'
+import { AppContext } from '../../../AppContext'
 const events = require('../sample.json')
 
 export const EventContext = React.createContext({
@@ -13,21 +12,18 @@ export const EventContext = React.createContext({
     hourRange: [9, 19],
     handleDateChange: (date) => {},
     handleLanguageFilterChange: (lang) => null,
-    userId: '',
     isRetailer: false,
 })
 
 export function EventProvider(props) {
     const [eventData, setEventData] = React.useState([])
     const [date, setDate] = React.useState(dates.tuesday)
-
     const [languageFilter, setLanguageFilter] = React.useState('')
     const [loading, setLoading] = React.useState(true)
     const [error, setError] = React.useState(false)
     const [hourRange, setHourRange] = React.useState([10, 22])
-
-    const location = useLocation()
-    const userId = (qs.parse(location.search).eventmobi_user as string) || ''
+    const { userId } = React.useContext(AppContext);
+    
     const isRetailer = React.useMemo(() => isUserRetailer(userId, events), [userId, events])
 
     // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
@@ -58,6 +54,7 @@ export function EventProvider(props) {
     React.useEffect(() => {
         fetchEventData()
     }, [])
+
     return (
         <EventContext.Provider
             value={{
@@ -69,7 +66,6 @@ export function EventProvider(props) {
                 hourRange,
                 handleDateChange,
                 handleLanguageFilterChange,
-                userId,
                 isRetailer,
             }}
         >

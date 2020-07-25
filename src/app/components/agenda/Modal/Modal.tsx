@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useHistory } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 import { ModalContext } from '../context'
 import './Modal.css'
 import CloseIcon from '../../../../assets/Close.svg'
@@ -8,10 +8,6 @@ import { formatDate } from '../helpers'
 export function Modal() {
     const { isModalOpen, handleCloseModal, selectedEventData } = React.useContext(ModalContext)
     const { name, start, end, date, description, videoId = '440938284' } = selectedEventData as any
-    const history = useHistory()
-    const handleClickToAction = () => {
-        history.push(`/brandsession?videoId=${videoId}`)
-    }
     if (!isModalOpen) return null
 
     return (
@@ -26,9 +22,11 @@ export function Modal() {
                     {start.replace('-', '.')} - {end.replace('-', '.')}
                 </p>
                 <p className='description' dangerouslySetInnerHTML={{ __html: description }}></p>
-                <div className='callToAction' onClick={handleClickToAction}>
-                    Watch brand session
-                </div>
+                <Link to={`/brandsession?videoId=${videoId}`}>
+                    <div className='callToAction'>
+                        Watch brand session
+                    </div>
+                </Link>
             </section>
         </div>
     )
