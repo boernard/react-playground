@@ -104,14 +104,14 @@ function Column({ width, stage, stageEvents }: any) {
 }
 
 export function Agenda() {
-    const { eventData, loading, error, isRetailer } = React.useContext(EventContext)
+    const { eventData, loading, error, isRetailer, userId } = React.useContext(EventContext)
     const { isModalOpen } = React.useContext(ModalContext)
     const stages = (isRetailer ? Object.keys(eventData) : ['Main Stage']) || []
 
     React.useEffect(() => {
         window['dataLayer'] = window['dataLayer'] || []
         window['dataLayer'].push({
-            userId: { userId }, //this number must be replaced with an actual User ID
+            userId: userId,
         })
     }, [])
     if (loading) <div>Loading ...</div>
