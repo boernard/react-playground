@@ -11,7 +11,7 @@ export function Modal({ open, children }) {
     return (
         <div className='modal'>
             <section className='modal-main' onClick={null}>
-                { children }
+                {children}
             </section>
         </div>
     )
@@ -19,8 +19,8 @@ export function Modal({ open, children }) {
 
 export function SelectedEventModalBody() {
     const { handleCloseModal, selectedEventData } = React.useContext(ModalContext)
-    const { name, start, end, date, description, videoId = '440938284' } = selectedEventData as any
-    const history = useHistory();
+    const { name, start, end, date, description, videoId = '440309173' } = selectedEventData as any
+    const history = useHistory()
     const handleClickToAction = () => {
         history.push(`/brandsession?videoId=${videoId}`)
     }
@@ -39,5 +39,5 @@ export function SelectedEventModalBody() {
                 Watch brand session
             </div>
         </>
-    );
+    )
 }
