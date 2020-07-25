@@ -1,4 +1,4 @@
-import { groupBy, flatMap } from 'lodash'
+import { groupBy, flatMapDeep, flatten } from 'lodash'
 
 export const dates = {
     tuesday: '2020-07-28',
@@ -6,8 +6,9 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
-export function isUserRetailer(userId, events) {
-    const retailerIds = flatMap(events, (event) => event.attendees);
+export function isUserRetailer(userId, eventData) {
+    const events = flatten(Object.values(eventData))
+    const retailerIds = flatMapDeep(events, (event) => event.attendees);
     return retailerIds.includes(userId)
 }
 
@@ -62,6 +63,7 @@ function getLatestEventHour(events) {
 }
 
 function getHourFromEvents(events, timeProp) {
+    console.log(events)
     return events
         .map(event => event[timeProp])
         .map(time => time.split(':'))

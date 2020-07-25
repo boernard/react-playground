@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { dates, normalizeEventData, getHourRange, getDefaultDate, isUserRetailer } from '../helpers'
 import { AppContext } from '../../../AppContext'
-const events = require('../sample.json')
 
 export const EventContext = React.createContext({
     loading: true,
@@ -27,18 +26,19 @@ export function EventProvider(props) {
 
     const isRetailer = React.useMemo(() => isUserRetailer(userId, eventData), [userId, eventData])
 
-    // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
+    const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json'
 
     const fetchEventData = async () => {
         try {
-            //   const eventData = await fetch(url)
-            //   const { events } = await eventData.json()
+            const eventData = await fetch(url)
+            const events = await eventData.json()
+            setLoading(false)
             setHourRange(getHourRange(events, date))
             setEventData(normalizeEventData(events, date))
-            setLoading(false)
         } catch (e) {
             if (e) {
                 setError(true)
+                setLoading(false)
             }
         }
     }
