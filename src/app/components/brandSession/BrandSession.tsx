@@ -19,7 +19,7 @@ function BrandSession(props) {
         videoId = ''
     }
     const videoUrl = `https://player.vimeo.com/video/${videoId}`
-    const chatUrl = `https://vimeo.com/event/${videoId}/chat/`
+    const chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
 
     return (
         <div>
