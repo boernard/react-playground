@@ -107,6 +107,13 @@ export function Agenda() {
     const { eventData, loading, error, isRetailer } = React.useContext(EventContext)
     const { isModalOpen } = React.useContext(ModalContext)
     const stages = (isRetailer ? Object.keys(eventData) : ['Main Stage']) || []
+
+    React.useEffect(() => {
+        window['dataLayer'] = window['dataLayer'] || []
+        window['dataLayer'].push({
+            userId: { userId }, //this number must be replaced with an actual User ID
+        })
+    }, [])
     if (loading) <div>Loading ...</div>
     if (error) <div>There was an error</div>
     return (
