@@ -1,10 +1,11 @@
 import * as React from 'react'
 import './Agenda.css'
 import { EventContext, ModalContext } from './context'
-import { normalizeEventsByHour, getTopOffset, getEventDuration } from './helpers'
+import { normalizeEventsByHour, getTopOffset, getEventDuration, formatDate } from './helpers'
 import { range } from 'lodash'
 import { Filters } from './Filters'
-import { Modal } from './Modal'
+import { Modal, SelectedEventModalBody } from './Modal'
+import { AppContext } from '../../AppContext'
 
 function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const { handleOpenModal } = React.useContext(ModalContext)
@@ -33,7 +34,8 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
 }
 
 function Cell({ events = [] }) {
-    const { languageFilter, userId } = React.useContext(EventContext)
+    const { userId } = React.useContext(AppContext)
+    const { languageFilter } = React.useContext(EventContext)
     const cellRef = React.useRef(null)
     const [cellHeight, setCellHeight] = React.useState(0)
     React.useEffect(() => {
@@ -102,13 +104,16 @@ function Column({ width, stage, stageEvents }: any) {
 }
 
 export function Agenda() {
-    const { eventData, loading, error, isRetailer, userId } = React.useContext(EventContext)
+    const { eventData, loading, error, isRetailer } = React.useContext(EventContext)
+    const { isModalOpen } = React.useContext(ModalContext)
     const stages = (isRetailer ? Object.keys(eventData) : ['Main Stage']) || []
     if (loading) <div>Loading ...</div>
     if (error) <div>There was an error</div>
     return (
         <div className='agenda'>
-            <Modal />
+            <Modal open={isModalOpen}>
+                <SelectedEventModalBody />
+            </Modal>
             <Filters />
             <div className='layout'>
                 <TimeColumn />
