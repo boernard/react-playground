@@ -49,6 +49,47 @@
     border-radius: 5px;
 }
 
+.neutralAction {
+    width: 50%;
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #c4c4c4;
+}
+
+.contactModal .callToAction,
+.contactModal .neutralAction {
+    margin: 10px 15px;
+}
+
+.contactButtonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactButton {
+    background-color: #ff797a;
+    color: #fff !important;
+    width: 50%;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
 .callToAction:hover {
+    cursor: pointer;
+}
+
+.contactText {
+    margin-top: 40px;
+}
+
+.button:hover {
     cursor: pointer;
 }

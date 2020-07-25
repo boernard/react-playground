@@ -78,3 +78,18 @@
     background-color: #eeb1aa;
     border-color: #a16a64;
 }
+
+.pickSessions {
+    display: block;
+    width: 300px;
+    border: 1px solid #52707e;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #6d91a2;
+    color: #fff !important;
+    margin-bottom: 20px;
+}
+
+.pickSessions:hover {
+    background-color: #52707e;
+}
