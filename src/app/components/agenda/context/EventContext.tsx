@@ -26,7 +26,7 @@ export function EventProvider(props) {
 
     const isRetailer = React.useMemo(() => isUserRetailer(userId, eventData), [userId, eventData])
 
-    const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json'
+    const url = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda'
 
     const fetchEventData = async () => {
         try {

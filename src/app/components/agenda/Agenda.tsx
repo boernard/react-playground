@@ -1,8 +1,7 @@
 import * as React from 'react'
 import './Agenda.css'
-import { HashRouter as Router, Link } from 'react-router-dom'
 import { EventContext, ModalContext } from './context'
-import { normalizeEventsByHour, getTopOffset, getEventDuration, formatDate } from './helpers'
+import { normalizeEventsByHour, getTopOffset, getEventDuration, stageSorter } from './helpers'
 import { range } from 'lodash'
 import { Filters } from './Filters'
 import { Modal, SelectedEventModalBody } from './Modal'
@@ -107,7 +106,7 @@ function Column({ width, stage, stageEvents }: any) {
 export function Agenda() {
     const { eventData, loading, error, isRetailer, userId } = React.useContext(EventContext)
     const { isModalOpen } = React.useContext(ModalContext)
-    const stages = (isRetailer ? Object.keys(eventData) : ['Main Stage']) || []
+    const stages = (isRetailer ? Object.keys(eventData).sort(stageSorter) : ['Main Stage']) || []
 
     React.useEffect(() => {
         window['dataLayer'] = window['dataLayer'] || []

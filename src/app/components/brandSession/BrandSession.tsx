@@ -37,6 +37,7 @@ function BrandSession(props) {
 
     const handleClickToAction = () => {
         postRelation()
+        setModalState((prevState) => !prevState)
     }
 
     return (

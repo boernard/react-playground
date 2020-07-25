@@ -6,6 +6,24 @@ export const dates = {
     thursday: '2020-07-30'
 }
 
+export function stageSorter(a, b) {
+    const nameA = a.toUpperCase();
+    const nameB = b.toUpperCase();
+
+    if (nameA === 'MAIN STAGE') {
+        return -1;
+    }
+
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+  
+    return 0;
+}
+
 export function isUserRetailer(userId, eventData) {
     const events = flatten(Object.values(eventData))
     const retailerIds = flatMapDeep(events, (event) => event.attendees);
