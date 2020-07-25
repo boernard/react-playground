@@ -13,6 +13,7 @@ export const EventContext = React.createContext({
     handleDateChange: (date) => {},
     handleLanguageFilterChange: (lang) => null,
     isRetailer: false,
+    userId: '',
 })
 
 export function EventProvider(props) {
@@ -22,8 +23,8 @@ export function EventProvider(props) {
     const [loading, setLoading] = React.useState(true)
     const [error, setError] = React.useState(false)
     const [hourRange, setHourRange] = React.useState([10, 22])
-    const { userId } = React.useContext(AppContext);
-    
+    const { userId } = React.useContext(AppContext)
+
     const isRetailer = React.useMemo(() => isUserRetailer(userId, eventData), [userId, eventData])
 
     // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
@@ -44,7 +45,7 @@ export function EventProvider(props) {
 
     const handleDateChange = (dateValue) => {
         setDate(dateValue)
-        setEventData(prevData => normalizeEventData(prevData, dateValue))
+        setEventData((prevData) => normalizeEventData(prevData, dateValue))
     }
 
     const handleLanguageFilterChange = (langValue) => {
@@ -67,6 +68,7 @@ export function EventProvider(props) {
                 handleDateChange,
                 handleLanguageFilterChange,
                 isRetailer,
+                userId,
             }}
         >
             {props.children}
