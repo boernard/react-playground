@@ -24,7 +24,7 @@ export function EventProvider(props) {
     const [hourRange, setHourRange] = React.useState([10, 22])
     const { userId } = React.useContext(AppContext);
     
-    const isRetailer = React.useMemo(() => isUserRetailer(userId, events), [userId, events])
+    const isRetailer = React.useMemo(() => isUserRetailer(userId, eventData), [userId, eventData])
 
     // const url = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/inputs/sessions.json';
 
@@ -44,7 +44,7 @@ export function EventProvider(props) {
 
     const handleDateChange = (dateValue) => {
         setDate(dateValue)
-        setEventData(normalizeEventData(events, dateValue))
+        setEventData(prevData => normalizeEventData(prevData, dateValue))
     }
 
     const handleLanguageFilterChange = (langValue) => {

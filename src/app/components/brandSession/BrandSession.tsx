@@ -1,15 +1,17 @@
-import { withRouter, useLocation } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import * as queryString from 'query-string'
 import * as React from 'react'
 import { useState, useEffect, useContext } from 'react'
 import Cookies from 'universal-cookie'
 import './BrandSession.css'
 import CloseIcon from '../../../assets/Close.svg'
-import { EventContext } from '../agenda/context'
 import { AppContext } from '../../AppContext'
+import { Modal } from '../agenda/Modal'
+import { RelationContext } from './RelationContext'
 
 function BrandSession(props) {
     const [isModalOpen, setModalState] = useState(false);
+    const { hasRelation, postRelation } = useContext(RelationContext);
     const { userId } = useContext(AppContext);
 
     useEffect(() => {
@@ -32,16 +34,17 @@ function BrandSession(props) {
     }
 
     const handleClickToAction = () => {
-        console.log(userId)
+        postRelation();
     }
 
     return (
         <div>
-            <Modal 
-                isModalOpen={isModalOpen}
-                handleClick={handleClick}
-                handleClickToAction={handleClickToAction}
-            />
+            <Modal open={isModalOpen}>
+                <ModalBody
+                    handleClick={handleClick}
+                    handleClickToAction={handleClickToAction}
+                />
+            </Modal>
             <div style={{ width: '100%' }}>
                 <img
                     width='471px'
@@ -83,12 +86,7 @@ function BrandSession(props) {
                 </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px'}}>
-                <button 
-                    onClick={handleClick}
-                    style={{ backgroundColor: 'salmon', border: 'none', padding: '10px', fontSize: '1.25em'}}
-                >
-                    Allow the brand to have my contact data
-                </button>
+                <RelationButton hasRelation={hasRelation} handleClick={handleClick} userId={userId}/>
             </div>
         </div>
     )
@@ -100,26 +98,45 @@ function readCookie() {
     cookies.set('id', 'Pacman', { path: '/' })
 }
 
-function Modal({ isModalOpen, handleClick, handleClickToAction }) {
-    if (!isModalOpen) return null;
+function RelationButton({ hasRelation, handleClick, userId }) {
+    console.log(userId)
+    if (!userId) return null
+
+    if (hasRelation) {
+        return (
+            <div>
+                This brand already has your contact data
+            </div>
+        )
+    }
 
     return (
-        <div className='modal'>
-            <section className='modal-main' onClick={null}>
-                <div className='closeButton' onClick={handleClick}>
-                    <CloseIcon width='20px' height='20px' style={{ fill: '#93b0b9' }} />
+        <button 
+            onClick={handleClick}
+            style={{ backgroundColor: 'salmon', border: 'none', padding: '10px', fontSize: '1.25em'}}
+        >
+            Allow the brand to have my contact data
+        </button>
+    )
+}
+
+function ModalBody({ handleClick, handleClickToAction }) {
+
+    return (
+        <>
+            <div className='closeButton' onClick={handleClick}>
+                <CloseIcon width='20px' height='20px' style={{ fill: '#93b0b9' }} />
+            </div>
+            <p>Are you sure you want to allow the brand to have your contact information?</p>
+            <div style={{ display: 'flex' }}>
+                <div className='callToAction' onClick={handleClickToAction}>
+                    Yes
                 </div>
-                <p>Are you sure you want to allow the brand to have your contact information?</p>
-                <div style={{ display: 'flex' }}>
-                    <div className='callToAction' onClick={handleClickToAction}>
-                        Yes
-                    </div>
-                    <div className='callToAction' onClick={handleClick}>
-                        No
-                    </div>
+                <div className='callToAction' onClick={handleClick}>
+                    No
                 </div>
-            </section>
-        </div>
+            </div>
+        </>
     );
 }
 
