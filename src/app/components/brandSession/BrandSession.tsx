@@ -25,7 +25,7 @@ function BrandSession(props) {
         window['dataLayer'].push({
             videoId: videoId,
         })
-    }, [])
+    }, [videoId])
 
     const videoUrl = `https://player.vimeo.com/video/${videoId}`
     const chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
