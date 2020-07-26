@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import { BrandSearch } from './components/FilterView'
+import { BrandSearch } from './components/brandSearch/FilterView'
+import { InspirationWall } from './components/inspirationWall/InspirationWall'
 import { BrandSession } from './components/brandSession/BrandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Agenda from './components/agenda'
@@ -21,6 +22,7 @@ ReactDOM.render(
                         </RelationProvider>
                     </Route>
                     <Route path='/brandsearch'><BrandSearch /></Route>
+                    <Route path='/inspiration'><InspirationWall /></Route>
                     <Route path='/agenda'>
                         <EventProvider>
                             <AttendanceProvider>
