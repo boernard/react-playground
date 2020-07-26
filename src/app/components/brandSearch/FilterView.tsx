@@ -3,14 +3,12 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import './FilterView.css'
 import {
-    categorizedBrandList as categorizedBrandListInput,
     dummyBrandList as dummyBrandListInput,
     categories as categoriesInput,
     IBrandItem,
-    ICategorizedBrandList,
 } from './brandInput'
-import CloseIcon from '../../assets/Close.svg'
-import { CategoryFilter } from './categoryFilter'
+import CloseIcon from '../../../assets/Close.svg'
+import { CategoryFilter } from '../categoryFilter'
 
 const logoPath = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/brand-logos'
 
@@ -38,7 +36,7 @@ const initializeCategoryState = (categories): ICategoryFilter => {
 }
 
 const searchableBrandList: ISearchBrandItem[] = dummyBrandListInput.map((i) => {
-    return { ...i, searchField: normalizeString([i.name, i.keywords, i.description].join(' ')) }
+    return { ...i, searchField: normalizeString(i.name) }
 })
 
 export function BrandSearch() {
@@ -61,7 +59,6 @@ export function BrandSearch() {
                 categoryFilter={categoryFilter}
                 searchableBrandList={searchableBrandList}
                 isCategoryFilterActive={isCategoryFilterActive}
-                categorizedBrandList={categorizedBrandListInput}
             />
         </div>
     )
@@ -72,17 +69,10 @@ interface BrandListProps {
     searchableBrandList: ISearchBrandItem[]
     categoryFilter: any
     isCategoryFilterActive: boolean
-    categorizedBrandList: ICategorizedBrandList
 }
 
 function BrandList(props: BrandListProps) {
-    const {
-        searchInput,
-        searchableBrandList,
-        categorizedBrandList,
-        categoryFilter,
-        isCategoryFilterActive,
-    } = props
+    const { searchInput, searchableBrandList, categoryFilter, isCategoryFilterActive } = props
 
     let brands = searchableBrandList
     if (isCategoryFilterActive) {
