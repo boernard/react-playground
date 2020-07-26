@@ -121,13 +121,6 @@ export function Agenda() {
             <Modal open={isModalOpen}>
                 <SelectedEventModalBody />
             </Modal>
-            <a
-                href='https://fashioncloud.swoogo.com/dfw20/sign-in'
-                target='_self'
-                className='pickSessions'
-            >
-                Meine Sessions auswählen / Pick my Sessions
-            </a>
 
             <Filters />
             <div className='layout'>

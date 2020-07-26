@@ -24,6 +24,7 @@ export function SelectedEventModalBody() {
     const handleClickToAction = () => {
         history.push(`/brandsession?videoId=${videoId}`)
     }
+    const handleClickAddToAgenda = () => {}
     return (
         <>
             <div className='closeButton' onClick={handleCloseModal}>
@@ -37,6 +38,9 @@ export function SelectedEventModalBody() {
             <p className='description' dangerouslySetInnerHTML={{ __html: description }}></p>
             <div className='callToAction' onClick={handleClickToAction}>
                 Watch brand session
+            </div>
+            <div className='neutralAction' onClick={handleClickAddToAgenda}>
+                Add to my agenda
             </div>
         </>
     )
