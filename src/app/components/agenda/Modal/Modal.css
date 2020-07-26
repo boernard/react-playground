@@ -28,10 +28,6 @@
     left: 15px;
 }
 
-.closeButton:hover {
-    cursor: pointer;
-}
-
 .callToAction {
     background-color: #ff797a;
     color: #fff;
@@ -45,8 +41,7 @@
     border-radius: 5px;
 }
 
-.callToAction:hover,
-.neutralAction:hover {
+.button {
     cursor: pointer;
 }
 

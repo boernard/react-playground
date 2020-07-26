@@ -104,12 +104,12 @@ function RelationButton({ hasRelation, handleClick, userId }) {
     if (!userId) return null
 
     if (hasRelation) {
-        return <div>This brand already has your contact data</div>
+        return <div className="neutralAction" style={{ width: 'unset', maxWidth: 'unset' }}>This brand already has your contact data</div>
     }
 
     return (
         <a href='#' onClick={(ev) => handleClick(ev)} className='contactButton'>
-            Get in contact with brand
+            Get in contact with the brand
         </a>
     )
 }
@@ -121,13 +121,15 @@ function ModalBody({ handleClick, handleClickToAction }) {
                 <CloseIcon width='20px' height='20px' style={{ fill: '#93b0b9' }} />
             </div>
             <div className='contactModal'>
-                <p className='contactText'>
+                <div className='contactText'>
                     <p>
                         Wir werden der Brand Ihre Kontaktdaten zukommen lassen, damit sie sich bei
                         Ihnen melden kann.
                     </p>
-                    We will forward your contact data to the brand so that it can contact you.
-                </p>
+                    <p>
+                        We will forward your contact data to the brand so that it can contact you.
+                    </p>
+                </div>
                 <div style={{ display: 'flex' }}>
                     <div className='callToAction button' onClick={handleClickToAction}>
                         Yes

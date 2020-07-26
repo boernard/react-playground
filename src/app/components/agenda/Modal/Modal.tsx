@@ -63,7 +63,7 @@ function AddToAgendaButton({ isAttending, loading, handleClick}) {
 
     if (!isAttending) {
         return (
-            <div className='neutralAction' onClick={handleClick}>
+            <div className='neutralAction button' onClick={handleClick}>
                 Add to my agenda
             </div>
         );
@@ -71,7 +71,7 @@ function AddToAgendaButton({ isAttending, loading, handleClick}) {
 
     if (isAttending) {
         return (
-            <div className='neutralAction' onClick={handleClick}>
+            <div className='neutralAction button' onClick={handleClick}>
                 Remove from my agenda
             </div>
         )
