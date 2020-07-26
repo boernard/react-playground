@@ -18,7 +18,7 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const style = { top: `${top}px`, height: `${height}px` }
     const languages = event.language
     const handleOnClick = () => {
-        handleOpenModal(event)
+        handleOpenModal(event._id)
     }
     return (
         <div

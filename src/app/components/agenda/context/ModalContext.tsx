@@ -1,30 +1,25 @@
 import * as React from 'react'
 
-export const ModalContext = React.createContext({
-    handleOpenModal: (event) => null,
-    handleCloseModal: (event) => null,
-    isModalOpen: false,
-    selectedEventData: {}
-});
+export const ModalContext = React.createContext({} as any);
 
 export function ModalProvider(props) {
     const [isModalOpen, setIsModalOpen] = React.useState(false);
-    const [selectedEventData, setSelectedEventData] = React.useState({});
+    const [selectedEventDataId, setSelectedEventDataId] = React.useState({});
 
-    const handleOpenModal = (event) => {
+    const handleOpenModal = (id) => {
         setIsModalOpen(true);
-        setSelectedEventData(event);
+        setSelectedEventDataId(id);
     }
 
     const handleCloseModal = () => {
         setIsModalOpen(false);
-        setSelectedEventData({});
+        setSelectedEventDataId('');
     }
 
     return (
         <ModalContext.Provider value={{
             isModalOpen,
-            selectedEventData,
+            selectedEventDataId,
             handleOpenModal,
             handleCloseModal
         }}>

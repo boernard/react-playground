@@ -36,16 +36,23 @@ export function EventProvider(props) {
 
     const handleDateChange = (dateValue) => {
         setDate(dateValue)
-        setEventData(normalizeEventData(rawEventData, dateValue))
     }
 
     const handleLanguageFilterChange = (langValue) => {
         setLanguageFilter(langValue)
     }
 
+    const getEventById = (id) => {
+        return rawEventData.find(event => event._id === id)
+    }
+
     React.useEffect(() => {
         fetchEventData()
     }, [])
+
+    React.useEffect(() => {
+        setEventData(normalizeEventData(rawEventData, date));
+    }, [rawEventData, date])
 
     return (
         <EventContext.Provider
@@ -60,6 +67,9 @@ export function EventProvider(props) {
                 handleLanguageFilterChange,
                 isRetailer,
                 userId,
+                rawEventData,
+                setRawEventData,
+                getEventById
             }}
         >
             {props.children}

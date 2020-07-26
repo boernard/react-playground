@@ -1,9 +1,21 @@
 import { groupBy, flatMapDeep } from 'lodash'
 
+export const EVENTMOBI_API_KEY = 'ket7xpbwHPIUIrm4soraHIKL14rQggwFOsf1UyFxjo7LY_W3p_2tWCGi37A-qNff'
+
 export const dates = {
     tuesday: '2020-07-28',
     wednesday: '2020-07-29',
     thursday: '2020-07-30'
+}
+
+export function updateItemInArrayByIndex<T>(arr: T[], desiredItem: T, desiredIndex: number): T[] {
+    return arr.map((item, index) => {
+        if (desiredIndex !== index) {
+            return item;
+        }
+
+        return desiredItem;
+    })
 }
 
 export function stageSorter(a, b) {

@@ -4,7 +4,7 @@ import { BrandSearch } from './components/FilterView'
 import { BrandSession } from './components/brandSession/BrandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Agenda from './components/agenda'
-import { ModalProvider, EventProvider } from './components/agenda/context'
+import { ModalProvider, EventProvider, AttendanceProvider } from './components/agenda/context'
 import { RelationProvider } from './components/brandSession/RelationContext'
 import { AppProvider } from './AppContext'
 
@@ -23,9 +23,11 @@ ReactDOM.render(
                     <Route path='/brandsearch'><BrandSearch /></Route>
                     <Route path='/agenda'>
                         <EventProvider>
-                            <ModalProvider>
-                                <Agenda />
-                            </ModalProvider>
+                            <AttendanceProvider>
+                                <ModalProvider>
+                                    <Agenda />
+                                </ModalProvider>
+                            </AttendanceProvider>
                         </EventProvider>
                     </Route>
                     <Route component={BrandSearch} />

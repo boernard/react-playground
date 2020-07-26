@@ -2,8 +2,9 @@ import * as React from 'react'
 import './Modal.css'
 import { useHistory } from 'react-router-dom'
 import CloseIcon from '../../../../assets/Close.svg'
-import { ModalContext } from '../context'
-import { formatDate } from '../helpers'
+import { ModalContext, EventContext } from '../context'
+import { formatDate, isUserRetailer } from '../helpers'
+import { AttendanceContext } from '../context/AttendanceContext'
 
 export function Modal({ open, children }) {
     if (!open) return null
@@ -18,13 +19,22 @@ export function Modal({ open, children }) {
 }
 
 export function SelectedEventModalBody() {
-    const { handleCloseModal, selectedEventData } = React.useContext(ModalContext)
-    const { name, start, end, date, description, videoId = '440309173' } = selectedEventData as any
+    const { handleCloseModal, selectedEventDataId } = React.useContext(ModalContext)
+    const { loading, modifyAttendance, isUserAttending } = React.useContext(AttendanceContext);
+    const { getEventById } = React.useContext(EventContext)
+    const { _id: sessionId, name, start, end, date, description, videoId = '440309173' } = getEventById(selectedEventDataId) as any
+    const isAttendingCurrentEvent = isUserAttending(getEventById(selectedEventDataId));
     const history = useHistory()
     const handleClickToAction = () => {
         history.push(`/brandsession?videoId=${videoId}`)
     }
-    const handleClickAddToAgenda = () => {}
+    const handleModifyAttendence = async () => {
+        await modifyAttendance({
+            isAttending: !isAttendingCurrentEvent,
+            sessionId
+        })
+    }
+
     return (
         <>
             <div className='closeButton' onClick={handleCloseModal}>
@@ -39,9 +49,31 @@ export function SelectedEventModalBody() {
             <div className='callToAction' onClick={handleClickToAction}>
                 Watch brand session
             </div>
-            <div className='neutralAction' onClick={handleClickAddToAgenda}>
-                Add to my agenda
-            </div>
+            <AddToAgendaButton
+                isAttending={isAttendingCurrentEvent}
+                loading={loading}
+                handleClick={handleModifyAttendence}
+            />
         </>
     )
+}
+
+function AddToAgendaButton({ isAttending, loading, handleClick}) {
+    if (loading) return <div className='neutralAction'>Loading</div>
+
+    if (!isAttending) {
+        return (
+            <div className='neutralAction' onClick={handleClick}>
+                Add to my agenda
+            </div>
+        );
+    }
+
+    if (isAttending) {
+        return (
+            <div className='neutralAction' onClick={handleClick}>
+                Remove from my agenda
+            </div>
+        )
+    }
 }
