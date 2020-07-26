@@ -110,12 +110,14 @@ export function Agenda() {
 
     React.useEffect(() => {
         window['dataLayer'] = window['dataLayer'] || []
-        window['dataLayer'].push({
-            userId: userId,
-        })
-    }, [])
-    if (loading) <div>Loading ...</div>
-    if (error) <div>There was an error</div>
+        if (userId) {
+            window['dataLayer'].push({
+                userId: userId,
+            })
+        }
+    }, [userId])
+    if (loading) return <div>Loading ...</div>
+    if (error) return <div>There was an error</div>
     return (
         <div className='agenda'>
             <Modal open={isModalOpen}>
