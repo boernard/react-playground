@@ -1,4 +1,4 @@
-import { groupBy, flatMapDeep, flatten } from 'lodash'
+import { groupBy, flatMapDeep } from 'lodash'
 
 export const dates = {
     tuesday: '2020-07-28',
@@ -25,8 +25,7 @@ export function stageSorter(a, b) {
 }
 
 export function isUserRetailer(userId, eventData) {
-    const events = flatten(Object.values(eventData))
-    const retailerIds = flatMapDeep(events, (event) => event.attendees);
+    const retailerIds = flatMapDeep(eventData, (event) => event.attendees);
     return retailerIds.includes(userId)
 }
 

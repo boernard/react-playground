@@ -1,22 +1,12 @@
 import * as React from 'react'
-import { dates, normalizeEventData, getHourRange, getDefaultDate, isUserRetailer } from '../helpers'
+import { dates, normalizeEventData, getHourRange, isUserRetailer } from '../helpers'
 import { AppContext } from '../../../AppContext'
 
-export const EventContext = React.createContext({
-    loading: true,
-    error: false,
-    eventData: [],
-    date: getDefaultDate(),
-    languageFilter: null,
-    hourRange: [9, 19],
-    handleDateChange: (date) => {},
-    handleLanguageFilterChange: (lang) => null,
-    isRetailer: false,
-    userId: '',
-})
+export const EventContext = React.createContext({} as any)
 
 export function EventProvider(props) {
     const [eventData, setEventData] = React.useState([])
+    const [rawEventData, setRawEventData] = React.useState([])
     const [date, setDate] = React.useState(dates.tuesday)
     const [languageFilter, setLanguageFilter] = React.useState('')
     const [loading, setLoading] = React.useState(true)
@@ -24,7 +14,7 @@ export function EventProvider(props) {
     const [hourRange, setHourRange] = React.useState([10, 22])
     const { userId } = React.useContext(AppContext)
 
-    const isRetailer = React.useMemo(() => isUserRetailer(userId, eventData), [userId, eventData])
+    const isRetailer = React.useMemo(() => isUserRetailer(userId, rawEventData), [userId, rawEventData])
 
     const url = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda'
 
@@ -34,6 +24,7 @@ export function EventProvider(props) {
             const events = await eventData.json()
             setLoading(false)
             setHourRange(getHourRange(events, date))
+            setRawEventData(events);
             setEventData(normalizeEventData(events, date))
         } catch (e) {
             if (e) {
@@ -45,7 +36,7 @@ export function EventProvider(props) {
 
     const handleDateChange = (dateValue) => {
         setDate(dateValue)
-        setEventData((prevData) => normalizeEventData(prevData, dateValue))
+        setEventData(normalizeEventData(rawEventData, dateValue))
     }
 
     const handleLanguageFilterChange = (langValue) => {
