@@ -11,8 +11,7 @@ const AttendanceContext = React.createContext({
     isUserAttending: (userId) => false
 })
 
-const attendeeRoleId = 'c5e1bbae-9b8a-4631-9d28-9f8ee1b4691b';
-const baseUrl = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/sessions';
+const baseUrl = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda';
 const eventMobiUrl = 'https://api.eventmobi.com/v2/events'
 
 function AttendanceProvider({ children }) {
@@ -22,14 +21,14 @@ function AttendanceProvider({ children }) {
     const [error, setError] = React.useState(null);
     const [response, setResponse] = React.useState(null);
 
-    const modifyAttendance = async ({ sessionId, isAttending }) => {
-        // We don't care if it resolves/errors or when
-        await modifyAttendanceForEventMobi({ sessionId, isAttending });
+    const modifyAttendance = async ({ sessionId, isAttending, externalId }) => {
+        // Can be slow to update so let's just leave it in the background
+        modifyAttendanceForEventmobi({ isAttending, externalId });
         
         try {
             setLoading(true);
             const res = await fetch(
-                `${baseUrl}/${sessionId}`,
+                `${baseUrl}/sessions/${sessionId}`,
                 { method: 'PATCH', body: JSON.stringify({ isAttending, userId }) }
             );
             const updatedSession = await res.json()
@@ -43,36 +42,15 @@ function AttendanceProvider({ children }) {
         }
     };
 
-    const isUserAttending = (selectedSessionData) => {
-        return selectedSessionData.attendees.includes(userId);
+    const modifyAttendanceForEventmobi = async ({ isAttending, externalId }) => {
+        await fetch(`${baseUrl}/eventmobi/${externalId}`, {
+            method: 'PATCH',
+            body: JSON.stringify({ userId, isAttending })
+        })
     }
 
-    const modifyAttendanceForEventMobi = async ({ sessionId, isAttending }) => {
-        const session = getEventById(sessionId);
-        try {
-            if (isAttending) {
-                await fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${userId}/roles/${attendeeRoleId}/sessions`, {
-                    method: 'POST',
-                    body: JSON.stringify({ sessionIds: [ sessionId ] }),
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-Api-Key': EVENTMOBI_API_KEY
-                    }
-                })
-            } else {
-                const attendees = session.attendees.filter(id => id !== userId);
-                await fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${session.extId}`, {
-                    method: 'PATCH',
-                    body: JSON.stringify({ attendees }),
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-Api-Key': EVENTMOBI_API_KEY
-                    }
-                })
-            }
-        } catch (error) {
-            console.log(error)
-        }
+    const isUserAttending = (selectedSessionData) => {
+        return selectedSessionData.attendees.includes(userId);
     }
 
     return (

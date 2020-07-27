@@ -22,7 +22,7 @@ export function SelectedEventModalBody() {
     const { handleCloseModal, selectedEventDataId } = React.useContext(ModalContext)
     const { loading, modifyAttendance, isUserAttending } = React.useContext(AttendanceContext);
     const { getEventById } = React.useContext(EventContext)
-    const { _id: sessionId, name, start, end, date, description, videoId = '440309173' } = getEventById(selectedEventDataId) as any
+    const { _id: sessionId, name, start, end, date, description, extId, videoId = '440309173' } = getEventById(selectedEventDataId) as any
     const isAttendingCurrentEvent = isUserAttending(getEventById(selectedEventDataId));
     const history = useHistory()
     const handleClickToAction = () => {
@@ -31,7 +31,8 @@ export function SelectedEventModalBody() {
     const handleModifyAttendence = async () => {
         await modifyAttendance({
             isAttending: !isAttendingCurrentEvent,
-            sessionId
+            sessionId,
+            externalId: extId
         })
     }
 
