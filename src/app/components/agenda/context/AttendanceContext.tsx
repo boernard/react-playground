@@ -13,7 +13,7 @@ const AttendanceContext = React.createContext({
 
 const attendeeRoleId = 'c5e1bbae-9b8a-4631-9d28-9f8ee1b4691b';
 const baseUrl = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/sessions';
-const eventMobiUrl = 'https://api.eventmobi.com/v2/events/'
+const eventMobiUrl = 'https://api.eventmobi.com/v2/events'
 
 function AttendanceProvider({ children }) {
     const { userId, dfwEventId } = React.useContext(AppContext);
@@ -24,7 +24,7 @@ function AttendanceProvider({ children }) {
 
     const modifyAttendance = async ({ sessionId, isAttending }) => {
         // We don't care if it resolves/errors or when
-        modifyAttendanceForEventMobi({ sessionId, isAttending });
+        await modifyAttendanceForEventMobi({ sessionId, isAttending });
         
         try {
             setLoading(true);
@@ -47,27 +47,31 @@ function AttendanceProvider({ children }) {
         return selectedSessionData.attendees.includes(userId);
     }
 
-    const modifyAttendanceForEventMobi = ({ sessionId, isAttending }) => {
+    const modifyAttendanceForEventMobi = async ({ sessionId, isAttending }) => {
         const session = getEventById(sessionId);
-        if (isAttending) {
-            console.log('Add session to persons agenda')
-            // fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${userId}/roles/${attendeeRoleId}/sessions`, {
-            //     method: 'POST',
-            //     body: JSON.stringify({ sessionIds: [ sessionId ] }),
-            //     headers: {
-            //         'X-Api-Key': EVENTMOBI_API_KEY
-            //     }
-            // })
-        } else {
-            console.log('Remove session from persons agenda')
-            // const attendees = session.attendees.filter(id => id !== userId);
-            // fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${session.extId}`, {
-            //     method: 'PATCH',
-            //     body: JSON.stringify({ attendees }),
-            //     headers: {
-            //         'X-Api-Key': EVENTMOBI_API_KEY
-            //     }
-            // })
+        try {
+            if (isAttending) {
+                await fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${userId}/roles/${attendeeRoleId}/sessions`, {
+                    method: 'POST',
+                    body: JSON.stringify({ sessionIds: [ sessionId ] }),
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-Api-Key': EVENTMOBI_API_KEY
+                    }
+                })
+            } else {
+                const attendees = session.attendees.filter(id => id !== userId);
+                await fetch(`${eventMobiUrl}/${dfwEventId}/people/resources/${session.extId}`, {
+                    method: 'PATCH',
+                    body: JSON.stringify({ attendees }),
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-Api-Key': EVENTMOBI_API_KEY
+                    }
+                })
+            }
+        } catch (error) {
+            console.log(error)
         }
     }
 
