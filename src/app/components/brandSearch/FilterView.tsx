@@ -46,6 +46,7 @@ export function BrandSearch() {
     const [searchInput, setSearchInput] = useState('')
     const [isCategoryFilterActive, setIsCategoryFilterActive] = useState(false)
     const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categoriesInput))
+    document.title = 'Brand Search'
     return (
         <div className='brandSearch'>
             <SearchInput searchInput={searchInput} setSearchInput={setSearchInput} />

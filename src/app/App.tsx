@@ -5,6 +5,10 @@ import { InspirationWall } from './components/inspirationWall/InspirationWall'
 import { BrandSession } from './components/brandSession/BrandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Agenda from './components/agenda'
+import {
+    InspirationContext,
+    InspirationProvider,
+} from './components/inspirationWall/inspirationContext/InspirationContext'
 import { ModalProvider, EventProvider, AttendanceProvider } from './components/agenda/context'
 import { RelationProvider } from './components/brandSession/RelationContext'
 import { AppProvider } from './AppContext'
@@ -22,7 +26,11 @@ ReactDOM.render(
                         </RelationProvider>
                     </Route>
                     <Route path='/brandsearch'><BrandSearch /></Route>
-                    <Route path='/inspiration'><InspirationWall /></Route>
+                    <Route path='/inspiration'>
+                        <InspirationProvider>
+                            <InspirationWall />
+                        </InspirationProvider>
+                    </Route>
                     <Route path='/agenda'>
                         <EventProvider>
                             <AttendanceProvider>
