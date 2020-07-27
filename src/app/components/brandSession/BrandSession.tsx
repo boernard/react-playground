@@ -33,14 +33,24 @@ function BrandSession(props) {
         const recordVisit = async () => {
             await fetch(url, {
                 method: 'POST',
-                body: JSON.stringify({ userId, videoId, source: 'brandSession' })
+                body: JSON.stringify({ userId, videoId, source: 'brandSession' }),
             })
         }
         recordVisit()
     }, [])
 
-    const videoUrl = `https://player.vimeo.com/video/${videoId}`
-    const chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
+    let videoUrl
+    let chatUrl
+    let isMainStage = false
+
+    if (videoId === '193731') {
+        isMainStage = true
+        videoUrl = 'https://vimeo.com/event/193731/embed'
+        chatUrl = 'https://vimeo.com/event/193731/chat/'
+    } else {
+        videoUrl = `https://player.vimeo.com/video/${videoId}`
+        chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
+    }
 
     const handleClick = (ev) => {
         ev.preventDefault()
@@ -101,13 +111,15 @@ function BrandSession(props) {
                     <iframe src={chatUrl} width='400px' height='600' frameBorder='0'></iframe>
                 </div>
             </div>
-            <div className='contactButtonWrapper'>
-                <RelationButton
-                    hasRelation={hasRelation}
-                    handleClick={handleClick}
-                    userId={userId}
-                />
-            </div>
+            {isMainStage && (
+                <div className='contactButtonWrapper'>
+                    <RelationButton
+                        hasRelation={hasRelation}
+                        handleClick={handleClick}
+                        userId={userId}
+                    />
+                </div>
+            )}
         </div>
     )
 }
