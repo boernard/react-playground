@@ -39,7 +39,7 @@ function BrandSession(props) {
         postRelation()
         setModalState((prevState) => !prevState)
     }
-
+    document.title = 'brand session'
     return (
         <div>
             <Modal open={isModalOpen}>
@@ -104,7 +104,11 @@ function RelationButton({ hasRelation, handleClick, userId }) {
     if (!userId) return null
 
     if (hasRelation) {
-        return <div className="neutralAction" style={{ width: 'unset', maxWidth: 'unset' }}>This brand already has your contact data</div>
+        return (
+            <div className='neutralAction' style={{ width: 'unset', maxWidth: 'unset' }}>
+                This brand already has your contact data
+            </div>
+        )
     }
 
     return (

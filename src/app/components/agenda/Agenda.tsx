@@ -20,6 +20,7 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     const handleOnClick = () => {
         handleOpenModal(event._id)
     }
+    document.title = 'Agenda'
     return (
         <div
             className={`event ${isAttending ? 'attendingEvent' : ''} ${languages.join(' ')}`}

@@ -24,6 +24,7 @@ export function InspirationWall() {
     const { inspirationData, categories } = useContext(InspirationContext)
     const [isCategoryFilterActive, setIsCategoryFilterActive] = useState(false)
     const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categories))
+    document.title = 'Inspiration Wall'
     return (
         <div className='brandSearch'>
             <CategoryFilter
