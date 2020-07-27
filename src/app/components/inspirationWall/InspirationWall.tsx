@@ -1,14 +1,10 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import './inspirationWall.css'
 import { CategoryFilter } from '../categoryFilter'
-import {
-    categories as categoriesInput,
-    inspirationInput,
-    IInspirationItem,
-} from './inspirationInput'
-
+import { InspirationContext } from './inspirationContext/InspirationContext'
+//import { categories as categoriesInput, inspirationInput } from './inspirationInput'
 const imagePath =
     'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/inspirationWall'
 
@@ -25,25 +21,34 @@ const initializeCategoryState = (categories): ICategoryFilter => {
 }
 
 export function InspirationWall() {
+    const { inspirationData, categories } = useContext(InspirationContext)
     const [isCategoryFilterActive, setIsCategoryFilterActive] = useState(false)
-    const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categoriesInput))
+    const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categories))
     return (
         <div className='brandSearch'>
             <CategoryFilter
                 categoryFilter={categoryFilter}
                 setCategoryFilter={setCategoryFilter}
-                categories={categoriesInput}
+                categories={categories}
                 isCategoryFilterActive={isCategoryFilterActive}
                 setIsCategoryFilterActive={setIsCategoryFilterActive}
             />
             <div className='divider'></div>
             <InspirationwallItems
                 categoryFilter={categoryFilter}
-                inspirationInput={inspirationInput}
+                inspirationInput={inspirationData}
                 isCategoryFilterActive={isCategoryFilterActive}
             />
         </div>
     )
+}
+
+interface IInspirationItem {
+    key: number
+    name: string
+    image: string
+    url: string
+    categories: string[]
 }
 
 interface BrandListProps {
