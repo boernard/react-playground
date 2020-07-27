@@ -181,12 +181,12 @@ const brandList: IBrandItem[] = [
             "Pants",
             "Green Brand"
         ],
-        "url": "https://fashion.cloud/de/dfw20/oklahoma/"
+        "url": " https://fashion.cloud/de/dfw20/oklahoma/ "
     },
     {
         "key": 15,
         "name": "Goosecraft",
-        "logo": "ledub.png",
+        "logo": "logo_wit.png",
         "categories": [
             "Leather",
             "Womenswear",
@@ -199,7 +199,7 @@ const brandList: IBrandItem[] = [
     {
         "key": 16,
         "name": "Ledûb",
-        "logo": "",
+        "logo": "ledub.png",
         "categories": [
             "Menswear",
             "Formal Wear",
@@ -238,7 +238,7 @@ const brandList: IBrandItem[] = [
             "Menswear",
             "Premium"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/fynch-hatton/"
     },
     {
         "key": 20,
@@ -396,7 +396,7 @@ const brandList: IBrandItem[] = [
             "Formal Wear",
             "Pants"
         ],
-        "url": "https://fashion.cloud/de/dfw20/no-one-else/"
+        "url": " https://fashion.cloud/de/dfw20/no-one-else/"
     },
     {
         "key": 35,
@@ -588,7 +588,7 @@ const brandList: IBrandItem[] = [
             "Womenswear",
             "Premium"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/royal-lounge-intimates/"
     },
     {
         "key": 52,
@@ -634,7 +634,7 @@ const brandList: IBrandItem[] = [
             "Denim",
             "Green Brand"
         ],
-        "url": "https://fashion.cloud/en/marc-o-polo-denim/"
+        "url": "https://fashion.cloud/en/dfw20/marc-o-polo-denim/"
     },
     {
         "key": 56,
@@ -657,7 +657,7 @@ const brandList: IBrandItem[] = [
             "Womenswear",
             "Premium"
         ],
-        "url": "https://fashion.cloud/en/dfw20/qubz/"
+        "url": "https://fashion.cloud/en/dfw20/tamaris/"
     },
     {
         "key": 58,
@@ -707,7 +707,7 @@ const brandList: IBrandItem[] = [
             "Accessoires",
             "Formal Wear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/dstrezzed/"
     },
     {
         "key": 62,
@@ -757,7 +757,7 @@ const brandList: IBrandItem[] = [
             "Premium",
             "Accessoires"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/cinque/"
     },
     {
         "key": 67,
@@ -766,7 +766,7 @@ const brandList: IBrandItem[] = [
         "categories": [
             "Day & Night Wear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/gattina/"
     },
     {
         "key": 68,
@@ -779,7 +779,7 @@ const brandList: IBrandItem[] = [
             "Denim",
             "Pants"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/bugatti"
     },
     {
         "key": 69,
@@ -830,7 +830,7 @@ const brandList: IBrandItem[] = [
             "Premium",
             "Menswear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/s-oliver-black-label/"
     },
     {
         "key": 73,
@@ -850,7 +850,7 @@ const brandList: IBrandItem[] = [
             "Womenswear",
             "Day & Night Wear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/marlies-dekkers/"
     },
     {
         "key": 75,
@@ -874,7 +874,7 @@ const brandList: IBrandItem[] = [
             "Womenswear",
             "Activewear & Outerwear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/dkny/"
     },
     {
         "key": 77,
@@ -885,7 +885,7 @@ const brandList: IBrandItem[] = [
             "Activewear & Outerwear",
             "Day & Night Wear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/lauren-by-ralph-lauren/"
     },
     {
         "key": 78,
@@ -931,7 +931,7 @@ const brandList: IBrandItem[] = [
             "Menswear",
             "Womenswear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/tom-tailor/"
     },
     {
         "key": 82,
@@ -965,7 +965,7 @@ const brandList: IBrandItem[] = [
             "Premium",
             "Day & Night Wear"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/gang/"
     },
     {
         "key": 85,
@@ -976,7 +976,7 @@ const brandList: IBrandItem[] = [
             "Activewear & Outerwear",
             "Newcomer"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/calamar/"
     },
     {
         "key": 86,
@@ -989,7 +989,7 @@ const brandList: IBrandItem[] = [
             "Shoes",
             "Pants"
         ],
-        "url": "https://fashion.cloud/en/roy-robson/"
+        "url": "https://fashion.cloud/en/dfw20/roy-robson/"
     },
     {
         "key": 87,
@@ -1001,7 +1001,7 @@ const brandList: IBrandItem[] = [
             "Newcomer",
             "Green Brand"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/tepe-men/"
     },
     {
         "key": 88,
@@ -1014,7 +1014,7 @@ const brandList: IBrandItem[] = [
             "Green Brand",
             "Premium"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/en/dfw20/van-gils/"
     },
     {
         "key": 89,
@@ -1025,7 +1025,7 @@ const brandList: IBrandItem[] = [
             "Womenswear",
             "Green Brand"
         ],
-        "url": ""
+        "url": " https://fashion.cloud/de/dfw20/roesch/"
     },
     {
         "key": 90,
@@ -1037,7 +1037,40 @@ const brandList: IBrandItem[] = [
             "Premium",
             "Green Brand"
         ],
-        "url": ""
+        "url": "https://fashion.cloud/de/dfw20/feraud/"
+    },
+    {
+        "key": 91,
+        "name": "State of Art",
+        "logo": "State_of_Art_Logo.jpg",
+        "categories": [
+            "Menswear",
+            "Pants",
+            "Activewear & Outerwear",
+            "Premium",
+            "Accessoires"
+        ],
+        "url": "https://fashion.cloud/en/dfw20/state-of-art/"
+    },
+    {
+        "key": 92,
+        "name": "Bluefields",
+        "logo": "logo_Bluefields_correct_01.jpg",
+        "categories": [
+            "Menswear",
+            "Activewear & Outerwear",
+            "Pants"
+        ],
+        "url": "https://fashion.cloud/nl/dfw20/bluefields/"
+    },
+    {
+        "key": 93,
+        "name": "Fashion Cloud",
+        "logo": "fashioncloud.jpg",
+        "categories": [
+            "Newcomer"
+        ],
+        "url": "https://fashion.cloud/en/dfw20/fashion-cloud/"
     }
 ]
 
