@@ -111,7 +111,7 @@ function BrandSession(props) {
                     <iframe src={chatUrl} width='400px' height='600' frameBorder='0'></iframe>
                 </div>
             </div>
-            {isMainStage && (
+            {!isMainStage && (
                 <div className='contactButtonWrapper'>
                     <RelationButton
                         hasRelation={hasRelation}
