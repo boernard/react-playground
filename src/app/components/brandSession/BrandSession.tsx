@@ -8,6 +8,8 @@ import { AppContext } from '../../AppContext'
 import { Modal } from '../agenda/Modal'
 import { RelationContext } from './RelationContext'
 
+const url = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/record'
+
 function BrandSession(props) {
     const [isModalOpen, setModalState] = useState(false)
     const { hasRelation, postRelation } = useContext(RelationContext)
@@ -26,6 +28,16 @@ function BrandSession(props) {
             videoId: videoId,
         })
     }, [videoId])
+
+    useEffect(() => {
+        const recordVisit = async () => {
+            await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify({ userId, videoId, source: 'brandSession' })
+            })
+        }
+        recordVisit()
+    }, [])
 
     const videoUrl = `https://player.vimeo.com/video/${videoId}`
     const chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`

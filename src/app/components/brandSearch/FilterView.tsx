@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import './FilterView.css'
 import {
@@ -9,8 +10,10 @@ import {
 } from './brandInput'
 import CloseIcon from '../../../assets/Close.svg'
 import { CategoryFilter } from '../categoryFilter'
+import * as qs from 'query-string'
 
 const logoPath = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/brand-logos'
+const backendUrl= 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/record'
 
 interface ISearchBrandItem extends IBrandItem {
     searchField: string
@@ -73,6 +76,8 @@ interface BrandListProps {
 
 function BrandList(props: BrandListProps) {
     const { searchInput, searchableBrandList, categoryFilter, isCategoryFilterActive } = props
+    const { search } = useLocation()
+    const userId = qs.parse(search).eventmobi_user as string
 
     let brands = searchableBrandList
     if (isCategoryFilterActive) {
@@ -93,6 +98,7 @@ function BrandList(props: BrandListProps) {
                             logo={b.logo}
                             url={b.url}
                             key={b.key}
+                            userId={userId}
                         />
                     )
                 })}
@@ -148,7 +154,8 @@ interface BrandCardProps {
     name: string
     categories: string[]
     logo: string
-    url: string
+    url: string,
+    userId: string
 }
 
 const spring = {
@@ -159,9 +166,18 @@ const spring = {
 }
 
 function BrandCard(props: BrandCardProps) {
-    const { name, categories, logo, url } = props
+    const { name, categories, logo, url, userId } = props
+
+    const handleClick = async (evt) => {
+        evt.preventDefault()
+        await fetch(backendUrl, {
+            method: 'POST',
+            body: JSON.stringify({ userId, brandUrl: url, source: 'brandSearch' })
+        });
+        window.location.href = url;
+    }
     return (
-        <a href={url}>
+        <div onClick={handleClick}>
             <motion.div
                 layoutTransition={spring}
                 className='brandCard'
@@ -181,7 +197,7 @@ function BrandCard(props: BrandCardProps) {
                     <p className='categories'>{categories.join(', ')}</p>
                 </div>
             </motion.div>
-        </a>
+        </div>
     )
 }
 
