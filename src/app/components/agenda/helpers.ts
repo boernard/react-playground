@@ -27,18 +27,18 @@ export function stageSorter(a, b) {
     }
 
     if (nameA < nameB) {
-      return -1;
+        return -1;
     }
     if (nameA > nameB) {
-      return 1;
+        return 1;
     }
-  
+
     return 0;
 }
 
-export function isUserRetailer(userId, eventData) {
-    const retailerIds = flatMapDeep(eventData, (event) => event.attendees);
-    return retailerIds.includes(userId)
+export function isUserRetailer(userId, retailerData) {
+    //const retailerIds = flatMapDeep(eventData, (event) => event.attendees);
+    return retailerData.includes(userId)
 }
 
 export function getDefaultDate() {

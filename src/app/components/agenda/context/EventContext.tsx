@@ -6,6 +6,7 @@ export const EventContext = React.createContext({} as any)
 
 export function EventProvider(props) {
     const [eventData, setEventData] = React.useState([])
+    const [retailerData, setRetailerData] = React.useState([])
     const [rawEventData, setRawEventData] = React.useState([])
     const [date, setDate] = React.useState(dates.tuesday)
     const [languageFilter, setLanguageFilter] = React.useState('')
@@ -14,7 +15,10 @@ export function EventProvider(props) {
     const [hourRange, setHourRange] = React.useState([10, 22])
     const { userId } = React.useContext(AppContext)
 
-    const isRetailer = React.useMemo(() => isUserRetailer(userId, rawEventData), [userId, rawEventData])
+    const isRetailer = React.useMemo(() => isUserRetailer(userId, retailerData), [
+        userId,
+        rawEventData,
+    ])
 
     const url = 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda'
 
@@ -22,9 +26,14 @@ export function EventProvider(props) {
         try {
             const eventData = await fetch(url)
             const events = await eventData.json()
+            const attendeeData = await fetch(
+                'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/eventmobiData/retailers.json'
+            )
+            const retailers = await attendeeData.json()
+            setRetailerData(retailers)
             setLoading(false)
             setHourRange(getHourRange(events, date))
-            setRawEventData(events);
+            setRawEventData(events)
             setEventData(normalizeEventData(events, date))
         } catch (e) {
             if (e) {
@@ -43,7 +52,7 @@ export function EventProvider(props) {
     }
 
     const getEventById = (id) => {
-        return rawEventData.find(event => event._id === id)
+        return rawEventData.find((event) => event._id === id)
     }
 
     React.useEffect(() => {
@@ -51,7 +60,7 @@ export function EventProvider(props) {
     }, [])
 
     React.useEffect(() => {
-        setEventData(normalizeEventData(rawEventData, date));
+        setEventData(normalizeEventData(rawEventData, date))
     }, [rawEventData, date])
 
     return (
@@ -69,7 +78,7 @@ export function EventProvider(props) {
                 userId,
                 rawEventData,
                 setRawEventData,
-                getEventById
+                getEventById,
             }}
         >
             {props.children}
