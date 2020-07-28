@@ -114,8 +114,9 @@ function BrandSession(props) {
             <div className='belowVideo'>
                 <div className='leftWrapper'>
                     <div className='hint'>
-                        If no video is playing yet please go back to agenda and click on the event
-                        again. This happens when you were to early.{' '}
+                        If no video is playing yet, please go back to agenda and click on the
+                        session again. This error might happen when you click on a session before
+                        the official starting time.
                     </div>
                     {!isMainStage && (
                         <div className='contactButtonWrapper'>
