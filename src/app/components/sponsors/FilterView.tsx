@@ -221,7 +221,7 @@ function SearchInput(props) {
                 className='searchInputField'
                 onChange={(ev) => handleOnChange(ev)}
                 value={searchInput}
-                placeholder='Suche nach Marken, Kategorien, Segmenten, ...'
+                placeholder='Suche nach Name / Search by name'
             ></input>
             <div className='closeIcon' onClick={(ev) => handleOnClick(ev)}>
                 <CloseIcon width='15px' height='15px' style={{ fill: '#93b0b9' }} />

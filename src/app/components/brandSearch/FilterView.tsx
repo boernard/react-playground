@@ -13,7 +13,8 @@ import { CategoryFilter } from '../categoryFilter'
 import * as qs from 'query-string'
 
 const logoPath = 'https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/brand-logos'
-const backendUrl= 'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/record'
+const backendUrl =
+    'https://tp1lwwnt8j.execute-api.eu-central-1.amazonaws.com/development/agenda/record'
 
 interface ISearchBrandItem extends IBrandItem {
     searchField: string
@@ -155,7 +156,7 @@ interface BrandCardProps {
     name: string
     categories: string[]
     logo: string
-    url: string,
+    url: string
     userId: string
 }
 
@@ -173,9 +174,9 @@ function BrandCard(props: BrandCardProps) {
         evt.preventDefault()
         await fetch(backendUrl, {
             method: 'POST',
-            body: JSON.stringify({ userId, brandUrl: url, source: 'brandSearch' })
-        });
-        window.location.href = url;
+            body: JSON.stringify({ userId, brandUrl: url, source: 'brandSearch' }),
+        })
+        window.location.href = url
     }
     return (
         <div onClick={handleClick}>
@@ -220,7 +221,7 @@ function SearchInput(props) {
                 className='searchInputField'
                 onChange={(ev) => handleOnChange(ev)}
                 value={searchInput}
-                placeholder='Suche nach Marken, Kategorien, Segmenten, ...'
+                placeholder='Marke suchen / Search brands'
             ></input>
             <div className='closeIcon' onClick={(ev) => handleOnClick(ev)}>
                 <CloseIcon width='15px' height='15px' style={{ fill: '#93b0b9' }} />
