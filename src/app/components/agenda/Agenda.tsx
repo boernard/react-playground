@@ -8,19 +8,29 @@ import { Modal, SelectedEventModalBody } from './Modal'
 import { AppContext } from '../../AppContext'
 
 function Event({ event, index, cellHeight, cellEvents, isAttending }) {
+    const { userId } = React.useContext(AppContext)
     const { handleOpenModal } = React.useContext(ModalContext)
+    
+    document.title = 'Agenda';
+    
+    let hide;
+
+    if (event.attendeesFilter && !event.attendeesFilter.includes(userId)) {
+        hide = true;
+    }
+
     const topOffset = getTopOffset(cellEvents, index, cellHeight)
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset)
     const eventDurationMs = getEventDuration(event.start, event.end)
     const start = event.start.replace(/(\d{2}:\d{2}).*/, '$1')
     const end = event.end.replace(/(\d{2}:\d{2}).*/, '$1')
     const height = Math.round((cellHeight / 60) * Number(eventDurationMs / 1000 / 60))
-    const style = { top: `${top}px`, height: `${height}px` }
+    const style = { top: `${top}px`, height: `${height}px`, visibility: hide ? 'hidden' : 'inherit' } as any
     const languages = event.language
     const handleOnClick = () => {
         handleOpenModal(event._id)
     }
-    document.title = 'Agenda'
+
     return (
         <div
             className={`event ${isAttending ? 'attendingEvent' : ''} ${languages.join(' ')}`}
