@@ -2,7 +2,7 @@ import * as React from 'react'
 import './Agenda.css'
 import { EventContext, ModalContext } from './context'
 import { normalizeEventsByHour, getTopOffset, getEventDuration, stageSorter } from './helpers'
-import { range } from 'lodash'
+import { range, isEmpty } from 'lodash'
 import { Filters } from './Filters'
 import { Modal, SelectedEventModalBody } from './Modal'
 import { AppContext } from '../../AppContext'
@@ -13,11 +13,7 @@ function Event({ event, index, cellHeight, cellEvents, isAttending }) {
     
     document.title = 'Agenda';
     
-    let hide;
-
-    if (event.attendeesFilter && !event.attendeesFilter.includes(userId)) {
-        hide = true;
-    }
+    let hide = !isEmpty(event.attendeesFilter) && !event.attendeesFilter.includes(userId)
 
     const topOffset = getTopOffset(cellEvents, index, cellHeight)
     const top = Math.round((cellHeight / 60) * Number(event.start.split(':')[1]) - topOffset)
