@@ -43,10 +43,10 @@ function BrandSession(props) {
     let chatUrl
     let isMainStage = false
 
-    if (videoId === '193731') {
+    if (videoId === '194954') {
         isMainStage = true
-        videoUrl = 'https://vimeo.com/event/193731/embed'
-        chatUrl = 'https://vimeo.com/event/193731/chat/'
+        videoUrl = 'https://vimeo.com/event/194954/embed'
+        chatUrl = 'https://vimeo.com/event/194954/chat/'
     } else {
         videoUrl = `https://player.vimeo.com/video/${videoId}`
         chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
