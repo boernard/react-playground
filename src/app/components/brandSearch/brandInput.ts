@@ -1071,6 +1071,15 @@ const brandList: IBrandItem[] = [
             "Newcomer"
         ],
         "url": "https://fashion.cloud/en/dfw20/fashion-cloud/"
+    },
+    {
+        "key": 94,
+        "name": "Betty & Co",
+        "logo": "fashioncloud.jpg",
+        "categories": [
+            "Womenswear"
+        ],
+        "url": "https://fashion.cloud/de/dfw20/betty-co/"
     }
 ]
 
