@@ -1,7 +1,8 @@
 import * as React from 'react'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import { AppContext } from '../../AppContext'
 import './FilterView.css'
 import {
     dummyBrandList as dummyBrandListInput,
@@ -45,6 +46,7 @@ const searchableBrandList: ISearchBrandItem[] = dummyBrandListInput.map((i) => {
 
 export function BrandSearch() {
     const [searchInput, setSearchInput] = useState('')
+    const { userId } = useContext(AppContext)
     const [isCategoryFilterActive, setIsCategoryFilterActive] = useState(false)
     const [categoryFilter, setCategoryFilter] = useState(initializeCategoryState(categoriesInput))
     document.title = 'Brand Search'
@@ -176,7 +178,7 @@ function BrandCard(props: BrandCardProps) {
             method: 'POST',
             body: JSON.stringify({ userId, brandUrl: url, source: 'brandSearch' }),
         })
-        window.location.href = url
+        window.location.href = `${url}?userId=${userId}`
     }
     return (
         <div onClick={handleClick}>
