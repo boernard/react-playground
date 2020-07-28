@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { dates, normalizeEventData, getHourRange, isUserRetailer } from '../helpers'
+import { normalizeEventData, getHourRange, isUserRetailer, getDefaultDate } from '../helpers'
 import { AppContext } from '../../../AppContext'
 
 export const EventContext = React.createContext({} as any)
@@ -8,7 +8,7 @@ export function EventProvider(props) {
     const [eventData, setEventData] = React.useState([])
     const [retailerData, setRetailerData] = React.useState([])
     const [rawEventData, setRawEventData] = React.useState([])
-    const [date, setDate] = React.useState(dates.wednesday)
+    const [date, setDate] = React.useState(getDefaultDate())
     const [languageFilter, setLanguageFilter] = React.useState('')
     const [loading, setLoading] = React.useState(true)
     const [error, setError] = React.useState(false)
