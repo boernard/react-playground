@@ -1075,7 +1075,7 @@ const brandList: IBrandItem[] = [
     {
         "key": 94,
         "name": "Betty & Co",
-        "logo": "fashioncloud.jpg",
+        "logo": "betty_co.jpg",
         "categories": [
             "Womenswear"
         ],
