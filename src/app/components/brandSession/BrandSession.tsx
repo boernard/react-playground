@@ -111,15 +111,20 @@ function BrandSession(props) {
                     <iframe src={chatUrl} width='400px' height='600' frameBorder='0'></iframe>
                 </div>
             </div>
-            {!isMainStage && (
-                <div className='contactButtonWrapper'>
-                    <RelationButton
-                        hasRelation={hasRelation}
-                        handleClick={handleClick}
-                        userId={userId}
-                    />
+            <div className='belowVideo'>
+                {!isMainStage && (
+                    <div className='contactButtonWrapper'>
+                        <RelationButton
+                            hasRelation={hasRelation}
+                            handleClick={handleClick}
+                            userId={userId}
+                        />
+                    </div>
+                )}
+                <div className='howToChat'>
+                    <img src='https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/eventmobiData/howToChat.png' />
                 </div>
-            )}
+            </div>
         </div>
     )
 }
