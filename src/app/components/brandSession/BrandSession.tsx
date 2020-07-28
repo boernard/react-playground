@@ -112,15 +112,22 @@ function BrandSession(props) {
                 </div>
             </div>
             <div className='belowVideo'>
-                {!isMainStage && (
-                    <div className='contactButtonWrapper'>
-                        <RelationButton
-                            hasRelation={hasRelation}
-                            handleClick={handleClick}
-                            userId={userId}
-                        />
+                <div className='leftWrapper'>
+                    <div className='hint'>
+                        If no video is playing yet please go back to agenda and click on the event
+                        again. This happens when you were to early.{' '}
                     </div>
-                )}
+                    {!isMainStage && (
+                        <div className='contactButtonWrapper'>
+                            <RelationButton
+                                hasRelation={hasRelation}
+                                handleClick={handleClick}
+                                userId={userId}
+                            />
+                        </div>
+                    )}
+                </div>
+
                 <div className='howToChat'>
                     <img src='https://digital-fashion-week.s3.eu-central-1.amazonaws.com/assets/eventmobiData/howToChat.png' />
                 </div>

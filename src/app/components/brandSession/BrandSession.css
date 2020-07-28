@@ -102,9 +102,23 @@
     width: 300px;
 }
 
+.leftWrapper {
+    width: 80%;
+}
+
 .belowVideo {
     border-top: 2px dashed #c4c4c4;
     padding-top: 10px;
     display: flex;
+    flex-wrap: no-wrap;
     justify-content: space-between;
+}
+
+.hint {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #ff797a;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center;
 }
