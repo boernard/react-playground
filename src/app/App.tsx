@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { BrandSearch } from './components/brandSearch/FilterView'
+import { Sponsors } from './components/sponsors/FilterView'
 import { InspirationWall } from './components/inspirationWall/InspirationWall'
 import { BrandSession } from './components/brandSession/BrandSession'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
@@ -40,7 +41,7 @@ ReactDOM.render(
                             </AttendanceProvider>
                         </EventProvider>
                     </Route>
-                    <Route component={BrandSearch} />
+                    <Route path='/sponsors'><Sponsors /></Route>
                 </Switch>
             </AppProvider>          
         </Router>
