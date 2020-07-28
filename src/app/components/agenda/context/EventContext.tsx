@@ -8,7 +8,7 @@ export function EventProvider(props) {
     const [eventData, setEventData] = React.useState([])
     const [retailerData, setRetailerData] = React.useState([])
     const [rawEventData, setRawEventData] = React.useState([])
-    const [date, setDate] = React.useState(dates.tuesday)
+    const [date, setDate] = React.useState(dates.wednesday)
     const [languageFilter, setLanguageFilter] = React.useState('')
     const [loading, setLoading] = React.useState(true)
     const [error, setError] = React.useState(false)
