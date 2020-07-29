@@ -27,6 +27,9 @@ function BrandSession(props) {
         window['dataLayer'].push({
             videoId: videoId,
         })
+        const dummy = () => {}
+        window['__vimeoRefresh'] = window['__vimeoRefresh'] || dummy
+        window['__vimeoRefresh']()
     }, [videoId])
 
     useEffect(() => {
@@ -43,10 +46,15 @@ function BrandSession(props) {
     let chatUrl
     let isMainStage = false
 
-    if (videoId === '194954') {
+    if (
+        videoId === '194954' ||
+        videoId === '193731' ||
+        videoId === '440309173' ||
+        videoId === '198146'
+    ) {
         isMainStage = true
-        videoUrl = 'https://vimeo.com/event/194954/embed'
-        chatUrl = 'https://vimeo.com/event/194954/chat/'
+        videoUrl = 'https://vimeo.com/event/198146/embed'
+        chatUrl = 'https://vimeo.com/event/198146/chat/'
     } else {
         videoUrl = `https://player.vimeo.com/video/${videoId}`
         chatUrl = `https://vimeo.com/live-chat/${videoId}/chat/`
@@ -114,9 +122,9 @@ function BrandSession(props) {
             <div className='belowVideo'>
                 <div className='leftWrapper'>
                     <div className='hint'>
-                        If no video is playing yet, please go back to agenda and click on the
-                        session again. This error might happen when you click on a session before
-                        the official starting time.
+                        If no video is playing yet, please go back to "Home", then to "Agenda" and
+                        click on the session again. This error might happen when you click on a
+                        session before the official starting time.
                     </div>
                     {!isMainStage && (
                         <div className='contactButtonWrapper'>
